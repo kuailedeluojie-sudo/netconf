@@ -1,0 +1,1 @@
+cmd='./Configure;linux-generic32;no-asm;shared;no-async;--prefix=/home/mo/share/netconf2/lib/openssl/debug/output/'

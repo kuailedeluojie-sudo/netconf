@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/mo/share/netconf2/lib_src/libssh/examples/keygen.c
+libssh/libssh.h
+-
+stdio.h
+-
+
+/home/mo/share/netconf2/lib_src/libssh/include/libssh/legacy.h
+
+/home/mo/share/netconf2/lib_src/libssh/include/libssh/libssh.h
+libssh/libssh_version.h
+-
+unistd.h
+-
+inttypes.h
+-
+sys/types.h
+-
+winsock2.h
+-
+sys/select.h
+-
+netdb.h
+-
+libssh/legacy.h
+/home/mo/share/netconf2/lib_src/libssh/include/libssh/libssh/legacy.h
+
+output/include/libssh/libssh_version.h
+

@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/mo/share/netconf2/lib/openssl/debug/CMakeFiles/OpenSSL"
+		},
+		{
+			"file" : "/home/mo/share/netconf2/lib/openssl/debug/CMakeFiles/OpenSSL.rule"
+		},
+		{
+			"file" : "/home/mo/share/netconf2/lib/openssl/debug/CMakeFiles/OpenSSL-complete.rule"
+		},
+		{
+			"file" : "/home/mo/share/netconf2/lib/openssl/debug/openssl/src/OpenSSL-stamp/OpenSSL-install.rule"
+		},
+		{
+			"file" : "/home/mo/share/netconf2/lib/openssl/debug/openssl/src/OpenSSL-stamp/OpenSSL-mkdir.rule"
+		},
+		{
+			"file" : "/home/mo/share/netconf2/lib/openssl/debug/openssl/src/OpenSSL-stamp/OpenSSL-download.rule"
+		},
+		{
+			"file" : "/home/mo/share/netconf2/lib/openssl/debug/openssl/src/OpenSSL-stamp/OpenSSL-update.rule"
+		},
+		{
+			"file" : "/home/mo/share/netconf2/lib/openssl/debug/openssl/src/OpenSSL-stamp/OpenSSL-patch.rule"
+		},
+		{
+			"file" : "/home/mo/share/netconf2/lib/openssl/debug/openssl/src/OpenSSL-stamp/OpenSSL-configure.rule"
+		},
+		{
+			"file" : "/home/mo/share/netconf2/lib/openssl/debug/openssl/src/OpenSSL-stamp/OpenSSL-build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"OpenSSL"
+		],
+		"name" : "OpenSSL"
+	}
+}

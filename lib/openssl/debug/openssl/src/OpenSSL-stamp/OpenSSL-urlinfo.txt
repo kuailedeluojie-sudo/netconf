@@ -1,0 +1,3 @@
+repository='external project URL'
+module='/home/mo/share/netconf2/lib/openssl/../../lib_src/openssl/OpenSSL_1_1_0l.tar.gz'
+tag='MD5=46d9a2a92fd39198501503b40954e6f0'
