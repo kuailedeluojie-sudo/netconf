@@ -17,9 +17,10 @@
 /home/mo/share/netconf2/lib/libssh/debug/output/CMakeFiles/list_install_components.dir
 /home/mo/share/netconf2/lib/libssh/debug/output/doc/CMakeFiles/install/strip.dir
 /home/mo/share/netconf2/lib/libssh/debug/output/doc/CMakeFiles/install/local.dir
-/home/mo/share/netconf2/lib/libssh/debug/output/doc/CMakeFiles/package_source.dir
 /home/mo/share/netconf2/lib/libssh/debug/output/doc/CMakeFiles/package.dir
+/home/mo/share/netconf2/lib/libssh/debug/output/doc/CMakeFiles/package_source.dir
 /home/mo/share/netconf2/lib/libssh/debug/output/doc/CMakeFiles/install.dir
+/home/mo/share/netconf2/lib/libssh/debug/output/doc/CMakeFiles/docs.dir
 /home/mo/share/netconf2/lib/libssh/debug/output/doc/CMakeFiles/edit_cache.dir
 /home/mo/share/netconf2/lib/libssh/debug/output/doc/CMakeFiles/rebuild_cache.dir
 /home/mo/share/netconf2/lib/libssh/debug/output/doc/CMakeFiles/list_install_components.dir

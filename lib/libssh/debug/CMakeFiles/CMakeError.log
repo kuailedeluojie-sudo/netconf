@@ -1,16 +1,16 @@
 Performing C SOURCE FILE Test WITH_WPEDANTIC_FLAG failed with the following output:
 Change Dir: /home/mo/share/netconf2/lib/libssh/debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_0ac20/fast && /usr/bin/make  -f CMakeFiles/cmTC_0ac20.dir/build.make CMakeFiles/cmTC_0ac20.dir/build
+Run Build Command(s):/usr/bin/make cmTC_5773a/fast && /usr/bin/make  -f CMakeFiles/cmTC_5773a.dir/build.make CMakeFiles/cmTC_5773a.dir/build
 make[1]: Entering directory '/home/mo/share/netconf2/lib/libssh/debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_0ac20.dir/src.c.o
-/home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc   -DWITH_WPEDANTIC_FLAG -Werror -fPIE   -Wpedantic -o CMakeFiles/cmTC_0ac20.dir/src.c.o   -c /home/mo/share/netconf2/lib/libssh/debug/CMakeFiles/CMakeTmp/src.c
+Building C object CMakeFiles/cmTC_5773a.dir/src.c.o
+/home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc   -DWITH_WPEDANTIC_FLAG -Werror -fPIE   -Wpedantic -o CMakeFiles/cmTC_5773a.dir/src.c.o   -c /home/mo/share/netconf2/lib/libssh/debug/CMakeFiles/CMakeTmp/src.c
 cc1: error: unrecognized command line option "-Wpedantic"
-CMakeFiles/cmTC_0ac20.dir/build.make:85: recipe for target 'CMakeFiles/cmTC_0ac20.dir/src.c.o' failed
-make[1]: *** [CMakeFiles/cmTC_0ac20.dir/src.c.o] Error 1
+CMakeFiles/cmTC_5773a.dir/build.make:85: recipe for target 'CMakeFiles/cmTC_5773a.dir/src.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_5773a.dir/src.c.o] Error 1
 make[1]: Leaving directory '/home/mo/share/netconf2/lib/libssh/debug/CMakeFiles/CMakeTmp'
-Makefile:141: recipe for target 'cmTC_0ac20/fast' failed
-make: *** [cmTC_0ac20/fast] Error 2
+Makefile:141: recipe for target 'cmTC_5773a/fast' failed
+make: *** [cmTC_5773a/fast] Error 2
 
 
 Source file was:
@@ -18,16 +18,16 @@ int main(void) { return 0; }
 Performing C SOURCE FILE Test WITH_WIMPLICIT_FALLTHROUGH_FLAG failed with the following output:
 Change Dir: /home/mo/share/netconf2/lib/libssh/debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_71c63/fast && /usr/bin/make  -f CMakeFiles/cmTC_71c63.dir/build.make CMakeFiles/cmTC_71c63.dir/build
+Run Build Command(s):/usr/bin/make cmTC_98bc5/fast && /usr/bin/make  -f CMakeFiles/cmTC_98bc5.dir/build.make CMakeFiles/cmTC_98bc5.dir/build
 make[1]: Entering directory '/home/mo/share/netconf2/lib/libssh/debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_71c63.dir/src.c.o
-/home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc   -DWITH_WIMPLICIT_FALLTHROUGH_FLAG -Werror -fPIE   -Wimplicit-fallthrough -o CMakeFiles/cmTC_71c63.dir/src.c.o   -c /home/mo/share/netconf2/lib/libssh/debug/CMakeFiles/CMakeTmp/src.c
+Building C object CMakeFiles/cmTC_98bc5.dir/src.c.o
+/home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc   -DWITH_WIMPLICIT_FALLTHROUGH_FLAG -Werror -fPIE   -Wimplicit-fallthrough -o CMakeFiles/cmTC_98bc5.dir/src.c.o   -c /home/mo/share/netconf2/lib/libssh/debug/CMakeFiles/CMakeTmp/src.c
 cc1: error: unrecognized command line option "-Wimplicit-fallthrough"
-CMakeFiles/cmTC_71c63.dir/build.make:85: recipe for target 'CMakeFiles/cmTC_71c63.dir/src.c.o' failed
-make[1]: *** [CMakeFiles/cmTC_71c63.dir/src.c.o] Error 1
+CMakeFiles/cmTC_98bc5.dir/build.make:85: recipe for target 'CMakeFiles/cmTC_98bc5.dir/src.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_98bc5.dir/src.c.o] Error 1
 make[1]: Leaving directory '/home/mo/share/netconf2/lib/libssh/debug/CMakeFiles/CMakeTmp'
-Makefile:141: recipe for target 'cmTC_71c63/fast' failed
-make: *** [cmTC_71c63/fast] Error 2
+Makefile:141: recipe for target 'cmTC_98bc5/fast' failed
+make: *** [cmTC_98bc5/fast] Error 2
 
 
 Source file was:
@@ -35,16 +35,16 @@ int main(void) { return 0; }
 Performing C SOURCE FILE Test WITH_STACK_PROTECTOR_STRONG failed with the following output:
 Change Dir: /home/mo/share/netconf2/lib/libssh/debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_f83e2/fast && /usr/bin/make  -f CMakeFiles/cmTC_f83e2.dir/build.make CMakeFiles/cmTC_f83e2.dir/build
+Run Build Command(s):/usr/bin/make cmTC_98cb5/fast && /usr/bin/make  -f CMakeFiles/cmTC_98cb5.dir/build.make CMakeFiles/cmTC_98cb5.dir/build
 make[1]: Entering directory '/home/mo/share/netconf2/lib/libssh/debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_f83e2.dir/src.c.o
-/home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc   -DWITH_STACK_PROTECTOR_STRONG -fstack-protector-strong -fPIE   -o CMakeFiles/cmTC_f83e2.dir/src.c.o   -c /home/mo/share/netconf2/lib/libssh/debug/CMakeFiles/CMakeTmp/src.c
+Building C object CMakeFiles/cmTC_98cb5.dir/src.c.o
+/home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc   -DWITH_STACK_PROTECTOR_STRONG -fstack-protector-strong -fPIE   -o CMakeFiles/cmTC_98cb5.dir/src.c.o   -c /home/mo/share/netconf2/lib/libssh/debug/CMakeFiles/CMakeTmp/src.c
 cc1: error: unrecognized command line option "-fstack-protector-strong"
-CMakeFiles/cmTC_f83e2.dir/build.make:85: recipe for target 'CMakeFiles/cmTC_f83e2.dir/src.c.o' failed
-make[1]: *** [CMakeFiles/cmTC_f83e2.dir/src.c.o] Error 1
+CMakeFiles/cmTC_98cb5.dir/build.make:85: recipe for target 'CMakeFiles/cmTC_98cb5.dir/src.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_98cb5.dir/src.c.o] Error 1
 make[1]: Leaving directory '/home/mo/share/netconf2/lib/libssh/debug/CMakeFiles/CMakeTmp'
-Makefile:141: recipe for target 'cmTC_f83e2/fast' failed
-make: *** [cmTC_f83e2/fast] Error 2
+Makefile:141: recipe for target 'cmTC_98cb5/fast' failed
+make: *** [cmTC_98cb5/fast] Error 2
 
 
 Source file was:
@@ -52,16 +52,16 @@ int main(int argc, char **argv) { char buffer[256]; return buffer[argc]=0;}
 Performing C SOURCE FILE Test WITH_STACK_CLASH_PROTECTION failed with the following output:
 Change Dir: /home/mo/share/netconf2/lib/libssh/debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_8d4fa/fast && /usr/bin/make  -f CMakeFiles/cmTC_8d4fa.dir/build.make CMakeFiles/cmTC_8d4fa.dir/build
+Run Build Command(s):/usr/bin/make cmTC_55481/fast && /usr/bin/make  -f CMakeFiles/cmTC_55481.dir/build.make CMakeFiles/cmTC_55481.dir/build
 make[1]: Entering directory '/home/mo/share/netconf2/lib/libssh/debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_8d4fa.dir/src.c.o
-/home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc   -DWITH_STACK_CLASH_PROTECTION -fstack-clash-protection -fPIE   -o CMakeFiles/cmTC_8d4fa.dir/src.c.o   -c /home/mo/share/netconf2/lib/libssh/debug/CMakeFiles/CMakeTmp/src.c
+Building C object CMakeFiles/cmTC_55481.dir/src.c.o
+/home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc   -DWITH_STACK_CLASH_PROTECTION -fstack-clash-protection -fPIE   -o CMakeFiles/cmTC_55481.dir/src.c.o   -c /home/mo/share/netconf2/lib/libssh/debug/CMakeFiles/CMakeTmp/src.c
 cc1: error: unrecognized command line option "-fstack-clash-protection"
-CMakeFiles/cmTC_8d4fa.dir/build.make:85: recipe for target 'CMakeFiles/cmTC_8d4fa.dir/src.c.o' failed
-make[1]: *** [CMakeFiles/cmTC_8d4fa.dir/src.c.o] Error 1
+CMakeFiles/cmTC_55481.dir/build.make:85: recipe for target 'CMakeFiles/cmTC_55481.dir/src.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_55481.dir/src.c.o] Error 1
 make[1]: Leaving directory '/home/mo/share/netconf2/lib/libssh/debug/CMakeFiles/CMakeTmp'
-Makefile:141: recipe for target 'cmTC_8d4fa/fast' failed
-make: *** [cmTC_8d4fa/fast] Error 2
+Makefile:141: recipe for target 'cmTC_55481/fast' failed
+make: *** [cmTC_55481/fast] Error 2
 
 
 Source file was:
@@ -69,25 +69,25 @@ int main(int argc, char **argv) { char buffer[256]; return buffer[argc]=0;}
 Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
 Change Dir: /home/mo/share/netconf2/lib/libssh/debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_7a237/fast && /usr/bin/make  -f CMakeFiles/cmTC_7a237.dir/build.make CMakeFiles/cmTC_7a237.dir/build
+Run Build Command(s):/usr/bin/make cmTC_730ec/fast && /usr/bin/make  -f CMakeFiles/cmTC_730ec.dir/build.make CMakeFiles/cmTC_730ec.dir/build
 make[1]: Entering directory '/home/mo/share/netconf2/lib/libssh/debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_7a237.dir/src.c.o
-/home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc   -DCMAKE_HAVE_LIBC_PTHREAD -fPIE   -o CMakeFiles/cmTC_7a237.dir/src.c.o   -c /home/mo/share/netconf2/lib/libssh/debug/CMakeFiles/CMakeTmp/src.c
-Linking C executable cmTC_7a237
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7a237.dir/link.txt --verbose=1
-/home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc  -DCMAKE_HAVE_LIBC_PTHREAD    -rdynamic CMakeFiles/cmTC_7a237.dir/src.c.o  -o cmTC_7a237 
-CMakeFiles/cmTC_7a237.dir/src.c.o: In function `main':
+Building C object CMakeFiles/cmTC_730ec.dir/src.c.o
+/home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc   -DCMAKE_HAVE_LIBC_PTHREAD -fPIE   -o CMakeFiles/cmTC_730ec.dir/src.c.o   -c /home/mo/share/netconf2/lib/libssh/debug/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_730ec
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_730ec.dir/link.txt --verbose=1
+/home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc  -DCMAKE_HAVE_LIBC_PTHREAD    -rdynamic CMakeFiles/cmTC_730ec.dir/src.c.o  -o cmTC_730ec 
+CMakeFiles/cmTC_730ec.dir/src.c.o: In function `main':
 src.c:(.text+0x54): undefined reference to `pthread_create'
 src.c:(.text+0x60): undefined reference to `pthread_detach'
 src.c:(.text+0x6c): undefined reference to `pthread_cancel'
 src.c:(.text+0x7c): undefined reference to `pthread_join'
 src.c:(.text+0x8c): undefined reference to `pthread_atfork'
 collect2: ld returned 1 exit status
-CMakeFiles/cmTC_7a237.dir/build.make:106: recipe for target 'cmTC_7a237' failed
-make[1]: *** [cmTC_7a237] Error 1
+CMakeFiles/cmTC_730ec.dir/build.make:106: recipe for target 'cmTC_730ec' failed
+make[1]: *** [cmTC_730ec] Error 1
 make[1]: Leaving directory '/home/mo/share/netconf2/lib/libssh/debug/CMakeFiles/CMakeTmp'
-Makefile:141: recipe for target 'cmTC_7a237/fast' failed
-make: *** [cmTC_7a237/fast] Error 2
+Makefile:141: recipe for target 'cmTC_730ec/fast' failed
+make: *** [cmTC_730ec/fast] Error 2
 
 
 Source file was:
@@ -114,209 +114,209 @@ int main(void)
 Determining if the include file util.h exists failed with the following output:
 Change Dir: /home/mo/share/netconf2/lib/libssh/debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_2a576/fast && /usr/bin/make  -f CMakeFiles/cmTC_2a576.dir/build.make CMakeFiles/cmTC_2a576.dir/build
+Run Build Command(s):/usr/bin/make cmTC_5ee93/fast && /usr/bin/make  -f CMakeFiles/cmTC_5ee93.dir/build.make CMakeFiles/cmTC_5ee93.dir/build
 make[1]: Entering directory '/home/mo/share/netconf2/lib/libssh/debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_2a576.dir/CheckIncludeFile.c.o
-/home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc   -fPIE   -o CMakeFiles/cmTC_2a576.dir/CheckIncludeFile.c.o   -c /home/mo/share/netconf2/lib/libssh/debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Building C object CMakeFiles/cmTC_5ee93.dir/CheckIncludeFile.c.o
+/home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc   -fPIE   -o CMakeFiles/cmTC_5ee93.dir/CheckIncludeFile.c.o   -c /home/mo/share/netconf2/lib/libssh/debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c
 /home/mo/share/netconf2/lib/libssh/debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:18: error: util.h: No such file or directory
-CMakeFiles/cmTC_2a576.dir/build.make:85: recipe for target 'CMakeFiles/cmTC_2a576.dir/CheckIncludeFile.c.o' failed
-make[1]: *** [CMakeFiles/cmTC_2a576.dir/CheckIncludeFile.c.o] Error 1
+CMakeFiles/cmTC_5ee93.dir/build.make:85: recipe for target 'CMakeFiles/cmTC_5ee93.dir/CheckIncludeFile.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_5ee93.dir/CheckIncludeFile.c.o] Error 1
 make[1]: Leaving directory '/home/mo/share/netconf2/lib/libssh/debug/CMakeFiles/CMakeTmp'
-Makefile:141: recipe for target 'cmTC_2a576/fast' failed
-make: *** [cmTC_2a576/fast] Error 2
+Makefile:141: recipe for target 'cmTC_5ee93/fast' failed
+make: *** [cmTC_5ee93/fast] Error 2
 
 
 
 Determining if the include file libutil.h exists failed with the following output:
 Change Dir: /home/mo/share/netconf2/lib/libssh/debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_9023e/fast && /usr/bin/make  -f CMakeFiles/cmTC_9023e.dir/build.make CMakeFiles/cmTC_9023e.dir/build
+Run Build Command(s):/usr/bin/make cmTC_6d7c8/fast && /usr/bin/make  -f CMakeFiles/cmTC_6d7c8.dir/build.make CMakeFiles/cmTC_6d7c8.dir/build
 make[1]: Entering directory '/home/mo/share/netconf2/lib/libssh/debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_9023e.dir/CheckIncludeFile.c.o
-/home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc   -fPIE   -o CMakeFiles/cmTC_9023e.dir/CheckIncludeFile.c.o   -c /home/mo/share/netconf2/lib/libssh/debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Building C object CMakeFiles/cmTC_6d7c8.dir/CheckIncludeFile.c.o
+/home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc   -fPIE   -o CMakeFiles/cmTC_6d7c8.dir/CheckIncludeFile.c.o   -c /home/mo/share/netconf2/lib/libssh/debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c
 /home/mo/share/netconf2/lib/libssh/debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:21: error: libutil.h: No such file or directory
-CMakeFiles/cmTC_9023e.dir/build.make:85: recipe for target 'CMakeFiles/cmTC_9023e.dir/CheckIncludeFile.c.o' failed
-make[1]: *** [CMakeFiles/cmTC_9023e.dir/CheckIncludeFile.c.o] Error 1
+CMakeFiles/cmTC_6d7c8.dir/build.make:85: recipe for target 'CMakeFiles/cmTC_6d7c8.dir/CheckIncludeFile.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_6d7c8.dir/CheckIncludeFile.c.o] Error 1
 make[1]: Leaving directory '/home/mo/share/netconf2/lib/libssh/debug/CMakeFiles/CMakeTmp'
-Makefile:141: recipe for target 'cmTC_9023e/fast' failed
-make: *** [cmTC_9023e/fast] Error 2
+Makefile:141: recipe for target 'cmTC_6d7c8/fast' failed
+make: *** [cmTC_6d7c8/fast] Error 2
 
 
 
 Determining if the include file sys/utime.h exists failed with the following output:
 Change Dir: /home/mo/share/netconf2/lib/libssh/debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_f3a9d/fast && /usr/bin/make  -f CMakeFiles/cmTC_f3a9d.dir/build.make CMakeFiles/cmTC_f3a9d.dir/build
+Run Build Command(s):/usr/bin/make cmTC_11799/fast && /usr/bin/make  -f CMakeFiles/cmTC_11799.dir/build.make CMakeFiles/cmTC_11799.dir/build
 make[1]: Entering directory '/home/mo/share/netconf2/lib/libssh/debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_f3a9d.dir/CheckIncludeFile.c.o
-/home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc   -fPIE   -o CMakeFiles/cmTC_f3a9d.dir/CheckIncludeFile.c.o   -c /home/mo/share/netconf2/lib/libssh/debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Building C object CMakeFiles/cmTC_11799.dir/CheckIncludeFile.c.o
+/home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc   -fPIE   -o CMakeFiles/cmTC_11799.dir/CheckIncludeFile.c.o   -c /home/mo/share/netconf2/lib/libssh/debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c
 /home/mo/share/netconf2/lib/libssh/debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:23: error: sys/utime.h: No such file or directory
-CMakeFiles/cmTC_f3a9d.dir/build.make:85: recipe for target 'CMakeFiles/cmTC_f3a9d.dir/CheckIncludeFile.c.o' failed
-make[1]: *** [CMakeFiles/cmTC_f3a9d.dir/CheckIncludeFile.c.o] Error 1
+CMakeFiles/cmTC_11799.dir/build.make:85: recipe for target 'CMakeFiles/cmTC_11799.dir/CheckIncludeFile.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_11799.dir/CheckIncludeFile.c.o] Error 1
 make[1]: Leaving directory '/home/mo/share/netconf2/lib/libssh/debug/CMakeFiles/CMakeTmp'
-Makefile:141: recipe for target 'cmTC_f3a9d/fast' failed
-make: *** [cmTC_f3a9d/fast] Error 2
+Makefile:141: recipe for target 'cmTC_11799/fast' failed
+make: *** [cmTC_11799/fast] Error 2
 
 
 
 Determining if the include file valgrind/valgrind.h exists failed with the following output:
 Change Dir: /home/mo/share/netconf2/lib/libssh/debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_3a0ad/fast && /usr/bin/make  -f CMakeFiles/cmTC_3a0ad.dir/build.make CMakeFiles/cmTC_3a0ad.dir/build
+Run Build Command(s):/usr/bin/make cmTC_28d4d/fast && /usr/bin/make  -f CMakeFiles/cmTC_28d4d.dir/build.make CMakeFiles/cmTC_28d4d.dir/build
 make[1]: Entering directory '/home/mo/share/netconf2/lib/libssh/debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_3a0ad.dir/CheckIncludeFile.c.o
-/home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc   -fPIE   -o CMakeFiles/cmTC_3a0ad.dir/CheckIncludeFile.c.o   -c /home/mo/share/netconf2/lib/libssh/debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Building C object CMakeFiles/cmTC_28d4d.dir/CheckIncludeFile.c.o
+/home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc   -fPIE   -o CMakeFiles/cmTC_28d4d.dir/CheckIncludeFile.c.o   -c /home/mo/share/netconf2/lib/libssh/debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c
 /home/mo/share/netconf2/lib/libssh/debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:31: error: valgrind/valgrind.h: No such file or directory
-CMakeFiles/cmTC_3a0ad.dir/build.make:85: recipe for target 'CMakeFiles/cmTC_3a0ad.dir/CheckIncludeFile.c.o' failed
-make[1]: *** [CMakeFiles/cmTC_3a0ad.dir/CheckIncludeFile.c.o] Error 1
+CMakeFiles/cmTC_28d4d.dir/build.make:85: recipe for target 'CMakeFiles/cmTC_28d4d.dir/CheckIncludeFile.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_28d4d.dir/CheckIncludeFile.c.o] Error 1
 make[1]: Leaving directory '/home/mo/share/netconf2/lib/libssh/debug/CMakeFiles/CMakeTmp'
-Makefile:141: recipe for target 'cmTC_3a0ad/fast' failed
-make: *** [cmTC_3a0ad/fast] Error 2
+Makefile:141: recipe for target 'cmTC_28d4d/fast' failed
+make: *** [cmTC_28d4d/fast] Error 2
 
 
 
 Determining if the function CRYPTO_THREADID_set_callback exists failed with the following output:
 Change Dir: /home/mo/share/netconf2/lib/libssh/debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_d5db6/fast && /usr/bin/make  -f CMakeFiles/cmTC_d5db6.dir/build.make CMakeFiles/cmTC_d5db6.dir/build
+Run Build Command(s):/usr/bin/make cmTC_a7648/fast && /usr/bin/make  -f CMakeFiles/cmTC_a7648.dir/build.make CMakeFiles/cmTC_a7648.dir/build
 make[1]: Entering directory '/home/mo/share/netconf2/lib/libssh/debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_d5db6.dir/CheckFunctionExists.c.o
-/home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc  -I/home/mo/share/netconf2/lib/openssl/debug/output/include  -DCHECK_FUNCTION_EXISTS=CRYPTO_THREADID_set_callback -fPIE   -o CMakeFiles/cmTC_d5db6.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.17/Modules/CheckFunctionExists.c
-Linking C executable cmTC_d5db6
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d5db6.dir/link.txt --verbose=1
-/home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc  -DCHECK_FUNCTION_EXISTS=CRYPTO_THREADID_set_callback    -rdynamic CMakeFiles/cmTC_d5db6.dir/CheckFunctionExists.c.o  -o cmTC_d5db6  -Wl,-rpath,/home/mo/share/netconf2/lib/openssl/debug/output/lib /home/mo/share/netconf2/lib/openssl/debug/output/lib/libcrypto.so 
-CMakeFiles/cmTC_d5db6.dir/CheckFunctionExists.c.o: In function `main':
+Building C object CMakeFiles/cmTC_a7648.dir/CheckFunctionExists.c.o
+/home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc  -I/home/mo/share/netconf2/lib/openssl/debug/output/include  -DCHECK_FUNCTION_EXISTS=CRYPTO_THREADID_set_callback -fPIE   -o CMakeFiles/cmTC_a7648.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.17/Modules/CheckFunctionExists.c
+Linking C executable cmTC_a7648
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a7648.dir/link.txt --verbose=1
+/home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc  -DCHECK_FUNCTION_EXISTS=CRYPTO_THREADID_set_callback    -rdynamic CMakeFiles/cmTC_a7648.dir/CheckFunctionExists.c.o  -o cmTC_a7648  -Wl,-rpath,/home/mo/share/netconf2/lib/openssl/debug/output/lib /home/mo/share/netconf2/lib/openssl/debug/output/lib/libcrypto.so 
+CMakeFiles/cmTC_a7648.dir/CheckFunctionExists.c.o: In function `main':
 CheckFunctionExists.c:(.text+0x14): undefined reference to `CRYPTO_THREADID_set_callback'
 collect2: ld returned 1 exit status
-CMakeFiles/cmTC_d5db6.dir/build.make:107: recipe for target 'cmTC_d5db6' failed
-make[1]: *** [cmTC_d5db6] Error 1
+CMakeFiles/cmTC_a7648.dir/build.make:107: recipe for target 'cmTC_a7648' failed
+make[1]: *** [cmTC_a7648] Error 1
 make[1]: Leaving directory '/home/mo/share/netconf2/lib/libssh/debug/CMakeFiles/CMakeTmp'
-Makefile:141: recipe for target 'cmTC_d5db6/fast' failed
-make: *** [cmTC_d5db6/fast] Error 2
+Makefile:141: recipe for target 'cmTC_a7648/fast' failed
+make: *** [cmTC_a7648/fast] Error 2
 
 
 
 Determining if the function EVP_KDF_CTX_new_id exists failed with the following output:
 Change Dir: /home/mo/share/netconf2/lib/libssh/debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_a0131/fast && /usr/bin/make  -f CMakeFiles/cmTC_a0131.dir/build.make CMakeFiles/cmTC_a0131.dir/build
+Run Build Command(s):/usr/bin/make cmTC_7b460/fast && /usr/bin/make  -f CMakeFiles/cmTC_7b460.dir/build.make CMakeFiles/cmTC_7b460.dir/build
 make[1]: Entering directory '/home/mo/share/netconf2/lib/libssh/debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_a0131.dir/CheckFunctionExists.c.o
-/home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc  -I/home/mo/share/netconf2/lib/openssl/debug/output/include  -DCHECK_FUNCTION_EXISTS=EVP_KDF_CTX_new_id -fPIE   -o CMakeFiles/cmTC_a0131.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.17/Modules/CheckFunctionExists.c
-Linking C executable cmTC_a0131
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a0131.dir/link.txt --verbose=1
-/home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc  -DCHECK_FUNCTION_EXISTS=EVP_KDF_CTX_new_id    -rdynamic CMakeFiles/cmTC_a0131.dir/CheckFunctionExists.c.o  -o cmTC_a0131  -Wl,-rpath,/home/mo/share/netconf2/lib/openssl/debug/output/lib /home/mo/share/netconf2/lib/openssl/debug/output/lib/libcrypto.so 
-CMakeFiles/cmTC_a0131.dir/CheckFunctionExists.c.o: In function `main':
+Building C object CMakeFiles/cmTC_7b460.dir/CheckFunctionExists.c.o
+/home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc  -I/home/mo/share/netconf2/lib/openssl/debug/output/include  -DCHECK_FUNCTION_EXISTS=EVP_KDF_CTX_new_id -fPIE   -o CMakeFiles/cmTC_7b460.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.17/Modules/CheckFunctionExists.c
+Linking C executable cmTC_7b460
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7b460.dir/link.txt --verbose=1
+/home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc  -DCHECK_FUNCTION_EXISTS=EVP_KDF_CTX_new_id    -rdynamic CMakeFiles/cmTC_7b460.dir/CheckFunctionExists.c.o  -o cmTC_7b460  -Wl,-rpath,/home/mo/share/netconf2/lib/openssl/debug/output/lib /home/mo/share/netconf2/lib/openssl/debug/output/lib/libcrypto.so 
+CMakeFiles/cmTC_7b460.dir/CheckFunctionExists.c.o: In function `main':
 CheckFunctionExists.c:(.text+0x14): undefined reference to `EVP_KDF_CTX_new_id'
 collect2: ld returned 1 exit status
-CMakeFiles/cmTC_a0131.dir/build.make:107: recipe for target 'cmTC_a0131' failed
-make[1]: *** [cmTC_a0131] Error 1
+CMakeFiles/cmTC_7b460.dir/build.make:107: recipe for target 'cmTC_7b460' failed
+make[1]: *** [cmTC_7b460] Error 1
 make[1]: Leaving directory '/home/mo/share/netconf2/lib/libssh/debug/CMakeFiles/CMakeTmp'
-Makefile:141: recipe for target 'cmTC_a0131/fast' failed
-make: *** [cmTC_a0131/fast] Error 2
+Makefile:141: recipe for target 'cmTC_7b460/fast' failed
+make: *** [cmTC_7b460/fast] Error 2
 
 
 
 Determining if the function RAND_priv_bytes exists failed with the following output:
 Change Dir: /home/mo/share/netconf2/lib/libssh/debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_bcc67/fast && /usr/bin/make  -f CMakeFiles/cmTC_bcc67.dir/build.make CMakeFiles/cmTC_bcc67.dir/build
+Run Build Command(s):/usr/bin/make cmTC_7497f/fast && /usr/bin/make  -f CMakeFiles/cmTC_7497f.dir/build.make CMakeFiles/cmTC_7497f.dir/build
 make[1]: Entering directory '/home/mo/share/netconf2/lib/libssh/debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_bcc67.dir/CheckFunctionExists.c.o
-/home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc  -I/home/mo/share/netconf2/lib/openssl/debug/output/include  -DCHECK_FUNCTION_EXISTS=RAND_priv_bytes -fPIE   -o CMakeFiles/cmTC_bcc67.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.17/Modules/CheckFunctionExists.c
-Linking C executable cmTC_bcc67
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bcc67.dir/link.txt --verbose=1
-/home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc  -DCHECK_FUNCTION_EXISTS=RAND_priv_bytes    -rdynamic CMakeFiles/cmTC_bcc67.dir/CheckFunctionExists.c.o  -o cmTC_bcc67  -Wl,-rpath,/home/mo/share/netconf2/lib/openssl/debug/output/lib /home/mo/share/netconf2/lib/openssl/debug/output/lib/libcrypto.so 
-CMakeFiles/cmTC_bcc67.dir/CheckFunctionExists.c.o: In function `main':
+Building C object CMakeFiles/cmTC_7497f.dir/CheckFunctionExists.c.o
+/home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc  -I/home/mo/share/netconf2/lib/openssl/debug/output/include  -DCHECK_FUNCTION_EXISTS=RAND_priv_bytes -fPIE   -o CMakeFiles/cmTC_7497f.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.17/Modules/CheckFunctionExists.c
+Linking C executable cmTC_7497f
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7497f.dir/link.txt --verbose=1
+/home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc  -DCHECK_FUNCTION_EXISTS=RAND_priv_bytes    -rdynamic CMakeFiles/cmTC_7497f.dir/CheckFunctionExists.c.o  -o cmTC_7497f  -Wl,-rpath,/home/mo/share/netconf2/lib/openssl/debug/output/lib /home/mo/share/netconf2/lib/openssl/debug/output/lib/libcrypto.so 
+CMakeFiles/cmTC_7497f.dir/CheckFunctionExists.c.o: In function `main':
 CheckFunctionExists.c:(.text+0x14): undefined reference to `RAND_priv_bytes'
 collect2: ld returned 1 exit status
-CMakeFiles/cmTC_bcc67.dir/build.make:107: recipe for target 'cmTC_bcc67' failed
-make[1]: *** [cmTC_bcc67] Error 1
+CMakeFiles/cmTC_7497f.dir/build.make:107: recipe for target 'cmTC_7497f' failed
+make[1]: *** [cmTC_7497f] Error 1
 make[1]: Leaving directory '/home/mo/share/netconf2/lib/libssh/debug/CMakeFiles/CMakeTmp'
-Makefile:141: recipe for target 'cmTC_bcc67/fast' failed
-make: *** [cmTC_bcc67/fast] Error 2
+Makefile:141: recipe for target 'cmTC_7497f/fast' failed
+make: *** [cmTC_7497f/fast] Error 2
 
 
 
 Determining if the function EVP_DigestSign exists failed with the following output:
 Change Dir: /home/mo/share/netconf2/lib/libssh/debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_942a0/fast && /usr/bin/make  -f CMakeFiles/cmTC_942a0.dir/build.make CMakeFiles/cmTC_942a0.dir/build
+Run Build Command(s):/usr/bin/make cmTC_cd855/fast && /usr/bin/make  -f CMakeFiles/cmTC_cd855.dir/build.make CMakeFiles/cmTC_cd855.dir/build
 make[1]: Entering directory '/home/mo/share/netconf2/lib/libssh/debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_942a0.dir/CheckFunctionExists.c.o
-/home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc  -I/home/mo/share/netconf2/lib/openssl/debug/output/include  -DCHECK_FUNCTION_EXISTS=EVP_DigestSign -fPIE   -o CMakeFiles/cmTC_942a0.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.17/Modules/CheckFunctionExists.c
-Linking C executable cmTC_942a0
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_942a0.dir/link.txt --verbose=1
-/home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc  -DCHECK_FUNCTION_EXISTS=EVP_DigestSign    -rdynamic CMakeFiles/cmTC_942a0.dir/CheckFunctionExists.c.o  -o cmTC_942a0  -Wl,-rpath,/home/mo/share/netconf2/lib/openssl/debug/output/lib /home/mo/share/netconf2/lib/openssl/debug/output/lib/libcrypto.so 
-CMakeFiles/cmTC_942a0.dir/CheckFunctionExists.c.o: In function `main':
+Building C object CMakeFiles/cmTC_cd855.dir/CheckFunctionExists.c.o
+/home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc  -I/home/mo/share/netconf2/lib/openssl/debug/output/include  -DCHECK_FUNCTION_EXISTS=EVP_DigestSign -fPIE   -o CMakeFiles/cmTC_cd855.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.17/Modules/CheckFunctionExists.c
+Linking C executable cmTC_cd855
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cd855.dir/link.txt --verbose=1
+/home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc  -DCHECK_FUNCTION_EXISTS=EVP_DigestSign    -rdynamic CMakeFiles/cmTC_cd855.dir/CheckFunctionExists.c.o  -o cmTC_cd855  -Wl,-rpath,/home/mo/share/netconf2/lib/openssl/debug/output/lib /home/mo/share/netconf2/lib/openssl/debug/output/lib/libcrypto.so 
+CMakeFiles/cmTC_cd855.dir/CheckFunctionExists.c.o: In function `main':
 CheckFunctionExists.c:(.text+0x14): undefined reference to `EVP_DigestSign'
 collect2: ld returned 1 exit status
-CMakeFiles/cmTC_942a0.dir/build.make:107: recipe for target 'cmTC_942a0' failed
-make[1]: *** [cmTC_942a0] Error 1
+CMakeFiles/cmTC_cd855.dir/build.make:107: recipe for target 'cmTC_cd855' failed
+make[1]: *** [cmTC_cd855] Error 1
 make[1]: Leaving directory '/home/mo/share/netconf2/lib/libssh/debug/CMakeFiles/CMakeTmp'
-Makefile:141: recipe for target 'cmTC_942a0/fast' failed
-make: *** [cmTC_942a0/fast] Error 2
+Makefile:141: recipe for target 'cmTC_cd855/fast' failed
+make: *** [cmTC_cd855/fast] Error 2
 
 
 
 Determining if the function EVP_DigestVerify exists failed with the following output:
 Change Dir: /home/mo/share/netconf2/lib/libssh/debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_7df76/fast && /usr/bin/make  -f CMakeFiles/cmTC_7df76.dir/build.make CMakeFiles/cmTC_7df76.dir/build
+Run Build Command(s):/usr/bin/make cmTC_83384/fast && /usr/bin/make  -f CMakeFiles/cmTC_83384.dir/build.make CMakeFiles/cmTC_83384.dir/build
 make[1]: Entering directory '/home/mo/share/netconf2/lib/libssh/debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_7df76.dir/CheckFunctionExists.c.o
-/home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc  -I/home/mo/share/netconf2/lib/openssl/debug/output/include  -DCHECK_FUNCTION_EXISTS=EVP_DigestVerify -fPIE   -o CMakeFiles/cmTC_7df76.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.17/Modules/CheckFunctionExists.c
-Linking C executable cmTC_7df76
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7df76.dir/link.txt --verbose=1
-/home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc  -DCHECK_FUNCTION_EXISTS=EVP_DigestVerify    -rdynamic CMakeFiles/cmTC_7df76.dir/CheckFunctionExists.c.o  -o cmTC_7df76  -Wl,-rpath,/home/mo/share/netconf2/lib/openssl/debug/output/lib /home/mo/share/netconf2/lib/openssl/debug/output/lib/libcrypto.so 
-CMakeFiles/cmTC_7df76.dir/CheckFunctionExists.c.o: In function `main':
+Building C object CMakeFiles/cmTC_83384.dir/CheckFunctionExists.c.o
+/home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc  -I/home/mo/share/netconf2/lib/openssl/debug/output/include  -DCHECK_FUNCTION_EXISTS=EVP_DigestVerify -fPIE   -o CMakeFiles/cmTC_83384.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.17/Modules/CheckFunctionExists.c
+Linking C executable cmTC_83384
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_83384.dir/link.txt --verbose=1
+/home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc  -DCHECK_FUNCTION_EXISTS=EVP_DigestVerify    -rdynamic CMakeFiles/cmTC_83384.dir/CheckFunctionExists.c.o  -o cmTC_83384  -Wl,-rpath,/home/mo/share/netconf2/lib/openssl/debug/output/lib /home/mo/share/netconf2/lib/openssl/debug/output/lib/libcrypto.so 
+CMakeFiles/cmTC_83384.dir/CheckFunctionExists.c.o: In function `main':
 CheckFunctionExists.c:(.text+0x14): undefined reference to `EVP_DigestVerify'
 collect2: ld returned 1 exit status
-CMakeFiles/cmTC_7df76.dir/build.make:107: recipe for target 'cmTC_7df76' failed
-make[1]: *** [cmTC_7df76] Error 1
+CMakeFiles/cmTC_83384.dir/build.make:107: recipe for target 'cmTC_83384' failed
+make[1]: *** [cmTC_83384] Error 1
 make[1]: Leaving directory '/home/mo/share/netconf2/lib/libssh/debug/CMakeFiles/CMakeTmp'
-Makefile:141: recipe for target 'cmTC_7df76/fast' failed
-make: *** [cmTC_7df76/fast] Error 2
+Makefile:141: recipe for target 'cmTC_83384/fast' failed
+make: *** [cmTC_83384/fast] Error 2
 
 
 
 Determining if the function OPENSSL_ia32cap_loc exists failed with the following output:
 Change Dir: /home/mo/share/netconf2/lib/libssh/debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_659a2/fast && /usr/bin/make  -f CMakeFiles/cmTC_659a2.dir/build.make CMakeFiles/cmTC_659a2.dir/build
+Run Build Command(s):/usr/bin/make cmTC_bc52d/fast && /usr/bin/make  -f CMakeFiles/cmTC_bc52d.dir/build.make CMakeFiles/cmTC_bc52d.dir/build
 make[1]: Entering directory '/home/mo/share/netconf2/lib/libssh/debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_659a2.dir/CheckFunctionExists.c.o
-/home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc  -I/home/mo/share/netconf2/lib/openssl/debug/output/include  -DCHECK_FUNCTION_EXISTS=OPENSSL_ia32cap_loc -fPIE   -o CMakeFiles/cmTC_659a2.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.17/Modules/CheckFunctionExists.c
-Linking C executable cmTC_659a2
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_659a2.dir/link.txt --verbose=1
-/home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc  -DCHECK_FUNCTION_EXISTS=OPENSSL_ia32cap_loc    -rdynamic CMakeFiles/cmTC_659a2.dir/CheckFunctionExists.c.o  -o cmTC_659a2  -Wl,-rpath,/home/mo/share/netconf2/lib/openssl/debug/output/lib /home/mo/share/netconf2/lib/openssl/debug/output/lib/libcrypto.so 
-CMakeFiles/cmTC_659a2.dir/CheckFunctionExists.c.o: In function `main':
+Building C object CMakeFiles/cmTC_bc52d.dir/CheckFunctionExists.c.o
+/home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc  -I/home/mo/share/netconf2/lib/openssl/debug/output/include  -DCHECK_FUNCTION_EXISTS=OPENSSL_ia32cap_loc -fPIE   -o CMakeFiles/cmTC_bc52d.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.17/Modules/CheckFunctionExists.c
+Linking C executable cmTC_bc52d
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bc52d.dir/link.txt --verbose=1
+/home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc  -DCHECK_FUNCTION_EXISTS=OPENSSL_ia32cap_loc    -rdynamic CMakeFiles/cmTC_bc52d.dir/CheckFunctionExists.c.o  -o cmTC_bc52d  -Wl,-rpath,/home/mo/share/netconf2/lib/openssl/debug/output/lib /home/mo/share/netconf2/lib/openssl/debug/output/lib/libcrypto.so 
+CMakeFiles/cmTC_bc52d.dir/CheckFunctionExists.c.o: In function `main':
 CheckFunctionExists.c:(.text+0x14): undefined reference to `OPENSSL_ia32cap_loc'
 collect2: ld returned 1 exit status
-CMakeFiles/cmTC_659a2.dir/build.make:107: recipe for target 'cmTC_659a2' failed
-make[1]: *** [cmTC_659a2] Error 1
+CMakeFiles/cmTC_bc52d.dir/build.make:107: recipe for target 'cmTC_bc52d' failed
+make[1]: *** [cmTC_bc52d] Error 1
 make[1]: Leaving directory '/home/mo/share/netconf2/lib/libssh/debug/CMakeFiles/CMakeTmp'
-Makefile:141: recipe for target 'cmTC_659a2/fast' failed
-make: *** [cmTC_659a2/fast] Error 2
+Makefile:141: recipe for target 'cmTC_bc52d/fast' failed
+make: *** [cmTC_bc52d/fast] Error 2
 
 
 
 Determining if the EVP_PKEY_ED25519 exist failed with the following output:
 Change Dir: /home/mo/share/netconf2/lib/libssh/debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_74e94/fast && /usr/bin/make  -f CMakeFiles/cmTC_74e94.dir/build.make CMakeFiles/cmTC_74e94.dir/build
+Run Build Command(s):/usr/bin/make cmTC_f4b08/fast && /usr/bin/make  -f CMakeFiles/cmTC_f4b08.dir/build.make CMakeFiles/cmTC_f4b08.dir/build
 make[1]: Entering directory '/home/mo/share/netconf2/lib/libssh/debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_74e94.dir/CheckSymbolExists.c.o
-/home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc  -I/home/mo/share/netconf2/lib/openssl/debug/output/include  -fPIE   -o CMakeFiles/cmTC_74e94.dir/CheckSymbolExists.c.o   -c /home/mo/share/netconf2/lib/libssh/debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Building C object CMakeFiles/cmTC_f4b08.dir/CheckSymbolExists.c.o
+/home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc  -I/home/mo/share/netconf2/lib/openssl/debug/output/include  -fPIE   -o CMakeFiles/cmTC_f4b08.dir/CheckSymbolExists.c.o   -c /home/mo/share/netconf2/lib/libssh/debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
 /home/mo/share/netconf2/lib/libssh/debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function 'main':
 /home/mo/share/netconf2/lib/libssh/debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8: error: 'EVP_PKEY_ED25519' undeclared (first use in this function)
 /home/mo/share/netconf2/lib/libssh/debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8: error: (Each undeclared identifier is reported only once
 /home/mo/share/netconf2/lib/libssh/debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8: error: for each function it appears in.)
-CMakeFiles/cmTC_74e94.dir/build.make:85: recipe for target 'CMakeFiles/cmTC_74e94.dir/CheckSymbolExists.c.o' failed
-make[1]: *** [CMakeFiles/cmTC_74e94.dir/CheckSymbolExists.c.o] Error 1
+CMakeFiles/cmTC_f4b08.dir/build.make:85: recipe for target 'CMakeFiles/cmTC_f4b08.dir/CheckSymbolExists.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_f4b08.dir/CheckSymbolExists.c.o] Error 1
 make[1]: Leaving directory '/home/mo/share/netconf2/lib/libssh/debug/CMakeFiles/CMakeTmp'
-Makefile:141: recipe for target 'cmTC_74e94/fast' failed
-make: *** [cmTC_74e94/fast] Error 2
+Makefile:141: recipe for target 'cmTC_f4b08/fast' failed
+make: *** [cmTC_f4b08/fast] Error 2
 
 
 File /home/mo/share/netconf2/lib/libssh/debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
@@ -336,19 +336,19 @@ int main(int argc, char** argv)
 Determining if the EVP_PKEY_POLY1305 exist failed with the following output:
 Change Dir: /home/mo/share/netconf2/lib/libssh/debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_afa34/fast && /usr/bin/make  -f CMakeFiles/cmTC_afa34.dir/build.make CMakeFiles/cmTC_afa34.dir/build
+Run Build Command(s):/usr/bin/make cmTC_9b3d3/fast && /usr/bin/make  -f CMakeFiles/cmTC_9b3d3.dir/build.make CMakeFiles/cmTC_9b3d3.dir/build
 make[1]: Entering directory '/home/mo/share/netconf2/lib/libssh/debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_afa34.dir/CheckSymbolExists.c.o
-/home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc  -I/home/mo/share/netconf2/lib/openssl/debug/output/include  -fPIE   -o CMakeFiles/cmTC_afa34.dir/CheckSymbolExists.c.o   -c /home/mo/share/netconf2/lib/libssh/debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Building C object CMakeFiles/cmTC_9b3d3.dir/CheckSymbolExists.c.o
+/home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc  -I/home/mo/share/netconf2/lib/openssl/debug/output/include  -fPIE   -o CMakeFiles/cmTC_9b3d3.dir/CheckSymbolExists.c.o   -c /home/mo/share/netconf2/lib/libssh/debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
 /home/mo/share/netconf2/lib/libssh/debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function 'main':
 /home/mo/share/netconf2/lib/libssh/debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8: error: 'EVP_PKEY_POLY1305' undeclared (first use in this function)
 /home/mo/share/netconf2/lib/libssh/debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8: error: (Each undeclared identifier is reported only once
 /home/mo/share/netconf2/lib/libssh/debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8: error: for each function it appears in.)
-CMakeFiles/cmTC_afa34.dir/build.make:85: recipe for target 'CMakeFiles/cmTC_afa34.dir/CheckSymbolExists.c.o' failed
-make[1]: *** [CMakeFiles/cmTC_afa34.dir/CheckSymbolExists.c.o] Error 1
+CMakeFiles/cmTC_9b3d3.dir/build.make:85: recipe for target 'CMakeFiles/cmTC_9b3d3.dir/CheckSymbolExists.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_9b3d3.dir/CheckSymbolExists.c.o] Error 1
 make[1]: Leaving directory '/home/mo/share/netconf2/lib/libssh/debug/CMakeFiles/CMakeTmp'
-Makefile:141: recipe for target 'cmTC_afa34/fast' failed
-make: *** [cmTC_afa34/fast] Error 2
+Makefile:141: recipe for target 'cmTC_9b3d3/fast' failed
+make: *** [cmTC_9b3d3/fast] Error 2
 
 
 File /home/mo/share/netconf2/lib/libssh/debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
@@ -368,19 +368,19 @@ int main(int argc, char** argv)
 Determining if the EVP_PKEY_X25519 exist failed with the following output:
 Change Dir: /home/mo/share/netconf2/lib/libssh/debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_15e58/fast && /usr/bin/make  -f CMakeFiles/cmTC_15e58.dir/build.make CMakeFiles/cmTC_15e58.dir/build
+Run Build Command(s):/usr/bin/make cmTC_cd76f/fast && /usr/bin/make  -f CMakeFiles/cmTC_cd76f.dir/build.make CMakeFiles/cmTC_cd76f.dir/build
 make[1]: Entering directory '/home/mo/share/netconf2/lib/libssh/debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_15e58.dir/CheckSymbolExists.c.o
-/home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc  -I/home/mo/share/netconf2/lib/openssl/debug/output/include  -fPIE   -o CMakeFiles/cmTC_15e58.dir/CheckSymbolExists.c.o   -c /home/mo/share/netconf2/lib/libssh/debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Building C object CMakeFiles/cmTC_cd76f.dir/CheckSymbolExists.c.o
+/home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc  -I/home/mo/share/netconf2/lib/openssl/debug/output/include  -fPIE   -o CMakeFiles/cmTC_cd76f.dir/CheckSymbolExists.c.o   -c /home/mo/share/netconf2/lib/libssh/debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
 /home/mo/share/netconf2/lib/libssh/debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function 'main':
 /home/mo/share/netconf2/lib/libssh/debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8: error: 'EVP_PKEY_X25519' undeclared (first use in this function)
 /home/mo/share/netconf2/lib/libssh/debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8: error: (Each undeclared identifier is reported only once
 /home/mo/share/netconf2/lib/libssh/debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8: error: for each function it appears in.)
-CMakeFiles/cmTC_15e58.dir/build.make:85: recipe for target 'CMakeFiles/cmTC_15e58.dir/CheckSymbolExists.c.o' failed
-make[1]: *** [CMakeFiles/cmTC_15e58.dir/CheckSymbolExists.c.o] Error 1
+CMakeFiles/cmTC_cd76f.dir/build.make:85: recipe for target 'CMakeFiles/cmTC_cd76f.dir/CheckSymbolExists.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_cd76f.dir/CheckSymbolExists.c.o] Error 1
 make[1]: Leaving directory '/home/mo/share/netconf2/lib/libssh/debug/CMakeFiles/CMakeTmp'
-Makefile:141: recipe for target 'cmTC_15e58/fast' failed
-make: *** [cmTC_15e58/fast] Error 2
+Makefile:141: recipe for target 'cmTC_cd76f/fast' failed
+make: *** [cmTC_cd76f/fast] Error 2
 
 
 File /home/mo/share/netconf2/lib/libssh/debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
@@ -400,61 +400,61 @@ int main(int argc, char** argv)
 Determining if the function explicit_bzero exists failed with the following output:
 Change Dir: /home/mo/share/netconf2/lib/libssh/debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_d2395/fast && /usr/bin/make  -f CMakeFiles/cmTC_d2395.dir/build.make CMakeFiles/cmTC_d2395.dir/build
+Run Build Command(s):/usr/bin/make cmTC_b2e14/fast && /usr/bin/make  -f CMakeFiles/cmTC_b2e14.dir/build.make CMakeFiles/cmTC_b2e14.dir/build
 make[1]: Entering directory '/home/mo/share/netconf2/lib/libssh/debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_d2395.dir/CheckFunctionExists.c.o
-/home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc   -DCHECK_FUNCTION_EXISTS=explicit_bzero -fPIE   -o CMakeFiles/cmTC_d2395.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.17/Modules/CheckFunctionExists.c
-Linking C executable cmTC_d2395
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d2395.dir/link.txt --verbose=1
-/home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc  -DCHECK_FUNCTION_EXISTS=explicit_bzero    -rdynamic CMakeFiles/cmTC_d2395.dir/CheckFunctionExists.c.o  -o cmTC_d2395 
-CMakeFiles/cmTC_d2395.dir/CheckFunctionExists.c.o: In function `main':
+Building C object CMakeFiles/cmTC_b2e14.dir/CheckFunctionExists.c.o
+/home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc   -DCHECK_FUNCTION_EXISTS=explicit_bzero -fPIE   -o CMakeFiles/cmTC_b2e14.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.17/Modules/CheckFunctionExists.c
+Linking C executable cmTC_b2e14
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b2e14.dir/link.txt --verbose=1
+/home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc  -DCHECK_FUNCTION_EXISTS=explicit_bzero    -rdynamic CMakeFiles/cmTC_b2e14.dir/CheckFunctionExists.c.o  -o cmTC_b2e14 
+CMakeFiles/cmTC_b2e14.dir/CheckFunctionExists.c.o: In function `main':
 CheckFunctionExists.c:(.text+0x14): undefined reference to `explicit_bzero'
 collect2: ld returned 1 exit status
-CMakeFiles/cmTC_d2395.dir/build.make:106: recipe for target 'cmTC_d2395' failed
-make[1]: *** [cmTC_d2395] Error 1
+CMakeFiles/cmTC_b2e14.dir/build.make:106: recipe for target 'cmTC_b2e14' failed
+make[1]: *** [cmTC_b2e14] Error 1
 make[1]: Leaving directory '/home/mo/share/netconf2/lib/libssh/debug/CMakeFiles/CMakeTmp'
-Makefile:141: recipe for target 'cmTC_d2395/fast' failed
-make: *** [cmTC_d2395/fast] Error 2
+Makefile:141: recipe for target 'cmTC_b2e14/fast' failed
+make: *** [cmTC_b2e14/fast] Error 2
 
 
 
 Determining if the function memset_s exists failed with the following output:
 Change Dir: /home/mo/share/netconf2/lib/libssh/debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_5c627/fast && /usr/bin/make  -f CMakeFiles/cmTC_5c627.dir/build.make CMakeFiles/cmTC_5c627.dir/build
+Run Build Command(s):/usr/bin/make cmTC_5aefe/fast && /usr/bin/make  -f CMakeFiles/cmTC_5aefe.dir/build.make CMakeFiles/cmTC_5aefe.dir/build
 make[1]: Entering directory '/home/mo/share/netconf2/lib/libssh/debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_5c627.dir/CheckFunctionExists.c.o
-/home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc   -DCHECK_FUNCTION_EXISTS=memset_s -fPIE   -o CMakeFiles/cmTC_5c627.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.17/Modules/CheckFunctionExists.c
-Linking C executable cmTC_5c627
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5c627.dir/link.txt --verbose=1
-/home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc  -DCHECK_FUNCTION_EXISTS=memset_s    -rdynamic CMakeFiles/cmTC_5c627.dir/CheckFunctionExists.c.o  -o cmTC_5c627 
-CMakeFiles/cmTC_5c627.dir/CheckFunctionExists.c.o: In function `main':
+Building C object CMakeFiles/cmTC_5aefe.dir/CheckFunctionExists.c.o
+/home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc   -DCHECK_FUNCTION_EXISTS=memset_s -fPIE   -o CMakeFiles/cmTC_5aefe.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.17/Modules/CheckFunctionExists.c
+Linking C executable cmTC_5aefe
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5aefe.dir/link.txt --verbose=1
+/home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc  -DCHECK_FUNCTION_EXISTS=memset_s    -rdynamic CMakeFiles/cmTC_5aefe.dir/CheckFunctionExists.c.o  -o cmTC_5aefe 
+CMakeFiles/cmTC_5aefe.dir/CheckFunctionExists.c.o: In function `main':
 CheckFunctionExists.c:(.text+0x14): undefined reference to `memset_s'
 collect2: ld returned 1 exit status
-CMakeFiles/cmTC_5c627.dir/build.make:106: recipe for target 'cmTC_5c627' failed
-make[1]: *** [cmTC_5c627] Error 1
+CMakeFiles/cmTC_5aefe.dir/build.make:106: recipe for target 'cmTC_5aefe' failed
+make[1]: *** [cmTC_5aefe] Error 1
 make[1]: Leaving directory '/home/mo/share/netconf2/lib/libssh/debug/CMakeFiles/CMakeTmp'
-Makefile:141: recipe for target 'cmTC_5c627/fast' failed
-make: *** [cmTC_5c627/fast] Error 2
+Makefile:141: recipe for target 'cmTC_5aefe/fast' failed
+make: *** [cmTC_5aefe/fast] Error 2
 
 
 
 Determining if the ntohll exist failed with the following output:
 Change Dir: /home/mo/share/netconf2/lib/libssh/debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_e30b9/fast && /usr/bin/make  -f CMakeFiles/cmTC_e30b9.dir/build.make CMakeFiles/cmTC_e30b9.dir/build
+Run Build Command(s):/usr/bin/make cmTC_2717d/fast && /usr/bin/make  -f CMakeFiles/cmTC_2717d.dir/build.make CMakeFiles/cmTC_2717d.dir/build
 make[1]: Entering directory '/home/mo/share/netconf2/lib/libssh/debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_e30b9.dir/CheckSymbolExists.c.o
-/home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc   -fPIE   -o CMakeFiles/cmTC_e30b9.dir/CheckSymbolExists.c.o   -c /home/mo/share/netconf2/lib/libssh/debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Building C object CMakeFiles/cmTC_2717d.dir/CheckSymbolExists.c.o
+/home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc   -fPIE   -o CMakeFiles/cmTC_2717d.dir/CheckSymbolExists.c.o   -c /home/mo/share/netconf2/lib/libssh/debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
 /home/mo/share/netconf2/lib/libssh/debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function 'main':
 /home/mo/share/netconf2/lib/libssh/debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8: error: 'ntohll' undeclared (first use in this function)
 /home/mo/share/netconf2/lib/libssh/debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8: error: (Each undeclared identifier is reported only once
 /home/mo/share/netconf2/lib/libssh/debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8: error: for each function it appears in.)
-CMakeFiles/cmTC_e30b9.dir/build.make:85: recipe for target 'CMakeFiles/cmTC_e30b9.dir/CheckSymbolExists.c.o' failed
-make[1]: *** [CMakeFiles/cmTC_e30b9.dir/CheckSymbolExists.c.o] Error 1
+CMakeFiles/cmTC_2717d.dir/build.make:85: recipe for target 'CMakeFiles/cmTC_2717d.dir/CheckSymbolExists.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_2717d.dir/CheckSymbolExists.c.o] Error 1
 make[1]: Leaving directory '/home/mo/share/netconf2/lib/libssh/debug/CMakeFiles/CMakeTmp'
-Makefile:141: recipe for target 'cmTC_e30b9/fast' failed
-make: *** [cmTC_e30b9/fast] Error 2
+Makefile:141: recipe for target 'cmTC_2717d/fast' failed
+make: *** [cmTC_2717d/fast] Error 2
 
 
 File /home/mo/share/netconf2/lib/libssh/debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
@@ -474,19 +474,19 @@ int main(int argc, char** argv)
 Determining if the htonll exist failed with the following output:
 Change Dir: /home/mo/share/netconf2/lib/libssh/debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_ce4ef/fast && /usr/bin/make  -f CMakeFiles/cmTC_ce4ef.dir/build.make CMakeFiles/cmTC_ce4ef.dir/build
+Run Build Command(s):/usr/bin/make cmTC_a5247/fast && /usr/bin/make  -f CMakeFiles/cmTC_a5247.dir/build.make CMakeFiles/cmTC_a5247.dir/build
 make[1]: Entering directory '/home/mo/share/netconf2/lib/libssh/debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_ce4ef.dir/CheckSymbolExists.c.o
-/home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc   -fPIE   -o CMakeFiles/cmTC_ce4ef.dir/CheckSymbolExists.c.o   -c /home/mo/share/netconf2/lib/libssh/debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Building C object CMakeFiles/cmTC_a5247.dir/CheckSymbolExists.c.o
+/home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc   -fPIE   -o CMakeFiles/cmTC_a5247.dir/CheckSymbolExists.c.o   -c /home/mo/share/netconf2/lib/libssh/debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
 /home/mo/share/netconf2/lib/libssh/debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function 'main':
 /home/mo/share/netconf2/lib/libssh/debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8: error: 'htonll' undeclared (first use in this function)
 /home/mo/share/netconf2/lib/libssh/debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8: error: (Each undeclared identifier is reported only once
 /home/mo/share/netconf2/lib/libssh/debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8: error: for each function it appears in.)
-CMakeFiles/cmTC_ce4ef.dir/build.make:85: recipe for target 'CMakeFiles/cmTC_ce4ef.dir/CheckSymbolExists.c.o' failed
-make[1]: *** [CMakeFiles/cmTC_ce4ef.dir/CheckSymbolExists.c.o] Error 1
+CMakeFiles/cmTC_a5247.dir/build.make:85: recipe for target 'CMakeFiles/cmTC_a5247.dir/CheckSymbolExists.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_a5247.dir/CheckSymbolExists.c.o] Error 1
 make[1]: Leaving directory '/home/mo/share/netconf2/lib/libssh/debug/CMakeFiles/CMakeTmp'
-Makefile:141: recipe for target 'cmTC_ce4ef/fast' failed
-make: *** [cmTC_ce4ef/fast] Error 2
+Makefile:141: recipe for target 'cmTC_a5247/fast' failed
+make: *** [cmTC_a5247/fast] Error 2
 
 
 File /home/mo/share/netconf2/lib/libssh/debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
@@ -506,40 +506,40 @@ int main(int argc, char** argv)
 Determining if the function __strtoull exists failed with the following output:
 Change Dir: /home/mo/share/netconf2/lib/libssh/debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_0ec5b/fast && /usr/bin/make  -f CMakeFiles/cmTC_0ec5b.dir/build.make CMakeFiles/cmTC_0ec5b.dir/build
+Run Build Command(s):/usr/bin/make cmTC_84ef1/fast && /usr/bin/make  -f CMakeFiles/cmTC_84ef1.dir/build.make CMakeFiles/cmTC_84ef1.dir/build
 make[1]: Entering directory '/home/mo/share/netconf2/lib/libssh/debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_0ec5b.dir/CheckFunctionExists.c.o
-/home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc   -DCHECK_FUNCTION_EXISTS=__strtoull -fPIE   -o CMakeFiles/cmTC_0ec5b.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.17/Modules/CheckFunctionExists.c
-Linking C executable cmTC_0ec5b
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0ec5b.dir/link.txt --verbose=1
-/home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc  -DCHECK_FUNCTION_EXISTS=__strtoull    -rdynamic CMakeFiles/cmTC_0ec5b.dir/CheckFunctionExists.c.o  -o cmTC_0ec5b 
-CMakeFiles/cmTC_0ec5b.dir/CheckFunctionExists.c.o: In function `main':
+Building C object CMakeFiles/cmTC_84ef1.dir/CheckFunctionExists.c.o
+/home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc   -DCHECK_FUNCTION_EXISTS=__strtoull -fPIE   -o CMakeFiles/cmTC_84ef1.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.17/Modules/CheckFunctionExists.c
+Linking C executable cmTC_84ef1
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_84ef1.dir/link.txt --verbose=1
+/home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc  -DCHECK_FUNCTION_EXISTS=__strtoull    -rdynamic CMakeFiles/cmTC_84ef1.dir/CheckFunctionExists.c.o  -o cmTC_84ef1 
+CMakeFiles/cmTC_84ef1.dir/CheckFunctionExists.c.o: In function `main':
 CheckFunctionExists.c:(.text+0x14): undefined reference to `__strtoull'
 collect2: ld returned 1 exit status
-CMakeFiles/cmTC_0ec5b.dir/build.make:106: recipe for target 'cmTC_0ec5b' failed
-make[1]: *** [cmTC_0ec5b] Error 1
+CMakeFiles/cmTC_84ef1.dir/build.make:106: recipe for target 'cmTC_84ef1' failed
+make[1]: *** [cmTC_84ef1] Error 1
 make[1]: Leaving directory '/home/mo/share/netconf2/lib/libssh/debug/CMakeFiles/CMakeTmp'
-Makefile:141: recipe for target 'cmTC_0ec5b/fast' failed
-make: *** [cmTC_0ec5b/fast] Error 2
+Makefile:141: recipe for target 'cmTC_84ef1/fast' failed
+make: *** [cmTC_84ef1/fast] Error 2
 
 
 
 Performing C SOURCE FILE Test HAVE_MSC_THREAD_LOCAL_STORAGE failed with the following output:
 Change Dir: /home/mo/share/netconf2/lib/libssh/debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_0d21d/fast && /usr/bin/make  -f CMakeFiles/cmTC_0d21d.dir/build.make CMakeFiles/cmTC_0d21d.dir/build
+Run Build Command(s):/usr/bin/make cmTC_798fb/fast && /usr/bin/make  -f CMakeFiles/cmTC_798fb.dir/build.make CMakeFiles/cmTC_798fb.dir/build
 make[1]: Entering directory '/home/mo/share/netconf2/lib/libssh/debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_0d21d.dir/src.c.o
-/home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc   -DHAVE_MSC_THREAD_LOCAL_STORAGE -fPIE   -o CMakeFiles/cmTC_0d21d.dir/src.c.o   -c /home/mo/share/netconf2/lib/libssh/debug/CMakeFiles/CMakeTmp/src.c
+Building C object CMakeFiles/cmTC_798fb.dir/src.c.o
+/home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc   -DHAVE_MSC_THREAD_LOCAL_STORAGE -fPIE   -o CMakeFiles/cmTC_798fb.dir/src.c.o   -c /home/mo/share/netconf2/lib/libssh/debug/CMakeFiles/CMakeTmp/src.c
 /home/mo/share/netconf2/lib/libssh/debug/CMakeFiles/CMakeTmp/src.c: In function '__declspec':
 /home/mo/share/netconf2/lib/libssh/debug/CMakeFiles/CMakeTmp/src.c:4: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
 /home/mo/share/netconf2/lib/libssh/debug/CMakeFiles/CMakeTmp/src.c:2: error: declaration for parameter 'tls' but no such parameter
 /home/mo/share/netconf2/lib/libssh/debug/CMakeFiles/CMakeTmp/src.c:6: error: expected '{' at end of input
-CMakeFiles/cmTC_0d21d.dir/build.make:85: recipe for target 'CMakeFiles/cmTC_0d21d.dir/src.c.o' failed
-make[1]: *** [CMakeFiles/cmTC_0d21d.dir/src.c.o] Error 1
+CMakeFiles/cmTC_798fb.dir/build.make:85: recipe for target 'CMakeFiles/cmTC_798fb.dir/src.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_798fb.dir/src.c.o] Error 1
 make[1]: Leaving directory '/home/mo/share/netconf2/lib/libssh/debug/CMakeFiles/CMakeTmp'
-Makefile:141: recipe for target 'cmTC_0d21d/fast' failed
-make: *** [cmTC_0d21d/fast] Error 2
+Makefile:141: recipe for target 'cmTC_798fb/fast' failed
+make: *** [cmTC_798fb/fast] Error 2
 
 
 Source file was:
@@ -552,19 +552,19 @@ int main(void) {
 Performing C SOURCE FILE Test HAVE_FALLTHROUGH_ATTRIBUTE failed with the following output:
 Change Dir: /home/mo/share/netconf2/lib/libssh/debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_a46fc/fast && /usr/bin/make  -f CMakeFiles/cmTC_a46fc.dir/build.make CMakeFiles/cmTC_a46fc.dir/build
+Run Build Command(s):/usr/bin/make cmTC_9e02a/fast && /usr/bin/make  -f CMakeFiles/cmTC_9e02a.dir/build.make CMakeFiles/cmTC_9e02a.dir/build
 make[1]: Entering directory '/home/mo/share/netconf2/lib/libssh/debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_a46fc.dir/src.c.o
-/home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc   -DHAVE_FALLTHROUGH_ATTRIBUTE -Wattributes -Werror -fPIE   -o CMakeFiles/cmTC_a46fc.dir/src.c.o   -c /home/mo/share/netconf2/lib/libssh/debug/CMakeFiles/CMakeTmp/src.c
+Building C object CMakeFiles/cmTC_9e02a.dir/src.c.o
+/home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc   -DHAVE_FALLTHROUGH_ATTRIBUTE -Wattributes -Werror -fPIE   -o CMakeFiles/cmTC_9e02a.dir/src.c.o   -c /home/mo/share/netconf2/lib/libssh/debug/CMakeFiles/CMakeTmp/src.c
 /home/mo/share/netconf2/lib/libssh/debug/CMakeFiles/CMakeTmp/src.c: In function 'main':
 /home/mo/share/netconf2/lib/libssh/debug/CMakeFiles/CMakeTmp/src.c:9: error: a label can only be part of a statement and a declaration is not a statement
 cc1: warnings being treated as errors
 /home/mo/share/netconf2/lib/libssh/debug/CMakeFiles/CMakeTmp/src.c:9: error: empty declaration
-CMakeFiles/cmTC_a46fc.dir/build.make:85: recipe for target 'CMakeFiles/cmTC_a46fc.dir/src.c.o' failed
-make[1]: *** [CMakeFiles/cmTC_a46fc.dir/src.c.o] Error 1
+CMakeFiles/cmTC_9e02a.dir/build.make:85: recipe for target 'CMakeFiles/cmTC_9e02a.dir/src.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_9e02a.dir/src.c.o] Error 1
 make[1]: Leaving directory '/home/mo/share/netconf2/lib/libssh/debug/CMakeFiles/CMakeTmp'
-Makefile:141: recipe for target 'cmTC_a46fc/fast' failed
-make: *** [cmTC_a46fc/fast] Error 2
+Makefile:141: recipe for target 'cmTC_9e02a/fast' failed
+make: *** [cmTC_9e02a/fast] Error 2
 
 
 Source file was:

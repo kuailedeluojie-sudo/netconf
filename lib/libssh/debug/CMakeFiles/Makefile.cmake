@@ -8,6 +8,8 @@ set(CMAKE_DEPENDS_GENERATOR "Unix Makefiles")
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
   "../CMakeLists.txt"
+  "CMakeDoxyfile.in"
+  "CMakeDoxygenDefaults.cmake"
   "CMakeFiles/3.17.3/CMakeCCompiler.cmake"
   "CMakeFiles/3.17.3/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.17.3/CMakeSystem.cmake"
@@ -179,6 +181,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "output/CMakeFiles/dist.dir/DependInfo.cmake"
+  "output/doc/CMakeFiles/docs.dir/DependInfo.cmake"
   "output/src/CMakeFiles/ssh.dir/DependInfo.cmake"
   "output/examples/CMakeFiles/libsshpp_noexcept.dir/DependInfo.cmake"
   "output/examples/CMakeFiles/ssh-client.dir/DependInfo.cmake"

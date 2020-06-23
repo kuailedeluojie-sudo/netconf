@@ -100,17 +100,6 @@ install/local/fast: preinstall/fast
 	/usr/local/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
 .PHONY : install/local/fast
 
-# Special rule for the target package_source
-package_source:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	cd /home/mo/share/netconf2/lib/libssh/debug && /usr/local/bin/cpack --config ./CPackSourceConfig.cmake /home/mo/share/netconf2/lib/libssh/debug/CPackSourceConfig.cmake
-.PHONY : package_source
-
-# Special rule for the target package_source
-package_source/fast: package_source
-
-.PHONY : package_source/fast
-
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
@@ -121,6 +110,17 @@ package: preinstall
 package/fast: package
 
 .PHONY : package/fast
+
+# Special rule for the target package_source
+package_source:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
+	cd /home/mo/share/netconf2/lib/libssh/debug && /usr/local/bin/cpack --config ./CPackSourceConfig.cmake /home/mo/share/netconf2/lib/libssh/debug/CPackSourceConfig.cmake
+.PHONY : package_source
+
+# Special rule for the target package_source
+package_source/fast: package_source
+
+.PHONY : package_source/fast
 
 # Special rule for the target install
 install: preinstall
@@ -198,6 +198,21 @@ depend:
 	cd /home/mo/share/netconf2/lib/libssh/debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
+# Convenience name for target.
+output/doc/CMakeFiles/docs.dir/rule:
+	cd /home/mo/share/netconf2/lib/libssh/debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 output/doc/CMakeFiles/docs.dir/rule
+.PHONY : output/doc/CMakeFiles/docs.dir/rule
+
+# Convenience name for target.
+docs: output/doc/CMakeFiles/docs.dir/rule
+
+.PHONY : docs
+
+# fast build rule for target.
+docs/fast:
+	cd /home/mo/share/netconf2/lib/libssh/debug && $(MAKE) $(MAKESILENT) -f output/doc/CMakeFiles/docs.dir/build.make output/doc/CMakeFiles/docs.dir/build
+.PHONY : docs/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -212,6 +227,7 @@ help:
 	@echo "... package"
 	@echo "... package_source"
 	@echo "... rebuild_cache"
+	@echo "... docs"
 .PHONY : help
 
 

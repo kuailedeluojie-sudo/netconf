@@ -36,7 +36,7 @@ set(CPACK_DEFAULT_PACKAGE_DESCRIPTION_FILE "/usr/local/share/cmake-3.17/Template
 set(CPACK_DEFAULT_PACKAGE_DESCRIPTION_SUMMARY "fustl built using CMake")
 set(CPACK_GENERATOR "STGZ;TGZ;TZ")
 set(CPACK_INSTALL_CMAKE_PROJECTS "/home/mo/share/netconf2/lib/libssh/debug;fustl;ALL;/")
-set(CPACK_INSTALL_PREFIX "/usr/local")
+set(CPACK_INSTALL_PREFIX "/home/mo/share/netconf2/lib/libssh/_install")
 set(CPACK_MODULE_PATH "/home/mo/share/netconf2/lib_src/libssh/cmake/Modules")
 set(CPACK_NSIS_DISPLAY_NAME "libssh")
 set(CPACK_NSIS_INSTALLER_ICON_CODE "")

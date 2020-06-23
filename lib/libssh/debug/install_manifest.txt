@@ -1,0 +1,15 @@
+/home/mo/share/netconf2/lib/libssh/_install/lib/pkgconfig/libssh.pc
+/home/mo/share/netconf2/lib/libssh/_install/lib/cmake/libssh/libssh-config-version.cmake
+/home/mo/share/netconf2/lib/libssh/_install/include/libssh/callbacks.h
+/home/mo/share/netconf2/lib/libssh/_install/include/libssh/libssh.h
+/home/mo/share/netconf2/lib/libssh/_install/include/libssh/ssh2.h
+/home/mo/share/netconf2/lib/libssh/_install/include/libssh/legacy.h
+/home/mo/share/netconf2/lib/libssh/_install/include/libssh/libsshpp.hpp
+/home/mo/share/netconf2/lib/libssh/_install/include/libssh/sftp.h
+/home/mo/share/netconf2/lib/libssh/_install/include/libssh/server.h
+/home/mo/share/netconf2/lib/libssh/_install/include/libssh/libssh_version.h
+/home/mo/share/netconf2/lib/libssh/_install/lib/libssh.so.4.8.1
+/home/mo/share/netconf2/lib/libssh/_install/lib/libssh.so.4
+/home/mo/share/netconf2/lib/libssh/_install/lib/libssh.so
+/home/mo/share/netconf2/lib/libssh/_install/lib/cmake/libssh/libssh-config.cmake
+/home/mo/share/netconf2/lib/libssh/_install/lib/cmake/libssh/libssh-config-noconfig.cmake

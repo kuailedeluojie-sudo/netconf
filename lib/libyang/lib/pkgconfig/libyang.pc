@@ -1,0 +1,14 @@
+prefix=/home/mo/share/netconf2/lib/libyang
+exec_prefix=/home/mo/share/netconf2/lib/libyang
+includedir=${prefix}/include
+libdir=${exec_prefix}/lib
+
+Name: libyang
+Description: libyang is YANG data modelling language parser and toolkit written (and providing API) in C.
+Version: 1.0.176
+Requires.private: libpcre
+Libs: -L${libdir} -lyang
+Libs.private: -lpcre
+Cflags: -I${includedir}
+
+LIBYANG_SOVERSION=1.8.4

@@ -129,8 +129,8 @@ output/doc/preinstall:
 .PHONY : output/doc/preinstall
 
 # Recursive "clean" directory target.
-output/doc/clean:
-
+output/doc/clean: output/doc/CMakeFiles/docs.dir/clean
+	$(CMAKE_COMMAND) -P output/doc/CMakeFiles/cmake_directory_clean.cmake
 .PHONY : output/doc/clean
 
 #=============================================================================
@@ -257,13 +257,40 @@ output/CMakeFiles/dist.dir/clean:
 .PHONY : output/CMakeFiles/dist.dir/clean
 
 #=============================================================================
+# Target rules for target output/doc/CMakeFiles/docs.dir
+
+# All Build rule for target.
+output/doc/CMakeFiles/docs.dir/all:
+	$(MAKE) $(MAKESILENT) -f output/doc/CMakeFiles/docs.dir/build.make output/doc/CMakeFiles/docs.dir/depend
+	$(MAKE) $(MAKESILENT) -f output/doc/CMakeFiles/docs.dir/build.make output/doc/CMakeFiles/docs.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mo/share/netconf2/lib/libssh/debug/CMakeFiles --progress-num= "Built target docs"
+.PHONY : output/doc/CMakeFiles/docs.dir/all
+
+# Build rule for subdir invocation for target.
+output/doc/CMakeFiles/docs.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mo/share/netconf2/lib/libssh/debug/CMakeFiles 0
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 output/doc/CMakeFiles/docs.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mo/share/netconf2/lib/libssh/debug/CMakeFiles 0
+.PHONY : output/doc/CMakeFiles/docs.dir/rule
+
+# Convenience name for target.
+docs: output/doc/CMakeFiles/docs.dir/rule
+
+.PHONY : docs
+
+# clean rule for target.
+output/doc/CMakeFiles/docs.dir/clean:
+	$(MAKE) $(MAKESILENT) -f output/doc/CMakeFiles/docs.dir/build.make output/doc/CMakeFiles/docs.dir/clean
+.PHONY : output/doc/CMakeFiles/docs.dir/clean
+
+#=============================================================================
 # Target rules for target output/src/CMakeFiles/ssh.dir
 
 # All Build rule for target.
 output/src/CMakeFiles/ssh.dir/all:
 	$(MAKE) $(MAKESILENT) -f output/src/CMakeFiles/ssh.dir/build.make output/src/CMakeFiles/ssh.dir/depend
 	$(MAKE) $(MAKESILENT) -f output/src/CMakeFiles/ssh.dir/build.make output/src/CMakeFiles/ssh.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mo/share/netconf2/lib/libssh/debug/CMakeFiles --progress-num=32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89 "Built target ssh"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mo/share/netconf2/lib/libssh/debug/CMakeFiles --progress-num=33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90 "Built target ssh"
 .PHONY : output/src/CMakeFiles/ssh.dir/all
 
 # Build rule for subdir invocation for target.
@@ -290,7 +317,7 @@ output/src/CMakeFiles/ssh.dir/clean:
 output/examples/CMakeFiles/libsshpp_noexcept.dir/all: output/src/CMakeFiles/ssh.dir/all
 	$(MAKE) $(MAKESILENT) -f output/examples/CMakeFiles/libsshpp_noexcept.dir/build.make output/examples/CMakeFiles/libsshpp_noexcept.dir/depend
 	$(MAKE) $(MAKESILENT) -f output/examples/CMakeFiles/libsshpp_noexcept.dir/build.make output/examples/CMakeFiles/libsshpp_noexcept.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mo/share/netconf2/lib/libssh/debug/CMakeFiles --progress-num=16,17 "Built target libsshpp_noexcept"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mo/share/netconf2/lib/libssh/debug/CMakeFiles --progress-num=17,18 "Built target libsshpp_noexcept"
 .PHONY : output/examples/CMakeFiles/libsshpp_noexcept.dir/all
 
 # Build rule for subdir invocation for target.
@@ -317,12 +344,12 @@ output/examples/CMakeFiles/libsshpp_noexcept.dir/clean:
 output/examples/CMakeFiles/ssh-client.dir/all: output/src/CMakeFiles/ssh.dir/all
 	$(MAKE) $(MAKESILENT) -f output/examples/CMakeFiles/ssh-client.dir/build.make output/examples/CMakeFiles/ssh-client.dir/depend
 	$(MAKE) $(MAKESILENT) -f output/examples/CMakeFiles/ssh-client.dir/build.make output/examples/CMakeFiles/ssh-client.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mo/share/netconf2/lib/libssh/debug/CMakeFiles --progress-num=90,91,92,93,94 "Built target ssh-client"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mo/share/netconf2/lib/libssh/debug/CMakeFiles --progress-num=91,92,93,94 "Built target ssh-client"
 .PHONY : output/examples/CMakeFiles/ssh-client.dir/all
 
 # Build rule for subdir invocation for target.
 output/examples/CMakeFiles/ssh-client.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mo/share/netconf2/lib/libssh/debug/CMakeFiles 63
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mo/share/netconf2/lib/libssh/debug/CMakeFiles 62
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 output/examples/CMakeFiles/ssh-client.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mo/share/netconf2/lib/libssh/debug/CMakeFiles 0
 .PHONY : output/examples/CMakeFiles/ssh-client.dir/rule
@@ -371,12 +398,12 @@ output/examples/CMakeFiles/sshnetcat.dir/clean:
 output/examples/CMakeFiles/libssh_scp.dir/all: output/src/CMakeFiles/ssh.dir/all
 	$(MAKE) $(MAKESILENT) -f output/examples/CMakeFiles/libssh_scp.dir/build.make output/examples/CMakeFiles/libssh_scp.dir/depend
 	$(MAKE) $(MAKESILENT) -f output/examples/CMakeFiles/libssh_scp.dir/build.make output/examples/CMakeFiles/libssh_scp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mo/share/netconf2/lib/libssh/debug/CMakeFiles --progress-num=11,12,13,14 "Built target libssh_scp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mo/share/netconf2/lib/libssh/debug/CMakeFiles --progress-num=11,12,13,14,15 "Built target libssh_scp"
 .PHONY : output/examples/CMakeFiles/libssh_scp.dir/all
 
 # Build rule for subdir invocation for target.
 output/examples/CMakeFiles/libssh_scp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mo/share/netconf2/lib/libssh/debug/CMakeFiles 62
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mo/share/netconf2/lib/libssh/debug/CMakeFiles 63
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 output/examples/CMakeFiles/libssh_scp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mo/share/netconf2/lib/libssh/debug/CMakeFiles 0
 .PHONY : output/examples/CMakeFiles/libssh_scp.dir/rule
@@ -398,7 +425,7 @@ output/examples/CMakeFiles/libssh_scp.dir/clean:
 output/examples/CMakeFiles/scp_download.dir/all: output/src/CMakeFiles/ssh.dir/all
 	$(MAKE) $(MAKESILENT) -f output/examples/CMakeFiles/scp_download.dir/build.make output/examples/CMakeFiles/scp_download.dir/depend
 	$(MAKE) $(MAKESILENT) -f output/examples/CMakeFiles/scp_download.dir/build.make output/examples/CMakeFiles/scp_download.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mo/share/netconf2/lib/libssh/debug/CMakeFiles --progress-num=24,25,26,27 "Built target scp_download"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mo/share/netconf2/lib/libssh/debug/CMakeFiles --progress-num=25,26,27,28 "Built target scp_download"
 .PHONY : output/examples/CMakeFiles/scp_download.dir/all
 
 # Build rule for subdir invocation for target.
@@ -425,7 +452,7 @@ output/examples/CMakeFiles/scp_download.dir/clean:
 output/examples/CMakeFiles/samplesftp.dir/all: output/src/CMakeFiles/ssh.dir/all
 	$(MAKE) $(MAKESILENT) -f output/examples/CMakeFiles/samplesftp.dir/build.make output/examples/CMakeFiles/samplesftp.dir/depend
 	$(MAKE) $(MAKESILENT) -f output/examples/CMakeFiles/samplesftp.dir/build.make output/examples/CMakeFiles/samplesftp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mo/share/netconf2/lib/libssh/debug/CMakeFiles --progress-num=18,19,20,21 "Built target samplesftp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mo/share/netconf2/lib/libssh/debug/CMakeFiles --progress-num=19,20,21,22 "Built target samplesftp"
 .PHONY : output/examples/CMakeFiles/samplesftp.dir/all
 
 # Build rule for subdir invocation for target.
@@ -452,7 +479,7 @@ output/examples/CMakeFiles/samplesftp.dir/clean:
 output/examples/CMakeFiles/samplesshd-kbdint.dir/all: output/src/CMakeFiles/ssh.dir/all
 	$(MAKE) $(MAKESILENT) -f output/examples/CMakeFiles/samplesshd-kbdint.dir/build.make output/examples/CMakeFiles/samplesshd-kbdint.dir/depend
 	$(MAKE) $(MAKESILENT) -f output/examples/CMakeFiles/samplesshd-kbdint.dir/build.make output/examples/CMakeFiles/samplesshd-kbdint.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mo/share/netconf2/lib/libssh/debug/CMakeFiles --progress-num=22,23 "Built target samplesshd-kbdint"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mo/share/netconf2/lib/libssh/debug/CMakeFiles --progress-num=23,24 "Built target samplesshd-kbdint"
 .PHONY : output/examples/CMakeFiles/samplesshd-kbdint.dir/all
 
 # Build rule for subdir invocation for target.
@@ -479,12 +506,12 @@ output/examples/CMakeFiles/samplesshd-kbdint.dir/clean:
 output/examples/CMakeFiles/keygen2.dir/all: output/src/CMakeFiles/ssh.dir/all
 	$(MAKE) $(MAKESILENT) -f output/examples/CMakeFiles/keygen2.dir/build.make output/examples/CMakeFiles/keygen2.dir/depend
 	$(MAKE) $(MAKESILENT) -f output/examples/CMakeFiles/keygen2.dir/build.make output/examples/CMakeFiles/keygen2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mo/share/netconf2/lib/libssh/debug/CMakeFiles --progress-num=6,7,8,9,10 "Built target keygen2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mo/share/netconf2/lib/libssh/debug/CMakeFiles --progress-num=7,8,9,10 "Built target keygen2"
 .PHONY : output/examples/CMakeFiles/keygen2.dir/all
 
 # Build rule for subdir invocation for target.
 output/examples/CMakeFiles/keygen2.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mo/share/netconf2/lib/libssh/debug/CMakeFiles 63
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mo/share/netconf2/lib/libssh/debug/CMakeFiles 62
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 output/examples/CMakeFiles/keygen2.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mo/share/netconf2/lib/libssh/debug/CMakeFiles 0
 .PHONY : output/examples/CMakeFiles/keygen2.dir/rule
@@ -506,7 +533,7 @@ output/examples/CMakeFiles/keygen2.dir/clean:
 output/examples/CMakeFiles/keygen.dir/all: output/src/CMakeFiles/ssh.dir/all
 	$(MAKE) $(MAKESILENT) -f output/examples/CMakeFiles/keygen.dir/build.make output/examples/CMakeFiles/keygen.dir/depend
 	$(MAKE) $(MAKESILENT) -f output/examples/CMakeFiles/keygen.dir/build.make output/examples/CMakeFiles/keygen.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mo/share/netconf2/lib/libssh/debug/CMakeFiles --progress-num=5 "Built target keygen"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mo/share/netconf2/lib/libssh/debug/CMakeFiles --progress-num=6 "Built target keygen"
 .PHONY : output/examples/CMakeFiles/keygen.dir/all
 
 # Build rule for subdir invocation for target.
@@ -560,12 +587,12 @@ output/examples/CMakeFiles/ssh_server_fork.dir/clean:
 output/examples/CMakeFiles/exec.dir/all: output/src/CMakeFiles/ssh.dir/all
 	$(MAKE) $(MAKESILENT) -f output/examples/CMakeFiles/exec.dir/build.make output/examples/CMakeFiles/exec.dir/depend
 	$(MAKE) $(MAKESILENT) -f output/examples/CMakeFiles/exec.dir/build.make output/examples/CMakeFiles/exec.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mo/share/netconf2/lib/libssh/debug/CMakeFiles --progress-num=1,2,3,4 "Built target exec"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mo/share/netconf2/lib/libssh/debug/CMakeFiles --progress-num=1,2,3,4,5 "Built target exec"
 .PHONY : output/examples/CMakeFiles/exec.dir/all
 
 # Build rule for subdir invocation for target.
 output/examples/CMakeFiles/exec.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mo/share/netconf2/lib/libssh/debug/CMakeFiles 62
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mo/share/netconf2/lib/libssh/debug/CMakeFiles 63
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 output/examples/CMakeFiles/exec.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mo/share/netconf2/lib/libssh/debug/CMakeFiles 0
 .PHONY : output/examples/CMakeFiles/exec.dir/rule
@@ -587,7 +614,7 @@ output/examples/CMakeFiles/exec.dir/clean:
 output/examples/CMakeFiles/senddata.dir/all: output/src/CMakeFiles/ssh.dir/all
 	$(MAKE) $(MAKESILENT) -f output/examples/CMakeFiles/senddata.dir/build.make output/examples/CMakeFiles/senddata.dir/depend
 	$(MAKE) $(MAKESILENT) -f output/examples/CMakeFiles/senddata.dir/build.make output/examples/CMakeFiles/senddata.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mo/share/netconf2/lib/libssh/debug/CMakeFiles --progress-num=28,29,30,31 "Built target senddata"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mo/share/netconf2/lib/libssh/debug/CMakeFiles --progress-num=29,30,31,32 "Built target senddata"
 .PHONY : output/examples/CMakeFiles/senddata.dir/all
 
 # Build rule for subdir invocation for target.
@@ -614,7 +641,7 @@ output/examples/CMakeFiles/senddata.dir/clean:
 output/examples/CMakeFiles/libsshpp.dir/all: output/src/CMakeFiles/ssh.dir/all
 	$(MAKE) $(MAKESILENT) -f output/examples/CMakeFiles/libsshpp.dir/build.make output/examples/CMakeFiles/libsshpp.dir/depend
 	$(MAKE) $(MAKESILENT) -f output/examples/CMakeFiles/libsshpp.dir/build.make output/examples/CMakeFiles/libsshpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mo/share/netconf2/lib/libssh/debug/CMakeFiles --progress-num=15 "Built target libsshpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mo/share/netconf2/lib/libssh/debug/CMakeFiles --progress-num=16 "Built target libsshpp"
 .PHONY : output/examples/CMakeFiles/libsshpp.dir/all
 
 # Build rule for subdir invocation for target.

@@ -212,6 +212,19 @@ dist/fast:
 .PHONY : dist/fast
 
 #=============================================================================
+# Target rules for targets named docs
+
+# Build rule for target.
+docs: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 docs
+.PHONY : docs
+
+# fast build rule for target.
+docs/fast:
+	$(MAKE) $(MAKESILENT) -f output/doc/CMakeFiles/docs.dir/build.make output/doc/CMakeFiles/docs.dir/build
+.PHONY : docs/fast
+
+#=============================================================================
 # Target rules for targets named ssh
 
 # Build rule for target.
@@ -408,6 +421,7 @@ help:
 	@echo "... package_source"
 	@echo "... rebuild_cache"
 	@echo "... dist"
+	@echo "... docs"
 	@echo "... exec"
 	@echo "... keygen"
 	@echo "... keygen2"
