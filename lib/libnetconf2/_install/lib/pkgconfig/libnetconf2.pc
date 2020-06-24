@@ -1,0 +1,12 @@
+prefix=/home/mo/share/netconf2/lib/libnetconf2/_install
+includedir=${prefix}/include
+libdir=${prefix}/lib
+
+Name: libnetconf2
+Description: NETCONF server and client library in C.
+Version: 1.1.26
+Libs: -L${libdir} -lnetconf2
+Cflags: -I${includedir}
+
+LNC2_MAX_THREAD_COUNT=6
+LNC2_SCHEMAS_DIR=

@@ -16,7 +16,21 @@ set(ZLIB_INCLUDE_DIR ${CMAKE_CURRENT_SOURCE_DIR}/../../lib_src/zlib-1.2.11)
 include_directories(${CMAKE_CURRENT_SOURCE_DIR}/../../lib_src/zlib-1.2.11)
 include_directories(${CMAKE_CURRENT_SOURCE_DIR}/../zlib/debug/output)
 
+#2020.6.24设置变量然后编译
+set(OPENSSL_LIBRARIES $(CMAKE_CURRENT_SOURCE_DIR)/../openssl/debug/output/lib/)
+
+set(OPENSSL_INCLUDE_DIR $(CMAKE_CURRENT_SOURCE_DIR)/../openssl/debug/output/include)
+
+set(LIBSSH_INCLUDE_DIRS $(CMAKE_CURRENT_SOURCE_DIR)/../libssh/_install/include)
+
+set(LIBSSH_LIBRARIES $(CMAKE_CURRENT_SOURCE_DIR)/../libssh/_install/lib/)
+
+set(LIBYANG_INCLUDE_DIRS $(CMAKE_CURRENT_SOURCE_DIR)/../libyang/include/)
+
+set(LIBYANG_LIBRARIES $(CMAKE_CURRENT_SOURCE_DIR)/../libyang/lib)
+
 add_subdirectory(
-  ${CMAKE_CURRENT_SOURCE_DIR}/../../lib_src/libssh
+  ${CMAKE_CURRENT_SOURCE_DIR}/../../lib_src/libnetconf2
   output
 )
+#/home/mo/share/netconf2/lib/openssl/debug/output
