@@ -1,0 +1,6 @@
+Name: libssh
+Description: The SSH Library
+Version: 0.8.90
+Libs: -L/home/mo/share/netconf2/lib/libssh/_install/lib -lssh
+Cflags: -I/home/mo/share/netconf2/lib/libssh/_install/include
+

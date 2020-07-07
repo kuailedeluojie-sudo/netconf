@@ -7,5 +7,6 @@ cd lib/openssl
 mkdir -p debug
 cd debug
 rm -rf *
-cmake ..
+cmake .. -DCMAKE_INSTALL_PREFIX=/home/mo/share/netconf2/lib/openssl/_install
 make
+make install

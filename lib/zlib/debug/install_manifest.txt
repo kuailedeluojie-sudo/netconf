@@ -1,0 +1,8 @@
+/home/mo/share/netconf2/lib/zlip/_install/lib/libz.so.1.2.11
+/home/mo/share/netconf2/lib/zlip/_install/lib/libz.so.1
+/home/mo/share/netconf2/lib/zlip/_install/lib/libz.so
+/home/mo/share/netconf2/lib/zlip/_install/lib/libz.a
+/home/mo/share/netconf2/lib/zlip/_install/include/zconf.h
+/home/mo/share/netconf2/lib/zlip/_install/include/zlib.h
+/home/mo/share/netconf2/lib/zlip/_install/share/man/man3/zlib.3
+/home/mo/share/netconf2/lib/zlip/_install/share/pkgconfig/zlib.pc

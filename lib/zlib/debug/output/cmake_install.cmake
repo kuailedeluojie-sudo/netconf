@@ -2,7 +2,7 @@
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/usr/local")
+  set(CMAKE_INSTALL_PREFIX "/home/mo/share/netconf2/lib/zlip/_install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -39,8 +39,8 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   foreach(file
-      "$ENV{DESTDIR}/usr/local/lib/libz.so.1.2.11"
-      "$ENV{DESTDIR}/usr/local/lib/libz.so.1"
+      "$ENV{DESTDIR}/home/mo/share/netconf2/lib/zlip/_install/lib/libz.so.1.2.11"
+      "$ENV{DESTDIR}/home/mo/share/netconf2/lib/zlip/_install/lib/libz.so.1"
       )
     if(EXISTS "${file}" AND
        NOT IS_SYMLINK "${file}")
@@ -50,20 +50,20 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
     endif()
   endforeach()
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/usr/local/lib/libz.so.1.2.11;/usr/local/lib/libz.so.1")
+   "/home/mo/share/netconf2/lib/zlip/_install/lib/libz.so.1.2.11;/home/mo/share/netconf2/lib/zlip/_install/lib/libz.so.1")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/usr/local/lib" TYPE SHARED_LIBRARY FILES
+file(INSTALL DESTINATION "/home/mo/share/netconf2/lib/zlip/_install/lib" TYPE SHARED_LIBRARY FILES
     "/home/mo/share/netconf2/lib/zlib/debug/output/libz.so.1.2.11"
     "/home/mo/share/netconf2/lib/zlib/debug/output/libz.so.1"
     )
   foreach(file
-      "$ENV{DESTDIR}/usr/local/lib/libz.so.1.2.11"
-      "$ENV{DESTDIR}/usr/local/lib/libz.so.1"
+      "$ENV{DESTDIR}/home/mo/share/netconf2/lib/zlip/_install/lib/libz.so.1.2.11"
+      "$ENV{DESTDIR}/home/mo/share/netconf2/lib/zlip/_install/lib/libz.so.1"
       )
     if(EXISTS "${file}" AND
        NOT IS_SYMLINK "${file}")
@@ -75,51 +75,51 @@ file(INSTALL DESTINATION "/usr/local/lib" TYPE SHARED_LIBRARY FILES
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  if(EXISTS "$ENV{DESTDIR}/usr/local/lib/libz.so" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}/usr/local/lib/libz.so")
+  if(EXISTS "$ENV{DESTDIR}/home/mo/share/netconf2/lib/zlip/_install/lib/libz.so" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}/home/mo/share/netconf2/lib/zlip/_install/lib/libz.so")
     file(RPATH_CHECK
-         FILE "$ENV{DESTDIR}/usr/local/lib/libz.so"
+         FILE "$ENV{DESTDIR}/home/mo/share/netconf2/lib/zlip/_install/lib/libz.so"
          RPATH "")
   endif()
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/usr/local/lib/libz.so")
+   "/home/mo/share/netconf2/lib/zlip/_install/lib/libz.so")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/usr/local/lib" TYPE SHARED_LIBRARY FILES "/home/mo/share/netconf2/lib/zlib/debug/output/libz.so")
-  if(EXISTS "$ENV{DESTDIR}/usr/local/lib/libz.so" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}/usr/local/lib/libz.so")
+file(INSTALL DESTINATION "/home/mo/share/netconf2/lib/zlip/_install/lib" TYPE SHARED_LIBRARY FILES "/home/mo/share/netconf2/lib/zlib/debug/output/libz.so")
+  if(EXISTS "$ENV{DESTDIR}/home/mo/share/netconf2/lib/zlip/_install/lib/libz.so" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}/home/mo/share/netconf2/lib/zlip/_install/lib/libz.so")
     if(CMAKE_INSTALL_DO_STRIP)
-      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}/usr/local/lib/libz.so")
+      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}/home/mo/share/netconf2/lib/zlip/_install/lib/libz.so")
     endif()
   endif()
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/usr/local/lib/libz.a")
+   "/home/mo/share/netconf2/lib/zlip/_install/lib/libz.a")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/usr/local/lib" TYPE STATIC_LIBRARY FILES "/home/mo/share/netconf2/lib/zlib/debug/output/libz.a")
+file(INSTALL DESTINATION "/home/mo/share/netconf2/lib/zlip/_install/lib" TYPE STATIC_LIBRARY FILES "/home/mo/share/netconf2/lib/zlib/debug/output/libz.a")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/usr/local/include/zconf.h;/usr/local/include/zlib.h")
+   "/home/mo/share/netconf2/lib/zlip/_install/include/zconf.h;/home/mo/share/netconf2/lib/zlip/_install/include/zlib.h")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/usr/local/include" TYPE FILE FILES
+file(INSTALL DESTINATION "/home/mo/share/netconf2/lib/zlip/_install/include" TYPE FILE FILES
     "/home/mo/share/netconf2/lib/zlib/debug/output/zconf.h"
     "/home/mo/share/netconf2/lib_src/zlib-1.2.11/zlib.h"
     )
@@ -127,25 +127,25 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/usr/local/share/man/man3/zlib.3")
+   "/home/mo/share/netconf2/lib/zlip/_install/share/man/man3/zlib.3")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/usr/local/share/man/man3" TYPE FILE FILES "/home/mo/share/netconf2/lib_src/zlib-1.2.11/zlib.3")
+file(INSTALL DESTINATION "/home/mo/share/netconf2/lib/zlip/_install/share/man/man3" TYPE FILE FILES "/home/mo/share/netconf2/lib_src/zlib-1.2.11/zlib.3")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/usr/local/share/pkgconfig/zlib.pc")
+   "/home/mo/share/netconf2/lib/zlip/_install/share/pkgconfig/zlib.pc")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/usr/local/share/pkgconfig" TYPE FILE FILES "/home/mo/share/netconf2/lib/zlib/debug/output/zlib.pc")
+file(INSTALL DESTINATION "/home/mo/share/netconf2/lib/zlip/_install/share/pkgconfig" TYPE FILE FILES "/home/mo/share/netconf2/lib/zlib/debug/output/zlib.pc")
 endif()
 

@@ -85,7 +85,7 @@ CMAKE_EXE_LINKER_FLAGS_RELWITHDEBINFO:STRING=
 CMAKE_EXPORT_COMPILE_COMMANDS:BOOL=
 
 //Install path prefix, prepended onto install directories.
-CMAKE_INSTALL_PREFIX:PATH=/usr/local
+CMAKE_INSTALL_PREFIX:PATH=/home/mo/share/netconf2/lib/zlip/_install
 
 //Path to a program.
 CMAKE_LINKER:FILEPATH=/usr/bin/ld
@@ -197,19 +197,19 @@ CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 EXECUTABLE_OUTPUT_PATH:PATH=
 
 //Installation directory for executables
-INSTALL_BIN_DIR:PATH=/usr/local/bin
+INSTALL_BIN_DIR:PATH=/home/mo/share/netconf2/lib/zlip/_install/bin
 
 //Installation directory for headers
-INSTALL_INC_DIR:PATH=/usr/local/include
+INSTALL_INC_DIR:PATH=/home/mo/share/netconf2/lib/zlip/_install/include
 
 //Installation directory for libraries
-INSTALL_LIB_DIR:PATH=/usr/local/lib
+INSTALL_LIB_DIR:PATH=/home/mo/share/netconf2/lib/zlip/_install/lib
 
 //Installation directory for manual pages
-INSTALL_MAN_DIR:PATH=/usr/local/share/man
+INSTALL_MAN_DIR:PATH=/home/mo/share/netconf2/lib/zlip/_install/share/man
 
 //Installation directory for pkgconfig (.pc) files
-INSTALL_PKGCONFIG_DIR:PATH=/usr/local/share/pkgconfig
+INSTALL_PKGCONFIG_DIR:PATH=/home/mo/share/netconf2/lib/zlip/_install/share/pkgconfig
 
 //Single output directory for building all libraries.
 LIBRARY_OUTPUT_PATH:PATH=
