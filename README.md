@@ -9,3 +9,4 @@
   * [make-openssl.sh](https://github.com/kuailedeluojie-sudo/netconf/blob/master/make-openssl.sh)是编译openssl的脚本。
   * [make-zlib.sh](https://github.com/kuailedeluojie-sudo/netconf/blob/master/make-zlib.sh)是编译zlib的脚本。
    * [NETCONF YANG 信息图](https://github.com/kuailedeluojie-sudo/netconf/blob/master/doc/NETCONF%20YANG%20%E4%BF%A1%E6%81%AF%E5%9B%BE.pdf)
+   * [NETCONF配置操作指导手册](https://github.com/kuailedeluojie-sudo/netconf/blob/master/doc/NETCONF%E9%85%8D%E7%BD%AE%E6%93%8D%E4%BD%9C%E6%8C%87%E5%AF%BC%E6%89%8B%E5%86%8C.pdf)
