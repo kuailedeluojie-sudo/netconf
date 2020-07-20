@@ -7410,9 +7410,9 @@ our %unified_info = (
                 ],
             "test/testutil.o" =>
                 [
-                    "test",
                     "crypto/ec",
                     "crypto/include",
+                    "test",
                     "include",
                     ".",
                 ],

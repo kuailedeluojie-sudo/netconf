@@ -37,15 +37,15 @@ CMAKE_BUILD_TYPE:STRING=
 CMAKE_COLOR_MAKEFILE:BOOL=ON
 
 //CXX compiler
-CMAKE_CXX_COMPILER:FILEPATH=/home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-g++
+CMAKE_CXX_COMPILER:FILEPATH=/usr/bin/c++
 
 //A wrapper around 'ar' adding the appropriate '--plugin' option
 // for the GCC compiler
-CMAKE_CXX_COMPILER_AR:FILEPATH=/usr/bin/gcc-ar
+CMAKE_CXX_COMPILER_AR:FILEPATH=/usr/bin/gcc-ar-7
 
 //A wrapper around 'ranlib' adding the appropriate '--plugin' option
 // for the GCC compiler
-CMAKE_CXX_COMPILER_RANLIB:FILEPATH=/usr/bin/gcc-ranlib
+CMAKE_CXX_COMPILER_RANLIB:FILEPATH=/usr/bin/gcc-ranlib-7
 
 //Flags used by the CXX compiler during all build types.
 CMAKE_CXX_FLAGS:STRING=
@@ -75,15 +75,15 @@ CMAKE_CXX_FLAGS_RELWITHDEBINFO:STRING=-O2 -g -DNDEBUG
 CMAKE_CXX_FLAGS_UNDEFINEDSANITIZER:STRING=-g -O1 -fsanitize=undefined -fsanitize=null -fsanitize=alignment -fno-sanitize-recover=undefined,integer
 
 //C compiler
-CMAKE_C_COMPILER:FILEPATH=/home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc
+CMAKE_C_COMPILER:FILEPATH=/usr/bin/cc
 
 //A wrapper around 'ar' adding the appropriate '--plugin' option
 // for the GCC compiler
-CMAKE_C_COMPILER_AR:FILEPATH=/usr/bin/gcc-ar
+CMAKE_C_COMPILER_AR:FILEPATH=/usr/bin/gcc-ar-7
 
 //A wrapper around 'ranlib' adding the appropriate '--plugin' option
 // for the GCC compiler
-CMAKE_C_COMPILER_RANLIB:FILEPATH=/usr/bin/gcc-ranlib
+CMAKE_C_COMPILER_RANLIB:FILEPATH=/usr/bin/gcc-ranlib-7
 
 //Flags used by the C compiler during all build types.
 CMAKE_C_FLAGS:STRING=
@@ -420,7 +420,7 @@ PICKY_DEVELOPER:BOOL=OFF
 PKG_CONFIG_EXECUTABLE:FILEPATH=/usr/bin/pkg-config
 
 //Path to a program.
-PYTHON_EXECUTABLE:FILEPATH=/usr/bin/python3.6
+PYTHON_EXECUTABLE:FILEPATH=/usr/bin/python
 
 //Build with server tests; requires openssh and dropbear
 SERVER_TESTING:BOOL=OFF
@@ -526,10 +526,10 @@ libssh_BINARY_DIR:STATIC=/home/mo/share/netconf2/lib/libssh/debug/output
 libssh_SOURCE_DIR:STATIC=/home/mo/share/netconf2/lib_src/libssh
 
 //Path to a library.
-pkgcfg_lib__OPENSSL_crypto:FILEPATH=pkgcfg_lib__OPENSSL_crypto-NOTFOUND
+pkgcfg_lib__OPENSSL_crypto:FILEPATH=/usr/lib/x86_64-linux-gnu/libcrypto.so
 
 //Path to a library.
-pkgcfg_lib__OPENSSL_ssl:FILEPATH=pkgcfg_lib__OPENSSL_ssl-NOTFOUND
+pkgcfg_lib__OPENSSL_ssl:FILEPATH=/usr/lib/x86_64-linux-gnu/libssl.so
 
 //Dependencies for the target
 ssh_LIB_DEPENDS:STATIC=general;/home/mo/share/netconf2/lib/libssh/../zlib/debug/output/libz.so;general;rt;general;/home/mo/share/netconf2/lib/openssl/debug/output/lib/libcrypto.so;general;/home/mo/share/netconf2/lib/libssh/../zlib/debug/output;
@@ -743,7 +743,7 @@ CPACK_BINARY_TXZ-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CPACK_BINARY_TZ
 CPACK_BINARY_TZ-ADVANCED:INTERNAL=1
 //Default C Compiler Flags
-DEFAULT_C_COMPILE_FLAGS:INTERNAL=-std=gnu99;-Wall;-Wshadow;-Wmissing-prototypes;-Wcast-align;-Werror=address;-Wstrict-prototypes;-Werror=strict-prototypes;-Wwrite-strings;-Werror=write-strings;-Werror-implicit-function-declaration;-Wpointer-arith;-Werror=pointer-arith;-Wdeclaration-after-statement;-Werror=declaration-after-statement;-Wreturn-type;-Werror=return-type;-Wuninitialized;-Werror=uninitialized;-Werror=strict-overflow;-Wstrict-overflow=2;-Wno-format-zero-length;-Wmissing-field-initializers;-Wsign-compare;-Wformat;-Wformat-security;-Werror=format-security;-fno-common;-fstack-protector
+DEFAULT_C_COMPILE_FLAGS:INTERNAL=-std=gnu99;-Wpedantic;-Wall;-Wshadow;-Wmissing-prototypes;-Wcast-align;-Werror=address;-Wstrict-prototypes;-Werror=strict-prototypes;-Wwrite-strings;-Werror=write-strings;-Werror-implicit-function-declaration;-Wpointer-arith;-Werror=pointer-arith;-Wdeclaration-after-statement;-Werror=declaration-after-statement;-Wreturn-type;-Werror=return-type;-Wuninitialized;-Werror=uninitialized;-Wimplicit-fallthrough;-Werror=strict-overflow;-Wstrict-overflow=2;-Wno-format-zero-length;-Wmissing-field-initializers;-Wsign-compare;-Wformat;-Wformat-security;-Werror=format-security;-fno-common;-fstack-protector-strong
 //Default no deprecation flags
 DEFAULT_C_NO_DEPRECATION_FLAGS:INTERNAL=-Wno-deprecated-declarations
 //Default C Linker Flags
@@ -759,7 +759,7 @@ FIND_PACKAGE_MESSAGE_DETAILS_OpenSSL:INTERNAL=[/home/mo/share/netconf2/lib/opens
 //Details about finding PkgConfig
 FIND_PACKAGE_MESSAGE_DETAILS_PkgConfig:INTERNAL=[/usr/bin/pkg-config][v0.28()]
 //Details about finding PythonInterp
-FIND_PACKAGE_MESSAGE_DETAILS_PythonInterp:INTERNAL=[/usr/bin/python3.6][v3.6.9()]
+FIND_PACKAGE_MESSAGE_DETAILS_PythonInterp:INTERNAL=[/usr/bin/python][v2.7.17()]
 //Details about finding Threads
 FIND_PACKAGE_MESSAGE_DETAILS_Threads:INTERNAL=[TRUE][v()]
 //Details about finding ZLIB
@@ -789,9 +789,9 @@ HAVE_CONSTRUCTOR_ATTRIBUTE:INTERNAL=1
 //Test HAVE_DESTRUCTOR_ATTRIBUTE
 HAVE_DESTRUCTOR_ATTRIBUTE:INTERNAL=1
 //Have function explicit_bzero
-HAVE_EXPLICIT_BZERO:INTERNAL=
+HAVE_EXPLICIT_BZERO:INTERNAL=1
 //Test HAVE_FALLTHROUGH_ATTRIBUTE
-HAVE_FALLTHROUGH_ATTRIBUTE:INTERNAL=
+HAVE_FALLTHROUGH_ATTRIBUTE:INTERNAL=1
 //Test HAVE_GCC_THREAD_LOCAL_STORAGE
 HAVE_GCC_THREAD_LOCAL_STORAGE:INTERNAL=1
 //Test HAVE_GCC_VOLATILE_MEMORY_PROTECTION
@@ -897,7 +897,7 @@ HAVE_UTIL_H:INTERNAL=
 //Have include utmp.h
 HAVE_UTMP_H:INTERNAL=1
 //Have include valgrind/valgrind.h
-HAVE_VALGRIND_VALGRIND_H:INTERNAL=
+HAVE_VALGRIND_VALGRIND_H:INTERNAL=1
 //Have function vsnprintf
 HAVE_VSNPRINTF:INTERNAL=1
 //Result of TRY_COMPILE
@@ -928,10 +928,8 @@ THREADS_HAVE_PTHREAD_ARG:INTERNAL=TRUE
 WITH_FNO_COMMON_FLAG:INTERNAL=1
 //Test WITH_STACK_CLASH_PROTECTION
 WITH_STACK_CLASH_PROTECTION:INTERNAL=
-//Test WITH_STACK_PROTECTOR
-WITH_STACK_PROTECTOR:INTERNAL=1
 //Test WITH_STACK_PROTECTOR_STRONG
-WITH_STACK_PROTECTOR_STRONG:INTERNAL=
+WITH_STACK_PROTECTOR_STRONG:INTERNAL=1
 //Test WITH_STD_GNU99_FLAG
 WITH_STD_GNU99_FLAG:INTERNAL=1
 //Test WITH_VISIBILITY_HIDDEN
@@ -965,7 +963,7 @@ WITH_WERROR_WRITE_STRINGS_FLAG:INTERNAL=1
 //Test WITH_WFORMAT_SECURITY_FLAG
 WITH_WFORMAT_SECURITY_FLAG:INTERNAL=1
 //Test WITH_WIMPLICIT_FALLTHROUGH_FLAG
-WITH_WIMPLICIT_FALLTHROUGH_FLAG:INTERNAL=
+WITH_WIMPLICIT_FALLTHROUGH_FLAG:INTERNAL=1
 //Test WITH_WMISSING_FIELD_INITIALIZERS_FLAG
 WITH_WMISSING_FIELD_INITIALIZERS_FLAG:INTERNAL=1
 //Test WITH_WMISSING_PROTOTYPES_FLAG
@@ -975,7 +973,7 @@ WITH_WNO_DEPRECATED_DECLARATIONS_FLAG:INTERNAL=1
 //Test WITH_WNO_FORMAT_ZERO_LENGTH_FLAG
 WITH_WNO_FORMAT_ZERO_LENGTH_FLAG:INTERNAL=1
 //Test WITH_WPEDANTIC_FLAG
-WITH_WPEDANTIC_FLAG:INTERNAL=
+WITH_WPEDANTIC_FLAG:INTERNAL=1
 //Test WITH_WPOINTER_ARITH_FLAG
 WITH_WPOINTER_ARITH_FLAG:INTERNAL=1
 //Test WITH_WRETURN_TYPE_FLAG

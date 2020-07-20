@@ -80,886 +80,886 @@ include output/src/CMakeFiles/ssh.dir/flags.make
 output/src/CMakeFiles/ssh.dir/agent.c.o: output/src/CMakeFiles/ssh.dir/flags.make
 output/src/CMakeFiles/ssh.dir/agent.c.o: /home/mo/share/netconf2/lib_src/libssh/src/agent.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mo/share/netconf2/lib/libssh/debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object output/src/CMakeFiles/ssh.dir/agent.c.o"
-	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh.dir/agent.c.o   -c /home/mo/share/netconf2/lib_src/libssh/src/agent.c
+	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh.dir/agent.c.o   -c /home/mo/share/netconf2/lib_src/libssh/src/agent.c
 
 output/src/CMakeFiles/ssh.dir/agent.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ssh.dir/agent.c.i"
-	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mo/share/netconf2/lib_src/libssh/src/agent.c > CMakeFiles/ssh.dir/agent.c.i
+	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mo/share/netconf2/lib_src/libssh/src/agent.c > CMakeFiles/ssh.dir/agent.c.i
 
 output/src/CMakeFiles/ssh.dir/agent.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ssh.dir/agent.c.s"
-	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mo/share/netconf2/lib_src/libssh/src/agent.c -o CMakeFiles/ssh.dir/agent.c.s
+	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mo/share/netconf2/lib_src/libssh/src/agent.c -o CMakeFiles/ssh.dir/agent.c.s
 
 output/src/CMakeFiles/ssh.dir/auth.c.o: output/src/CMakeFiles/ssh.dir/flags.make
 output/src/CMakeFiles/ssh.dir/auth.c.o: /home/mo/share/netconf2/lib_src/libssh/src/auth.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mo/share/netconf2/lib/libssh/debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object output/src/CMakeFiles/ssh.dir/auth.c.o"
-	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh.dir/auth.c.o   -c /home/mo/share/netconf2/lib_src/libssh/src/auth.c
+	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh.dir/auth.c.o   -c /home/mo/share/netconf2/lib_src/libssh/src/auth.c
 
 output/src/CMakeFiles/ssh.dir/auth.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ssh.dir/auth.c.i"
-	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mo/share/netconf2/lib_src/libssh/src/auth.c > CMakeFiles/ssh.dir/auth.c.i
+	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mo/share/netconf2/lib_src/libssh/src/auth.c > CMakeFiles/ssh.dir/auth.c.i
 
 output/src/CMakeFiles/ssh.dir/auth.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ssh.dir/auth.c.s"
-	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mo/share/netconf2/lib_src/libssh/src/auth.c -o CMakeFiles/ssh.dir/auth.c.s
+	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mo/share/netconf2/lib_src/libssh/src/auth.c -o CMakeFiles/ssh.dir/auth.c.s
 
 output/src/CMakeFiles/ssh.dir/base64.c.o: output/src/CMakeFiles/ssh.dir/flags.make
 output/src/CMakeFiles/ssh.dir/base64.c.o: /home/mo/share/netconf2/lib_src/libssh/src/base64.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mo/share/netconf2/lib/libssh/debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object output/src/CMakeFiles/ssh.dir/base64.c.o"
-	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh.dir/base64.c.o   -c /home/mo/share/netconf2/lib_src/libssh/src/base64.c
+	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh.dir/base64.c.o   -c /home/mo/share/netconf2/lib_src/libssh/src/base64.c
 
 output/src/CMakeFiles/ssh.dir/base64.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ssh.dir/base64.c.i"
-	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mo/share/netconf2/lib_src/libssh/src/base64.c > CMakeFiles/ssh.dir/base64.c.i
+	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mo/share/netconf2/lib_src/libssh/src/base64.c > CMakeFiles/ssh.dir/base64.c.i
 
 output/src/CMakeFiles/ssh.dir/base64.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ssh.dir/base64.c.s"
-	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mo/share/netconf2/lib_src/libssh/src/base64.c -o CMakeFiles/ssh.dir/base64.c.s
+	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mo/share/netconf2/lib_src/libssh/src/base64.c -o CMakeFiles/ssh.dir/base64.c.s
 
 output/src/CMakeFiles/ssh.dir/bignum.c.o: output/src/CMakeFiles/ssh.dir/flags.make
 output/src/CMakeFiles/ssh.dir/bignum.c.o: /home/mo/share/netconf2/lib_src/libssh/src/bignum.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mo/share/netconf2/lib/libssh/debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object output/src/CMakeFiles/ssh.dir/bignum.c.o"
-	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh.dir/bignum.c.o   -c /home/mo/share/netconf2/lib_src/libssh/src/bignum.c
+	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh.dir/bignum.c.o   -c /home/mo/share/netconf2/lib_src/libssh/src/bignum.c
 
 output/src/CMakeFiles/ssh.dir/bignum.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ssh.dir/bignum.c.i"
-	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mo/share/netconf2/lib_src/libssh/src/bignum.c > CMakeFiles/ssh.dir/bignum.c.i
+	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mo/share/netconf2/lib_src/libssh/src/bignum.c > CMakeFiles/ssh.dir/bignum.c.i
 
 output/src/CMakeFiles/ssh.dir/bignum.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ssh.dir/bignum.c.s"
-	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mo/share/netconf2/lib_src/libssh/src/bignum.c -o CMakeFiles/ssh.dir/bignum.c.s
+	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mo/share/netconf2/lib_src/libssh/src/bignum.c -o CMakeFiles/ssh.dir/bignum.c.s
 
 output/src/CMakeFiles/ssh.dir/buffer.c.o: output/src/CMakeFiles/ssh.dir/flags.make
 output/src/CMakeFiles/ssh.dir/buffer.c.o: /home/mo/share/netconf2/lib_src/libssh/src/buffer.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mo/share/netconf2/lib/libssh/debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object output/src/CMakeFiles/ssh.dir/buffer.c.o"
-	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh.dir/buffer.c.o   -c /home/mo/share/netconf2/lib_src/libssh/src/buffer.c
+	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh.dir/buffer.c.o   -c /home/mo/share/netconf2/lib_src/libssh/src/buffer.c
 
 output/src/CMakeFiles/ssh.dir/buffer.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ssh.dir/buffer.c.i"
-	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mo/share/netconf2/lib_src/libssh/src/buffer.c > CMakeFiles/ssh.dir/buffer.c.i
+	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mo/share/netconf2/lib_src/libssh/src/buffer.c > CMakeFiles/ssh.dir/buffer.c.i
 
 output/src/CMakeFiles/ssh.dir/buffer.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ssh.dir/buffer.c.s"
-	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mo/share/netconf2/lib_src/libssh/src/buffer.c -o CMakeFiles/ssh.dir/buffer.c.s
+	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mo/share/netconf2/lib_src/libssh/src/buffer.c -o CMakeFiles/ssh.dir/buffer.c.s
 
 output/src/CMakeFiles/ssh.dir/callbacks.c.o: output/src/CMakeFiles/ssh.dir/flags.make
 output/src/CMakeFiles/ssh.dir/callbacks.c.o: /home/mo/share/netconf2/lib_src/libssh/src/callbacks.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mo/share/netconf2/lib/libssh/debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object output/src/CMakeFiles/ssh.dir/callbacks.c.o"
-	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh.dir/callbacks.c.o   -c /home/mo/share/netconf2/lib_src/libssh/src/callbacks.c
+	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh.dir/callbacks.c.o   -c /home/mo/share/netconf2/lib_src/libssh/src/callbacks.c
 
 output/src/CMakeFiles/ssh.dir/callbacks.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ssh.dir/callbacks.c.i"
-	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mo/share/netconf2/lib_src/libssh/src/callbacks.c > CMakeFiles/ssh.dir/callbacks.c.i
+	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mo/share/netconf2/lib_src/libssh/src/callbacks.c > CMakeFiles/ssh.dir/callbacks.c.i
 
 output/src/CMakeFiles/ssh.dir/callbacks.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ssh.dir/callbacks.c.s"
-	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mo/share/netconf2/lib_src/libssh/src/callbacks.c -o CMakeFiles/ssh.dir/callbacks.c.s
+	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mo/share/netconf2/lib_src/libssh/src/callbacks.c -o CMakeFiles/ssh.dir/callbacks.c.s
 
 output/src/CMakeFiles/ssh.dir/channels.c.o: output/src/CMakeFiles/ssh.dir/flags.make
 output/src/CMakeFiles/ssh.dir/channels.c.o: /home/mo/share/netconf2/lib_src/libssh/src/channels.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mo/share/netconf2/lib/libssh/debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object output/src/CMakeFiles/ssh.dir/channels.c.o"
-	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh.dir/channels.c.o   -c /home/mo/share/netconf2/lib_src/libssh/src/channels.c
+	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh.dir/channels.c.o   -c /home/mo/share/netconf2/lib_src/libssh/src/channels.c
 
 output/src/CMakeFiles/ssh.dir/channels.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ssh.dir/channels.c.i"
-	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mo/share/netconf2/lib_src/libssh/src/channels.c > CMakeFiles/ssh.dir/channels.c.i
+	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mo/share/netconf2/lib_src/libssh/src/channels.c > CMakeFiles/ssh.dir/channels.c.i
 
 output/src/CMakeFiles/ssh.dir/channels.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ssh.dir/channels.c.s"
-	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mo/share/netconf2/lib_src/libssh/src/channels.c -o CMakeFiles/ssh.dir/channels.c.s
+	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mo/share/netconf2/lib_src/libssh/src/channels.c -o CMakeFiles/ssh.dir/channels.c.s
 
 output/src/CMakeFiles/ssh.dir/client.c.o: output/src/CMakeFiles/ssh.dir/flags.make
 output/src/CMakeFiles/ssh.dir/client.c.o: /home/mo/share/netconf2/lib_src/libssh/src/client.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mo/share/netconf2/lib/libssh/debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object output/src/CMakeFiles/ssh.dir/client.c.o"
-	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh.dir/client.c.o   -c /home/mo/share/netconf2/lib_src/libssh/src/client.c
+	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh.dir/client.c.o   -c /home/mo/share/netconf2/lib_src/libssh/src/client.c
 
 output/src/CMakeFiles/ssh.dir/client.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ssh.dir/client.c.i"
-	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mo/share/netconf2/lib_src/libssh/src/client.c > CMakeFiles/ssh.dir/client.c.i
+	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mo/share/netconf2/lib_src/libssh/src/client.c > CMakeFiles/ssh.dir/client.c.i
 
 output/src/CMakeFiles/ssh.dir/client.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ssh.dir/client.c.s"
-	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mo/share/netconf2/lib_src/libssh/src/client.c -o CMakeFiles/ssh.dir/client.c.s
+	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mo/share/netconf2/lib_src/libssh/src/client.c -o CMakeFiles/ssh.dir/client.c.s
 
 output/src/CMakeFiles/ssh.dir/config.c.o: output/src/CMakeFiles/ssh.dir/flags.make
 output/src/CMakeFiles/ssh.dir/config.c.o: /home/mo/share/netconf2/lib_src/libssh/src/config.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mo/share/netconf2/lib/libssh/debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object output/src/CMakeFiles/ssh.dir/config.c.o"
-	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh.dir/config.c.o   -c /home/mo/share/netconf2/lib_src/libssh/src/config.c
+	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh.dir/config.c.o   -c /home/mo/share/netconf2/lib_src/libssh/src/config.c
 
 output/src/CMakeFiles/ssh.dir/config.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ssh.dir/config.c.i"
-	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mo/share/netconf2/lib_src/libssh/src/config.c > CMakeFiles/ssh.dir/config.c.i
+	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mo/share/netconf2/lib_src/libssh/src/config.c > CMakeFiles/ssh.dir/config.c.i
 
 output/src/CMakeFiles/ssh.dir/config.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ssh.dir/config.c.s"
-	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mo/share/netconf2/lib_src/libssh/src/config.c -o CMakeFiles/ssh.dir/config.c.s
+	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mo/share/netconf2/lib_src/libssh/src/config.c -o CMakeFiles/ssh.dir/config.c.s
 
 output/src/CMakeFiles/ssh.dir/connect.c.o: output/src/CMakeFiles/ssh.dir/flags.make
 output/src/CMakeFiles/ssh.dir/connect.c.o: /home/mo/share/netconf2/lib_src/libssh/src/connect.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mo/share/netconf2/lib/libssh/debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object output/src/CMakeFiles/ssh.dir/connect.c.o"
-	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh.dir/connect.c.o   -c /home/mo/share/netconf2/lib_src/libssh/src/connect.c
+	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh.dir/connect.c.o   -c /home/mo/share/netconf2/lib_src/libssh/src/connect.c
 
 output/src/CMakeFiles/ssh.dir/connect.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ssh.dir/connect.c.i"
-	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mo/share/netconf2/lib_src/libssh/src/connect.c > CMakeFiles/ssh.dir/connect.c.i
+	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mo/share/netconf2/lib_src/libssh/src/connect.c > CMakeFiles/ssh.dir/connect.c.i
 
 output/src/CMakeFiles/ssh.dir/connect.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ssh.dir/connect.c.s"
-	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mo/share/netconf2/lib_src/libssh/src/connect.c -o CMakeFiles/ssh.dir/connect.c.s
+	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mo/share/netconf2/lib_src/libssh/src/connect.c -o CMakeFiles/ssh.dir/connect.c.s
 
 output/src/CMakeFiles/ssh.dir/connector.c.o: output/src/CMakeFiles/ssh.dir/flags.make
 output/src/CMakeFiles/ssh.dir/connector.c.o: /home/mo/share/netconf2/lib_src/libssh/src/connector.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mo/share/netconf2/lib/libssh/debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object output/src/CMakeFiles/ssh.dir/connector.c.o"
-	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh.dir/connector.c.o   -c /home/mo/share/netconf2/lib_src/libssh/src/connector.c
+	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh.dir/connector.c.o   -c /home/mo/share/netconf2/lib_src/libssh/src/connector.c
 
 output/src/CMakeFiles/ssh.dir/connector.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ssh.dir/connector.c.i"
-	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mo/share/netconf2/lib_src/libssh/src/connector.c > CMakeFiles/ssh.dir/connector.c.i
+	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mo/share/netconf2/lib_src/libssh/src/connector.c > CMakeFiles/ssh.dir/connector.c.i
 
 output/src/CMakeFiles/ssh.dir/connector.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ssh.dir/connector.c.s"
-	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mo/share/netconf2/lib_src/libssh/src/connector.c -o CMakeFiles/ssh.dir/connector.c.s
+	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mo/share/netconf2/lib_src/libssh/src/connector.c -o CMakeFiles/ssh.dir/connector.c.s
 
 output/src/CMakeFiles/ssh.dir/curve25519.c.o: output/src/CMakeFiles/ssh.dir/flags.make
 output/src/CMakeFiles/ssh.dir/curve25519.c.o: /home/mo/share/netconf2/lib_src/libssh/src/curve25519.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mo/share/netconf2/lib/libssh/debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object output/src/CMakeFiles/ssh.dir/curve25519.c.o"
-	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh.dir/curve25519.c.o   -c /home/mo/share/netconf2/lib_src/libssh/src/curve25519.c
+	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh.dir/curve25519.c.o   -c /home/mo/share/netconf2/lib_src/libssh/src/curve25519.c
 
 output/src/CMakeFiles/ssh.dir/curve25519.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ssh.dir/curve25519.c.i"
-	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mo/share/netconf2/lib_src/libssh/src/curve25519.c > CMakeFiles/ssh.dir/curve25519.c.i
+	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mo/share/netconf2/lib_src/libssh/src/curve25519.c > CMakeFiles/ssh.dir/curve25519.c.i
 
 output/src/CMakeFiles/ssh.dir/curve25519.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ssh.dir/curve25519.c.s"
-	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mo/share/netconf2/lib_src/libssh/src/curve25519.c -o CMakeFiles/ssh.dir/curve25519.c.s
+	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mo/share/netconf2/lib_src/libssh/src/curve25519.c -o CMakeFiles/ssh.dir/curve25519.c.s
 
 output/src/CMakeFiles/ssh.dir/dh.c.o: output/src/CMakeFiles/ssh.dir/flags.make
 output/src/CMakeFiles/ssh.dir/dh.c.o: /home/mo/share/netconf2/lib_src/libssh/src/dh.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mo/share/netconf2/lib/libssh/debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object output/src/CMakeFiles/ssh.dir/dh.c.o"
-	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh.dir/dh.c.o   -c /home/mo/share/netconf2/lib_src/libssh/src/dh.c
+	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh.dir/dh.c.o   -c /home/mo/share/netconf2/lib_src/libssh/src/dh.c
 
 output/src/CMakeFiles/ssh.dir/dh.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ssh.dir/dh.c.i"
-	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mo/share/netconf2/lib_src/libssh/src/dh.c > CMakeFiles/ssh.dir/dh.c.i
+	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mo/share/netconf2/lib_src/libssh/src/dh.c > CMakeFiles/ssh.dir/dh.c.i
 
 output/src/CMakeFiles/ssh.dir/dh.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ssh.dir/dh.c.s"
-	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mo/share/netconf2/lib_src/libssh/src/dh.c -o CMakeFiles/ssh.dir/dh.c.s
+	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mo/share/netconf2/lib_src/libssh/src/dh.c -o CMakeFiles/ssh.dir/dh.c.s
 
 output/src/CMakeFiles/ssh.dir/ecdh.c.o: output/src/CMakeFiles/ssh.dir/flags.make
 output/src/CMakeFiles/ssh.dir/ecdh.c.o: /home/mo/share/netconf2/lib_src/libssh/src/ecdh.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mo/share/netconf2/lib/libssh/debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object output/src/CMakeFiles/ssh.dir/ecdh.c.o"
-	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh.dir/ecdh.c.o   -c /home/mo/share/netconf2/lib_src/libssh/src/ecdh.c
+	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh.dir/ecdh.c.o   -c /home/mo/share/netconf2/lib_src/libssh/src/ecdh.c
 
 output/src/CMakeFiles/ssh.dir/ecdh.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ssh.dir/ecdh.c.i"
-	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mo/share/netconf2/lib_src/libssh/src/ecdh.c > CMakeFiles/ssh.dir/ecdh.c.i
+	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mo/share/netconf2/lib_src/libssh/src/ecdh.c > CMakeFiles/ssh.dir/ecdh.c.i
 
 output/src/CMakeFiles/ssh.dir/ecdh.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ssh.dir/ecdh.c.s"
-	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mo/share/netconf2/lib_src/libssh/src/ecdh.c -o CMakeFiles/ssh.dir/ecdh.c.s
+	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mo/share/netconf2/lib_src/libssh/src/ecdh.c -o CMakeFiles/ssh.dir/ecdh.c.s
 
 output/src/CMakeFiles/ssh.dir/error.c.o: output/src/CMakeFiles/ssh.dir/flags.make
 output/src/CMakeFiles/ssh.dir/error.c.o: /home/mo/share/netconf2/lib_src/libssh/src/error.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mo/share/netconf2/lib/libssh/debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object output/src/CMakeFiles/ssh.dir/error.c.o"
-	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh.dir/error.c.o   -c /home/mo/share/netconf2/lib_src/libssh/src/error.c
+	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh.dir/error.c.o   -c /home/mo/share/netconf2/lib_src/libssh/src/error.c
 
 output/src/CMakeFiles/ssh.dir/error.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ssh.dir/error.c.i"
-	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mo/share/netconf2/lib_src/libssh/src/error.c > CMakeFiles/ssh.dir/error.c.i
+	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mo/share/netconf2/lib_src/libssh/src/error.c > CMakeFiles/ssh.dir/error.c.i
 
 output/src/CMakeFiles/ssh.dir/error.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ssh.dir/error.c.s"
-	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mo/share/netconf2/lib_src/libssh/src/error.c -o CMakeFiles/ssh.dir/error.c.s
+	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mo/share/netconf2/lib_src/libssh/src/error.c -o CMakeFiles/ssh.dir/error.c.s
 
 output/src/CMakeFiles/ssh.dir/getpass.c.o: output/src/CMakeFiles/ssh.dir/flags.make
 output/src/CMakeFiles/ssh.dir/getpass.c.o: /home/mo/share/netconf2/lib_src/libssh/src/getpass.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mo/share/netconf2/lib/libssh/debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object output/src/CMakeFiles/ssh.dir/getpass.c.o"
-	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh.dir/getpass.c.o   -c /home/mo/share/netconf2/lib_src/libssh/src/getpass.c
+	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh.dir/getpass.c.o   -c /home/mo/share/netconf2/lib_src/libssh/src/getpass.c
 
 output/src/CMakeFiles/ssh.dir/getpass.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ssh.dir/getpass.c.i"
-	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mo/share/netconf2/lib_src/libssh/src/getpass.c > CMakeFiles/ssh.dir/getpass.c.i
+	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mo/share/netconf2/lib_src/libssh/src/getpass.c > CMakeFiles/ssh.dir/getpass.c.i
 
 output/src/CMakeFiles/ssh.dir/getpass.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ssh.dir/getpass.c.s"
-	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mo/share/netconf2/lib_src/libssh/src/getpass.c -o CMakeFiles/ssh.dir/getpass.c.s
+	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mo/share/netconf2/lib_src/libssh/src/getpass.c -o CMakeFiles/ssh.dir/getpass.c.s
 
 output/src/CMakeFiles/ssh.dir/init.c.o: output/src/CMakeFiles/ssh.dir/flags.make
 output/src/CMakeFiles/ssh.dir/init.c.o: /home/mo/share/netconf2/lib_src/libssh/src/init.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mo/share/netconf2/lib/libssh/debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object output/src/CMakeFiles/ssh.dir/init.c.o"
-	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh.dir/init.c.o   -c /home/mo/share/netconf2/lib_src/libssh/src/init.c
+	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh.dir/init.c.o   -c /home/mo/share/netconf2/lib_src/libssh/src/init.c
 
 output/src/CMakeFiles/ssh.dir/init.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ssh.dir/init.c.i"
-	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mo/share/netconf2/lib_src/libssh/src/init.c > CMakeFiles/ssh.dir/init.c.i
+	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mo/share/netconf2/lib_src/libssh/src/init.c > CMakeFiles/ssh.dir/init.c.i
 
 output/src/CMakeFiles/ssh.dir/init.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ssh.dir/init.c.s"
-	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mo/share/netconf2/lib_src/libssh/src/init.c -o CMakeFiles/ssh.dir/init.c.s
+	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mo/share/netconf2/lib_src/libssh/src/init.c -o CMakeFiles/ssh.dir/init.c.s
 
 output/src/CMakeFiles/ssh.dir/kdf.c.o: output/src/CMakeFiles/ssh.dir/flags.make
 output/src/CMakeFiles/ssh.dir/kdf.c.o: /home/mo/share/netconf2/lib_src/libssh/src/kdf.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mo/share/netconf2/lib/libssh/debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object output/src/CMakeFiles/ssh.dir/kdf.c.o"
-	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh.dir/kdf.c.o   -c /home/mo/share/netconf2/lib_src/libssh/src/kdf.c
+	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh.dir/kdf.c.o   -c /home/mo/share/netconf2/lib_src/libssh/src/kdf.c
 
 output/src/CMakeFiles/ssh.dir/kdf.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ssh.dir/kdf.c.i"
-	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mo/share/netconf2/lib_src/libssh/src/kdf.c > CMakeFiles/ssh.dir/kdf.c.i
+	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mo/share/netconf2/lib_src/libssh/src/kdf.c > CMakeFiles/ssh.dir/kdf.c.i
 
 output/src/CMakeFiles/ssh.dir/kdf.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ssh.dir/kdf.c.s"
-	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mo/share/netconf2/lib_src/libssh/src/kdf.c -o CMakeFiles/ssh.dir/kdf.c.s
+	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mo/share/netconf2/lib_src/libssh/src/kdf.c -o CMakeFiles/ssh.dir/kdf.c.s
 
 output/src/CMakeFiles/ssh.dir/kex.c.o: output/src/CMakeFiles/ssh.dir/flags.make
 output/src/CMakeFiles/ssh.dir/kex.c.o: /home/mo/share/netconf2/lib_src/libssh/src/kex.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mo/share/netconf2/lib/libssh/debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object output/src/CMakeFiles/ssh.dir/kex.c.o"
-	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh.dir/kex.c.o   -c /home/mo/share/netconf2/lib_src/libssh/src/kex.c
+	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh.dir/kex.c.o   -c /home/mo/share/netconf2/lib_src/libssh/src/kex.c
 
 output/src/CMakeFiles/ssh.dir/kex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ssh.dir/kex.c.i"
-	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mo/share/netconf2/lib_src/libssh/src/kex.c > CMakeFiles/ssh.dir/kex.c.i
+	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mo/share/netconf2/lib_src/libssh/src/kex.c > CMakeFiles/ssh.dir/kex.c.i
 
 output/src/CMakeFiles/ssh.dir/kex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ssh.dir/kex.c.s"
-	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mo/share/netconf2/lib_src/libssh/src/kex.c -o CMakeFiles/ssh.dir/kex.c.s
+	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mo/share/netconf2/lib_src/libssh/src/kex.c -o CMakeFiles/ssh.dir/kex.c.s
 
 output/src/CMakeFiles/ssh.dir/known_hosts.c.o: output/src/CMakeFiles/ssh.dir/flags.make
 output/src/CMakeFiles/ssh.dir/known_hosts.c.o: /home/mo/share/netconf2/lib_src/libssh/src/known_hosts.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mo/share/netconf2/lib/libssh/debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object output/src/CMakeFiles/ssh.dir/known_hosts.c.o"
-	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wno-deprecated-declarations -o CMakeFiles/ssh.dir/known_hosts.c.o   -c /home/mo/share/netconf2/lib_src/libssh/src/known_hosts.c
+	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wno-deprecated-declarations -o CMakeFiles/ssh.dir/known_hosts.c.o   -c /home/mo/share/netconf2/lib_src/libssh/src/known_hosts.c
 
 output/src/CMakeFiles/ssh.dir/known_hosts.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ssh.dir/known_hosts.c.i"
-	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wno-deprecated-declarations -E /home/mo/share/netconf2/lib_src/libssh/src/known_hosts.c > CMakeFiles/ssh.dir/known_hosts.c.i
+	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wno-deprecated-declarations -E /home/mo/share/netconf2/lib_src/libssh/src/known_hosts.c > CMakeFiles/ssh.dir/known_hosts.c.i
 
 output/src/CMakeFiles/ssh.dir/known_hosts.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ssh.dir/known_hosts.c.s"
-	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wno-deprecated-declarations -S /home/mo/share/netconf2/lib_src/libssh/src/known_hosts.c -o CMakeFiles/ssh.dir/known_hosts.c.s
+	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wno-deprecated-declarations -S /home/mo/share/netconf2/lib_src/libssh/src/known_hosts.c -o CMakeFiles/ssh.dir/known_hosts.c.s
 
 output/src/CMakeFiles/ssh.dir/knownhosts.c.o: output/src/CMakeFiles/ssh.dir/flags.make
 output/src/CMakeFiles/ssh.dir/knownhosts.c.o: /home/mo/share/netconf2/lib_src/libssh/src/knownhosts.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mo/share/netconf2/lib/libssh/debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object output/src/CMakeFiles/ssh.dir/knownhosts.c.o"
-	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh.dir/knownhosts.c.o   -c /home/mo/share/netconf2/lib_src/libssh/src/knownhosts.c
+	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh.dir/knownhosts.c.o   -c /home/mo/share/netconf2/lib_src/libssh/src/knownhosts.c
 
 output/src/CMakeFiles/ssh.dir/knownhosts.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ssh.dir/knownhosts.c.i"
-	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mo/share/netconf2/lib_src/libssh/src/knownhosts.c > CMakeFiles/ssh.dir/knownhosts.c.i
+	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mo/share/netconf2/lib_src/libssh/src/knownhosts.c > CMakeFiles/ssh.dir/knownhosts.c.i
 
 output/src/CMakeFiles/ssh.dir/knownhosts.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ssh.dir/knownhosts.c.s"
-	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mo/share/netconf2/lib_src/libssh/src/knownhosts.c -o CMakeFiles/ssh.dir/knownhosts.c.s
+	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mo/share/netconf2/lib_src/libssh/src/knownhosts.c -o CMakeFiles/ssh.dir/knownhosts.c.s
 
 output/src/CMakeFiles/ssh.dir/legacy.c.o: output/src/CMakeFiles/ssh.dir/flags.make
 output/src/CMakeFiles/ssh.dir/legacy.c.o: /home/mo/share/netconf2/lib_src/libssh/src/legacy.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mo/share/netconf2/lib/libssh/debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object output/src/CMakeFiles/ssh.dir/legacy.c.o"
-	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh.dir/legacy.c.o   -c /home/mo/share/netconf2/lib_src/libssh/src/legacy.c
+	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh.dir/legacy.c.o   -c /home/mo/share/netconf2/lib_src/libssh/src/legacy.c
 
 output/src/CMakeFiles/ssh.dir/legacy.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ssh.dir/legacy.c.i"
-	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mo/share/netconf2/lib_src/libssh/src/legacy.c > CMakeFiles/ssh.dir/legacy.c.i
+	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mo/share/netconf2/lib_src/libssh/src/legacy.c > CMakeFiles/ssh.dir/legacy.c.i
 
 output/src/CMakeFiles/ssh.dir/legacy.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ssh.dir/legacy.c.s"
-	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mo/share/netconf2/lib_src/libssh/src/legacy.c -o CMakeFiles/ssh.dir/legacy.c.s
+	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mo/share/netconf2/lib_src/libssh/src/legacy.c -o CMakeFiles/ssh.dir/legacy.c.s
 
 output/src/CMakeFiles/ssh.dir/log.c.o: output/src/CMakeFiles/ssh.dir/flags.make
 output/src/CMakeFiles/ssh.dir/log.c.o: /home/mo/share/netconf2/lib_src/libssh/src/log.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mo/share/netconf2/lib/libssh/debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object output/src/CMakeFiles/ssh.dir/log.c.o"
-	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh.dir/log.c.o   -c /home/mo/share/netconf2/lib_src/libssh/src/log.c
+	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh.dir/log.c.o   -c /home/mo/share/netconf2/lib_src/libssh/src/log.c
 
 output/src/CMakeFiles/ssh.dir/log.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ssh.dir/log.c.i"
-	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mo/share/netconf2/lib_src/libssh/src/log.c > CMakeFiles/ssh.dir/log.c.i
+	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mo/share/netconf2/lib_src/libssh/src/log.c > CMakeFiles/ssh.dir/log.c.i
 
 output/src/CMakeFiles/ssh.dir/log.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ssh.dir/log.c.s"
-	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mo/share/netconf2/lib_src/libssh/src/log.c -o CMakeFiles/ssh.dir/log.c.s
+	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mo/share/netconf2/lib_src/libssh/src/log.c -o CMakeFiles/ssh.dir/log.c.s
 
 output/src/CMakeFiles/ssh.dir/match.c.o: output/src/CMakeFiles/ssh.dir/flags.make
 output/src/CMakeFiles/ssh.dir/match.c.o: /home/mo/share/netconf2/lib_src/libssh/src/match.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mo/share/netconf2/lib/libssh/debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object output/src/CMakeFiles/ssh.dir/match.c.o"
-	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh.dir/match.c.o   -c /home/mo/share/netconf2/lib_src/libssh/src/match.c
+	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh.dir/match.c.o   -c /home/mo/share/netconf2/lib_src/libssh/src/match.c
 
 output/src/CMakeFiles/ssh.dir/match.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ssh.dir/match.c.i"
-	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mo/share/netconf2/lib_src/libssh/src/match.c > CMakeFiles/ssh.dir/match.c.i
+	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mo/share/netconf2/lib_src/libssh/src/match.c > CMakeFiles/ssh.dir/match.c.i
 
 output/src/CMakeFiles/ssh.dir/match.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ssh.dir/match.c.s"
-	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mo/share/netconf2/lib_src/libssh/src/match.c -o CMakeFiles/ssh.dir/match.c.s
+	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mo/share/netconf2/lib_src/libssh/src/match.c -o CMakeFiles/ssh.dir/match.c.s
 
 output/src/CMakeFiles/ssh.dir/messages.c.o: output/src/CMakeFiles/ssh.dir/flags.make
 output/src/CMakeFiles/ssh.dir/messages.c.o: /home/mo/share/netconf2/lib_src/libssh/src/messages.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mo/share/netconf2/lib/libssh/debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object output/src/CMakeFiles/ssh.dir/messages.c.o"
-	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh.dir/messages.c.o   -c /home/mo/share/netconf2/lib_src/libssh/src/messages.c
+	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh.dir/messages.c.o   -c /home/mo/share/netconf2/lib_src/libssh/src/messages.c
 
 output/src/CMakeFiles/ssh.dir/messages.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ssh.dir/messages.c.i"
-	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mo/share/netconf2/lib_src/libssh/src/messages.c > CMakeFiles/ssh.dir/messages.c.i
+	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mo/share/netconf2/lib_src/libssh/src/messages.c > CMakeFiles/ssh.dir/messages.c.i
 
 output/src/CMakeFiles/ssh.dir/messages.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ssh.dir/messages.c.s"
-	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mo/share/netconf2/lib_src/libssh/src/messages.c -o CMakeFiles/ssh.dir/messages.c.s
+	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mo/share/netconf2/lib_src/libssh/src/messages.c -o CMakeFiles/ssh.dir/messages.c.s
 
 output/src/CMakeFiles/ssh.dir/misc.c.o: output/src/CMakeFiles/ssh.dir/flags.make
 output/src/CMakeFiles/ssh.dir/misc.c.o: /home/mo/share/netconf2/lib_src/libssh/src/misc.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mo/share/netconf2/lib/libssh/debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object output/src/CMakeFiles/ssh.dir/misc.c.o"
-	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh.dir/misc.c.o   -c /home/mo/share/netconf2/lib_src/libssh/src/misc.c
+	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh.dir/misc.c.o   -c /home/mo/share/netconf2/lib_src/libssh/src/misc.c
 
 output/src/CMakeFiles/ssh.dir/misc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ssh.dir/misc.c.i"
-	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mo/share/netconf2/lib_src/libssh/src/misc.c > CMakeFiles/ssh.dir/misc.c.i
+	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mo/share/netconf2/lib_src/libssh/src/misc.c > CMakeFiles/ssh.dir/misc.c.i
 
 output/src/CMakeFiles/ssh.dir/misc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ssh.dir/misc.c.s"
-	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mo/share/netconf2/lib_src/libssh/src/misc.c -o CMakeFiles/ssh.dir/misc.c.s
+	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mo/share/netconf2/lib_src/libssh/src/misc.c -o CMakeFiles/ssh.dir/misc.c.s
 
 output/src/CMakeFiles/ssh.dir/options.c.o: output/src/CMakeFiles/ssh.dir/flags.make
 output/src/CMakeFiles/ssh.dir/options.c.o: /home/mo/share/netconf2/lib_src/libssh/src/options.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mo/share/netconf2/lib/libssh/debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object output/src/CMakeFiles/ssh.dir/options.c.o"
-	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh.dir/options.c.o   -c /home/mo/share/netconf2/lib_src/libssh/src/options.c
+	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh.dir/options.c.o   -c /home/mo/share/netconf2/lib_src/libssh/src/options.c
 
 output/src/CMakeFiles/ssh.dir/options.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ssh.dir/options.c.i"
-	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mo/share/netconf2/lib_src/libssh/src/options.c > CMakeFiles/ssh.dir/options.c.i
+	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mo/share/netconf2/lib_src/libssh/src/options.c > CMakeFiles/ssh.dir/options.c.i
 
 output/src/CMakeFiles/ssh.dir/options.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ssh.dir/options.c.s"
-	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mo/share/netconf2/lib_src/libssh/src/options.c -o CMakeFiles/ssh.dir/options.c.s
+	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mo/share/netconf2/lib_src/libssh/src/options.c -o CMakeFiles/ssh.dir/options.c.s
 
 output/src/CMakeFiles/ssh.dir/packet.c.o: output/src/CMakeFiles/ssh.dir/flags.make
 output/src/CMakeFiles/ssh.dir/packet.c.o: /home/mo/share/netconf2/lib_src/libssh/src/packet.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mo/share/netconf2/lib/libssh/debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object output/src/CMakeFiles/ssh.dir/packet.c.o"
-	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh.dir/packet.c.o   -c /home/mo/share/netconf2/lib_src/libssh/src/packet.c
+	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh.dir/packet.c.o   -c /home/mo/share/netconf2/lib_src/libssh/src/packet.c
 
 output/src/CMakeFiles/ssh.dir/packet.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ssh.dir/packet.c.i"
-	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mo/share/netconf2/lib_src/libssh/src/packet.c > CMakeFiles/ssh.dir/packet.c.i
+	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mo/share/netconf2/lib_src/libssh/src/packet.c > CMakeFiles/ssh.dir/packet.c.i
 
 output/src/CMakeFiles/ssh.dir/packet.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ssh.dir/packet.c.s"
-	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mo/share/netconf2/lib_src/libssh/src/packet.c -o CMakeFiles/ssh.dir/packet.c.s
+	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mo/share/netconf2/lib_src/libssh/src/packet.c -o CMakeFiles/ssh.dir/packet.c.s
 
 output/src/CMakeFiles/ssh.dir/packet_cb.c.o: output/src/CMakeFiles/ssh.dir/flags.make
 output/src/CMakeFiles/ssh.dir/packet_cb.c.o: /home/mo/share/netconf2/lib_src/libssh/src/packet_cb.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mo/share/netconf2/lib/libssh/debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object output/src/CMakeFiles/ssh.dir/packet_cb.c.o"
-	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh.dir/packet_cb.c.o   -c /home/mo/share/netconf2/lib_src/libssh/src/packet_cb.c
+	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh.dir/packet_cb.c.o   -c /home/mo/share/netconf2/lib_src/libssh/src/packet_cb.c
 
 output/src/CMakeFiles/ssh.dir/packet_cb.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ssh.dir/packet_cb.c.i"
-	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mo/share/netconf2/lib_src/libssh/src/packet_cb.c > CMakeFiles/ssh.dir/packet_cb.c.i
+	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mo/share/netconf2/lib_src/libssh/src/packet_cb.c > CMakeFiles/ssh.dir/packet_cb.c.i
 
 output/src/CMakeFiles/ssh.dir/packet_cb.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ssh.dir/packet_cb.c.s"
-	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mo/share/netconf2/lib_src/libssh/src/packet_cb.c -o CMakeFiles/ssh.dir/packet_cb.c.s
+	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mo/share/netconf2/lib_src/libssh/src/packet_cb.c -o CMakeFiles/ssh.dir/packet_cb.c.s
 
 output/src/CMakeFiles/ssh.dir/packet_crypt.c.o: output/src/CMakeFiles/ssh.dir/flags.make
 output/src/CMakeFiles/ssh.dir/packet_crypt.c.o: /home/mo/share/netconf2/lib_src/libssh/src/packet_crypt.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mo/share/netconf2/lib/libssh/debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object output/src/CMakeFiles/ssh.dir/packet_crypt.c.o"
-	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh.dir/packet_crypt.c.o   -c /home/mo/share/netconf2/lib_src/libssh/src/packet_crypt.c
+	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh.dir/packet_crypt.c.o   -c /home/mo/share/netconf2/lib_src/libssh/src/packet_crypt.c
 
 output/src/CMakeFiles/ssh.dir/packet_crypt.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ssh.dir/packet_crypt.c.i"
-	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mo/share/netconf2/lib_src/libssh/src/packet_crypt.c > CMakeFiles/ssh.dir/packet_crypt.c.i
+	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mo/share/netconf2/lib_src/libssh/src/packet_crypt.c > CMakeFiles/ssh.dir/packet_crypt.c.i
 
 output/src/CMakeFiles/ssh.dir/packet_crypt.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ssh.dir/packet_crypt.c.s"
-	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mo/share/netconf2/lib_src/libssh/src/packet_crypt.c -o CMakeFiles/ssh.dir/packet_crypt.c.s
+	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mo/share/netconf2/lib_src/libssh/src/packet_crypt.c -o CMakeFiles/ssh.dir/packet_crypt.c.s
 
 output/src/CMakeFiles/ssh.dir/pcap.c.o: output/src/CMakeFiles/ssh.dir/flags.make
 output/src/CMakeFiles/ssh.dir/pcap.c.o: /home/mo/share/netconf2/lib_src/libssh/src/pcap.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mo/share/netconf2/lib/libssh/debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object output/src/CMakeFiles/ssh.dir/pcap.c.o"
-	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh.dir/pcap.c.o   -c /home/mo/share/netconf2/lib_src/libssh/src/pcap.c
+	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh.dir/pcap.c.o   -c /home/mo/share/netconf2/lib_src/libssh/src/pcap.c
 
 output/src/CMakeFiles/ssh.dir/pcap.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ssh.dir/pcap.c.i"
-	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mo/share/netconf2/lib_src/libssh/src/pcap.c > CMakeFiles/ssh.dir/pcap.c.i
+	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mo/share/netconf2/lib_src/libssh/src/pcap.c > CMakeFiles/ssh.dir/pcap.c.i
 
 output/src/CMakeFiles/ssh.dir/pcap.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ssh.dir/pcap.c.s"
-	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mo/share/netconf2/lib_src/libssh/src/pcap.c -o CMakeFiles/ssh.dir/pcap.c.s
+	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mo/share/netconf2/lib_src/libssh/src/pcap.c -o CMakeFiles/ssh.dir/pcap.c.s
 
 output/src/CMakeFiles/ssh.dir/pki.c.o: output/src/CMakeFiles/ssh.dir/flags.make
 output/src/CMakeFiles/ssh.dir/pki.c.o: /home/mo/share/netconf2/lib_src/libssh/src/pki.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mo/share/netconf2/lib/libssh/debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object output/src/CMakeFiles/ssh.dir/pki.c.o"
-	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh.dir/pki.c.o   -c /home/mo/share/netconf2/lib_src/libssh/src/pki.c
+	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh.dir/pki.c.o   -c /home/mo/share/netconf2/lib_src/libssh/src/pki.c
 
 output/src/CMakeFiles/ssh.dir/pki.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ssh.dir/pki.c.i"
-	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mo/share/netconf2/lib_src/libssh/src/pki.c > CMakeFiles/ssh.dir/pki.c.i
+	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mo/share/netconf2/lib_src/libssh/src/pki.c > CMakeFiles/ssh.dir/pki.c.i
 
 output/src/CMakeFiles/ssh.dir/pki.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ssh.dir/pki.c.s"
-	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mo/share/netconf2/lib_src/libssh/src/pki.c -o CMakeFiles/ssh.dir/pki.c.s
+	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mo/share/netconf2/lib_src/libssh/src/pki.c -o CMakeFiles/ssh.dir/pki.c.s
 
 output/src/CMakeFiles/ssh.dir/pki_container_openssh.c.o: output/src/CMakeFiles/ssh.dir/flags.make
 output/src/CMakeFiles/ssh.dir/pki_container_openssh.c.o: /home/mo/share/netconf2/lib_src/libssh/src/pki_container_openssh.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mo/share/netconf2/lib/libssh/debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object output/src/CMakeFiles/ssh.dir/pki_container_openssh.c.o"
-	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh.dir/pki_container_openssh.c.o   -c /home/mo/share/netconf2/lib_src/libssh/src/pki_container_openssh.c
+	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh.dir/pki_container_openssh.c.o   -c /home/mo/share/netconf2/lib_src/libssh/src/pki_container_openssh.c
 
 output/src/CMakeFiles/ssh.dir/pki_container_openssh.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ssh.dir/pki_container_openssh.c.i"
-	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mo/share/netconf2/lib_src/libssh/src/pki_container_openssh.c > CMakeFiles/ssh.dir/pki_container_openssh.c.i
+	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mo/share/netconf2/lib_src/libssh/src/pki_container_openssh.c > CMakeFiles/ssh.dir/pki_container_openssh.c.i
 
 output/src/CMakeFiles/ssh.dir/pki_container_openssh.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ssh.dir/pki_container_openssh.c.s"
-	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mo/share/netconf2/lib_src/libssh/src/pki_container_openssh.c -o CMakeFiles/ssh.dir/pki_container_openssh.c.s
+	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mo/share/netconf2/lib_src/libssh/src/pki_container_openssh.c -o CMakeFiles/ssh.dir/pki_container_openssh.c.s
 
 output/src/CMakeFiles/ssh.dir/poll.c.o: output/src/CMakeFiles/ssh.dir/flags.make
 output/src/CMakeFiles/ssh.dir/poll.c.o: /home/mo/share/netconf2/lib_src/libssh/src/poll.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mo/share/netconf2/lib/libssh/debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object output/src/CMakeFiles/ssh.dir/poll.c.o"
-	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh.dir/poll.c.o   -c /home/mo/share/netconf2/lib_src/libssh/src/poll.c
+	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh.dir/poll.c.o   -c /home/mo/share/netconf2/lib_src/libssh/src/poll.c
 
 output/src/CMakeFiles/ssh.dir/poll.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ssh.dir/poll.c.i"
-	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mo/share/netconf2/lib_src/libssh/src/poll.c > CMakeFiles/ssh.dir/poll.c.i
+	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mo/share/netconf2/lib_src/libssh/src/poll.c > CMakeFiles/ssh.dir/poll.c.i
 
 output/src/CMakeFiles/ssh.dir/poll.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ssh.dir/poll.c.s"
-	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mo/share/netconf2/lib_src/libssh/src/poll.c -o CMakeFiles/ssh.dir/poll.c.s
+	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mo/share/netconf2/lib_src/libssh/src/poll.c -o CMakeFiles/ssh.dir/poll.c.s
 
 output/src/CMakeFiles/ssh.dir/session.c.o: output/src/CMakeFiles/ssh.dir/flags.make
 output/src/CMakeFiles/ssh.dir/session.c.o: /home/mo/share/netconf2/lib_src/libssh/src/session.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mo/share/netconf2/lib/libssh/debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object output/src/CMakeFiles/ssh.dir/session.c.o"
-	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh.dir/session.c.o   -c /home/mo/share/netconf2/lib_src/libssh/src/session.c
+	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh.dir/session.c.o   -c /home/mo/share/netconf2/lib_src/libssh/src/session.c
 
 output/src/CMakeFiles/ssh.dir/session.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ssh.dir/session.c.i"
-	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mo/share/netconf2/lib_src/libssh/src/session.c > CMakeFiles/ssh.dir/session.c.i
+	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mo/share/netconf2/lib_src/libssh/src/session.c > CMakeFiles/ssh.dir/session.c.i
 
 output/src/CMakeFiles/ssh.dir/session.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ssh.dir/session.c.s"
-	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mo/share/netconf2/lib_src/libssh/src/session.c -o CMakeFiles/ssh.dir/session.c.s
+	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mo/share/netconf2/lib_src/libssh/src/session.c -o CMakeFiles/ssh.dir/session.c.s
 
 output/src/CMakeFiles/ssh.dir/scp.c.o: output/src/CMakeFiles/ssh.dir/flags.make
 output/src/CMakeFiles/ssh.dir/scp.c.o: /home/mo/share/netconf2/lib_src/libssh/src/scp.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mo/share/netconf2/lib/libssh/debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object output/src/CMakeFiles/ssh.dir/scp.c.o"
-	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh.dir/scp.c.o   -c /home/mo/share/netconf2/lib_src/libssh/src/scp.c
+	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh.dir/scp.c.o   -c /home/mo/share/netconf2/lib_src/libssh/src/scp.c
 
 output/src/CMakeFiles/ssh.dir/scp.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ssh.dir/scp.c.i"
-	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mo/share/netconf2/lib_src/libssh/src/scp.c > CMakeFiles/ssh.dir/scp.c.i
+	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mo/share/netconf2/lib_src/libssh/src/scp.c > CMakeFiles/ssh.dir/scp.c.i
 
 output/src/CMakeFiles/ssh.dir/scp.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ssh.dir/scp.c.s"
-	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mo/share/netconf2/lib_src/libssh/src/scp.c -o CMakeFiles/ssh.dir/scp.c.s
+	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mo/share/netconf2/lib_src/libssh/src/scp.c -o CMakeFiles/ssh.dir/scp.c.s
 
 output/src/CMakeFiles/ssh.dir/socket.c.o: output/src/CMakeFiles/ssh.dir/flags.make
 output/src/CMakeFiles/ssh.dir/socket.c.o: /home/mo/share/netconf2/lib_src/libssh/src/socket.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mo/share/netconf2/lib/libssh/debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object output/src/CMakeFiles/ssh.dir/socket.c.o"
-	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh.dir/socket.c.o   -c /home/mo/share/netconf2/lib_src/libssh/src/socket.c
+	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh.dir/socket.c.o   -c /home/mo/share/netconf2/lib_src/libssh/src/socket.c
 
 output/src/CMakeFiles/ssh.dir/socket.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ssh.dir/socket.c.i"
-	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mo/share/netconf2/lib_src/libssh/src/socket.c > CMakeFiles/ssh.dir/socket.c.i
+	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mo/share/netconf2/lib_src/libssh/src/socket.c > CMakeFiles/ssh.dir/socket.c.i
 
 output/src/CMakeFiles/ssh.dir/socket.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ssh.dir/socket.c.s"
-	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mo/share/netconf2/lib_src/libssh/src/socket.c -o CMakeFiles/ssh.dir/socket.c.s
+	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mo/share/netconf2/lib_src/libssh/src/socket.c -o CMakeFiles/ssh.dir/socket.c.s
 
 output/src/CMakeFiles/ssh.dir/string.c.o: output/src/CMakeFiles/ssh.dir/flags.make
 output/src/CMakeFiles/ssh.dir/string.c.o: /home/mo/share/netconf2/lib_src/libssh/src/string.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mo/share/netconf2/lib/libssh/debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object output/src/CMakeFiles/ssh.dir/string.c.o"
-	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh.dir/string.c.o   -c /home/mo/share/netconf2/lib_src/libssh/src/string.c
+	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh.dir/string.c.o   -c /home/mo/share/netconf2/lib_src/libssh/src/string.c
 
 output/src/CMakeFiles/ssh.dir/string.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ssh.dir/string.c.i"
-	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mo/share/netconf2/lib_src/libssh/src/string.c > CMakeFiles/ssh.dir/string.c.i
+	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mo/share/netconf2/lib_src/libssh/src/string.c > CMakeFiles/ssh.dir/string.c.i
 
 output/src/CMakeFiles/ssh.dir/string.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ssh.dir/string.c.s"
-	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mo/share/netconf2/lib_src/libssh/src/string.c -o CMakeFiles/ssh.dir/string.c.s
+	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mo/share/netconf2/lib_src/libssh/src/string.c -o CMakeFiles/ssh.dir/string.c.s
 
 output/src/CMakeFiles/ssh.dir/threads.c.o: output/src/CMakeFiles/ssh.dir/flags.make
 output/src/CMakeFiles/ssh.dir/threads.c.o: /home/mo/share/netconf2/lib_src/libssh/src/threads.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mo/share/netconf2/lib/libssh/debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object output/src/CMakeFiles/ssh.dir/threads.c.o"
-	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh.dir/threads.c.o   -c /home/mo/share/netconf2/lib_src/libssh/src/threads.c
+	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh.dir/threads.c.o   -c /home/mo/share/netconf2/lib_src/libssh/src/threads.c
 
 output/src/CMakeFiles/ssh.dir/threads.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ssh.dir/threads.c.i"
-	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mo/share/netconf2/lib_src/libssh/src/threads.c > CMakeFiles/ssh.dir/threads.c.i
+	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mo/share/netconf2/lib_src/libssh/src/threads.c > CMakeFiles/ssh.dir/threads.c.i
 
 output/src/CMakeFiles/ssh.dir/threads.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ssh.dir/threads.c.s"
-	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mo/share/netconf2/lib_src/libssh/src/threads.c -o CMakeFiles/ssh.dir/threads.c.s
+	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mo/share/netconf2/lib_src/libssh/src/threads.c -o CMakeFiles/ssh.dir/threads.c.s
 
 output/src/CMakeFiles/ssh.dir/wrapper.c.o: output/src/CMakeFiles/ssh.dir/flags.make
 output/src/CMakeFiles/ssh.dir/wrapper.c.o: /home/mo/share/netconf2/lib_src/libssh/src/wrapper.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mo/share/netconf2/lib/libssh/debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object output/src/CMakeFiles/ssh.dir/wrapper.c.o"
-	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh.dir/wrapper.c.o   -c /home/mo/share/netconf2/lib_src/libssh/src/wrapper.c
+	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh.dir/wrapper.c.o   -c /home/mo/share/netconf2/lib_src/libssh/src/wrapper.c
 
 output/src/CMakeFiles/ssh.dir/wrapper.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ssh.dir/wrapper.c.i"
-	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mo/share/netconf2/lib_src/libssh/src/wrapper.c > CMakeFiles/ssh.dir/wrapper.c.i
+	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mo/share/netconf2/lib_src/libssh/src/wrapper.c > CMakeFiles/ssh.dir/wrapper.c.i
 
 output/src/CMakeFiles/ssh.dir/wrapper.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ssh.dir/wrapper.c.s"
-	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mo/share/netconf2/lib_src/libssh/src/wrapper.c -o CMakeFiles/ssh.dir/wrapper.c.s
+	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mo/share/netconf2/lib_src/libssh/src/wrapper.c -o CMakeFiles/ssh.dir/wrapper.c.s
 
 output/src/CMakeFiles/ssh.dir/external/bcrypt_pbkdf.c.o: output/src/CMakeFiles/ssh.dir/flags.make
 output/src/CMakeFiles/ssh.dir/external/bcrypt_pbkdf.c.o: /home/mo/share/netconf2/lib_src/libssh/src/external/bcrypt_pbkdf.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mo/share/netconf2/lib/libssh/debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object output/src/CMakeFiles/ssh.dir/external/bcrypt_pbkdf.c.o"
-	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh.dir/external/bcrypt_pbkdf.c.o   -c /home/mo/share/netconf2/lib_src/libssh/src/external/bcrypt_pbkdf.c
+	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh.dir/external/bcrypt_pbkdf.c.o   -c /home/mo/share/netconf2/lib_src/libssh/src/external/bcrypt_pbkdf.c
 
 output/src/CMakeFiles/ssh.dir/external/bcrypt_pbkdf.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ssh.dir/external/bcrypt_pbkdf.c.i"
-	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mo/share/netconf2/lib_src/libssh/src/external/bcrypt_pbkdf.c > CMakeFiles/ssh.dir/external/bcrypt_pbkdf.c.i
+	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mo/share/netconf2/lib_src/libssh/src/external/bcrypt_pbkdf.c > CMakeFiles/ssh.dir/external/bcrypt_pbkdf.c.i
 
 output/src/CMakeFiles/ssh.dir/external/bcrypt_pbkdf.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ssh.dir/external/bcrypt_pbkdf.c.s"
-	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mo/share/netconf2/lib_src/libssh/src/external/bcrypt_pbkdf.c -o CMakeFiles/ssh.dir/external/bcrypt_pbkdf.c.s
+	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mo/share/netconf2/lib_src/libssh/src/external/bcrypt_pbkdf.c -o CMakeFiles/ssh.dir/external/bcrypt_pbkdf.c.s
 
 output/src/CMakeFiles/ssh.dir/external/blowfish.c.o: output/src/CMakeFiles/ssh.dir/flags.make
 output/src/CMakeFiles/ssh.dir/external/blowfish.c.o: /home/mo/share/netconf2/lib_src/libssh/src/external/blowfish.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mo/share/netconf2/lib/libssh/debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object output/src/CMakeFiles/ssh.dir/external/blowfish.c.o"
-	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh.dir/external/blowfish.c.o   -c /home/mo/share/netconf2/lib_src/libssh/src/external/blowfish.c
+	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh.dir/external/blowfish.c.o   -c /home/mo/share/netconf2/lib_src/libssh/src/external/blowfish.c
 
 output/src/CMakeFiles/ssh.dir/external/blowfish.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ssh.dir/external/blowfish.c.i"
-	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mo/share/netconf2/lib_src/libssh/src/external/blowfish.c > CMakeFiles/ssh.dir/external/blowfish.c.i
+	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mo/share/netconf2/lib_src/libssh/src/external/blowfish.c > CMakeFiles/ssh.dir/external/blowfish.c.i
 
 output/src/CMakeFiles/ssh.dir/external/blowfish.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ssh.dir/external/blowfish.c.s"
-	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mo/share/netconf2/lib_src/libssh/src/external/blowfish.c -o CMakeFiles/ssh.dir/external/blowfish.c.s
+	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mo/share/netconf2/lib_src/libssh/src/external/blowfish.c -o CMakeFiles/ssh.dir/external/blowfish.c.s
 
 output/src/CMakeFiles/ssh.dir/config_parser.c.o: output/src/CMakeFiles/ssh.dir/flags.make
 output/src/CMakeFiles/ssh.dir/config_parser.c.o: /home/mo/share/netconf2/lib_src/libssh/src/config_parser.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mo/share/netconf2/lib/libssh/debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object output/src/CMakeFiles/ssh.dir/config_parser.c.o"
-	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh.dir/config_parser.c.o   -c /home/mo/share/netconf2/lib_src/libssh/src/config_parser.c
+	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh.dir/config_parser.c.o   -c /home/mo/share/netconf2/lib_src/libssh/src/config_parser.c
 
 output/src/CMakeFiles/ssh.dir/config_parser.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ssh.dir/config_parser.c.i"
-	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mo/share/netconf2/lib_src/libssh/src/config_parser.c > CMakeFiles/ssh.dir/config_parser.c.i
+	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mo/share/netconf2/lib_src/libssh/src/config_parser.c > CMakeFiles/ssh.dir/config_parser.c.i
 
 output/src/CMakeFiles/ssh.dir/config_parser.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ssh.dir/config_parser.c.s"
-	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mo/share/netconf2/lib_src/libssh/src/config_parser.c -o CMakeFiles/ssh.dir/config_parser.c.s
+	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mo/share/netconf2/lib_src/libssh/src/config_parser.c -o CMakeFiles/ssh.dir/config_parser.c.s
 
 output/src/CMakeFiles/ssh.dir/token.c.o: output/src/CMakeFiles/ssh.dir/flags.make
 output/src/CMakeFiles/ssh.dir/token.c.o: /home/mo/share/netconf2/lib_src/libssh/src/token.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mo/share/netconf2/lib/libssh/debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object output/src/CMakeFiles/ssh.dir/token.c.o"
-	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh.dir/token.c.o   -c /home/mo/share/netconf2/lib_src/libssh/src/token.c
+	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh.dir/token.c.o   -c /home/mo/share/netconf2/lib_src/libssh/src/token.c
 
 output/src/CMakeFiles/ssh.dir/token.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ssh.dir/token.c.i"
-	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mo/share/netconf2/lib_src/libssh/src/token.c > CMakeFiles/ssh.dir/token.c.i
+	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mo/share/netconf2/lib_src/libssh/src/token.c > CMakeFiles/ssh.dir/token.c.i
 
 output/src/CMakeFiles/ssh.dir/token.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ssh.dir/token.c.s"
-	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mo/share/netconf2/lib_src/libssh/src/token.c -o CMakeFiles/ssh.dir/token.c.s
+	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mo/share/netconf2/lib_src/libssh/src/token.c -o CMakeFiles/ssh.dir/token.c.s
 
 output/src/CMakeFiles/ssh.dir/pki_ed25519_common.c.o: output/src/CMakeFiles/ssh.dir/flags.make
 output/src/CMakeFiles/ssh.dir/pki_ed25519_common.c.o: /home/mo/share/netconf2/lib_src/libssh/src/pki_ed25519_common.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mo/share/netconf2/lib/libssh/debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object output/src/CMakeFiles/ssh.dir/pki_ed25519_common.c.o"
-	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh.dir/pki_ed25519_common.c.o   -c /home/mo/share/netconf2/lib_src/libssh/src/pki_ed25519_common.c
+	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh.dir/pki_ed25519_common.c.o   -c /home/mo/share/netconf2/lib_src/libssh/src/pki_ed25519_common.c
 
 output/src/CMakeFiles/ssh.dir/pki_ed25519_common.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ssh.dir/pki_ed25519_common.c.i"
-	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mo/share/netconf2/lib_src/libssh/src/pki_ed25519_common.c > CMakeFiles/ssh.dir/pki_ed25519_common.c.i
+	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mo/share/netconf2/lib_src/libssh/src/pki_ed25519_common.c > CMakeFiles/ssh.dir/pki_ed25519_common.c.i
 
 output/src/CMakeFiles/ssh.dir/pki_ed25519_common.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ssh.dir/pki_ed25519_common.c.s"
-	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mo/share/netconf2/lib_src/libssh/src/pki_ed25519_common.c -o CMakeFiles/ssh.dir/pki_ed25519_common.c.s
+	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mo/share/netconf2/lib_src/libssh/src/pki_ed25519_common.c -o CMakeFiles/ssh.dir/pki_ed25519_common.c.s
 
 output/src/CMakeFiles/ssh.dir/threads/noop.c.o: output/src/CMakeFiles/ssh.dir/flags.make
 output/src/CMakeFiles/ssh.dir/threads/noop.c.o: /home/mo/share/netconf2/lib_src/libssh/src/threads/noop.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mo/share/netconf2/lib/libssh/debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object output/src/CMakeFiles/ssh.dir/threads/noop.c.o"
-	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh.dir/threads/noop.c.o   -c /home/mo/share/netconf2/lib_src/libssh/src/threads/noop.c
+	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh.dir/threads/noop.c.o   -c /home/mo/share/netconf2/lib_src/libssh/src/threads/noop.c
 
 output/src/CMakeFiles/ssh.dir/threads/noop.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ssh.dir/threads/noop.c.i"
-	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mo/share/netconf2/lib_src/libssh/src/threads/noop.c > CMakeFiles/ssh.dir/threads/noop.c.i
+	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mo/share/netconf2/lib_src/libssh/src/threads/noop.c > CMakeFiles/ssh.dir/threads/noop.c.i
 
 output/src/CMakeFiles/ssh.dir/threads/noop.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ssh.dir/threads/noop.c.s"
-	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mo/share/netconf2/lib_src/libssh/src/threads/noop.c -o CMakeFiles/ssh.dir/threads/noop.c.s
+	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mo/share/netconf2/lib_src/libssh/src/threads/noop.c -o CMakeFiles/ssh.dir/threads/noop.c.s
 
 output/src/CMakeFiles/ssh.dir/threads/pthread.c.o: output/src/CMakeFiles/ssh.dir/flags.make
 output/src/CMakeFiles/ssh.dir/threads/pthread.c.o: /home/mo/share/netconf2/lib_src/libssh/src/threads/pthread.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mo/share/netconf2/lib/libssh/debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object output/src/CMakeFiles/ssh.dir/threads/pthread.c.o"
-	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh.dir/threads/pthread.c.o   -c /home/mo/share/netconf2/lib_src/libssh/src/threads/pthread.c
+	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh.dir/threads/pthread.c.o   -c /home/mo/share/netconf2/lib_src/libssh/src/threads/pthread.c
 
 output/src/CMakeFiles/ssh.dir/threads/pthread.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ssh.dir/threads/pthread.c.i"
-	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mo/share/netconf2/lib_src/libssh/src/threads/pthread.c > CMakeFiles/ssh.dir/threads/pthread.c.i
+	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mo/share/netconf2/lib_src/libssh/src/threads/pthread.c > CMakeFiles/ssh.dir/threads/pthread.c.i
 
 output/src/CMakeFiles/ssh.dir/threads/pthread.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ssh.dir/threads/pthread.c.s"
-	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mo/share/netconf2/lib_src/libssh/src/threads/pthread.c -o CMakeFiles/ssh.dir/threads/pthread.c.s
+	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mo/share/netconf2/lib_src/libssh/src/threads/pthread.c -o CMakeFiles/ssh.dir/threads/pthread.c.s
 
 output/src/CMakeFiles/ssh.dir/threads/libcrypto.c.o: output/src/CMakeFiles/ssh.dir/flags.make
 output/src/CMakeFiles/ssh.dir/threads/libcrypto.c.o: /home/mo/share/netconf2/lib_src/libssh/src/threads/libcrypto.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mo/share/netconf2/lib/libssh/debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object output/src/CMakeFiles/ssh.dir/threads/libcrypto.c.o"
-	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh.dir/threads/libcrypto.c.o   -c /home/mo/share/netconf2/lib_src/libssh/src/threads/libcrypto.c
+	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh.dir/threads/libcrypto.c.o   -c /home/mo/share/netconf2/lib_src/libssh/src/threads/libcrypto.c
 
 output/src/CMakeFiles/ssh.dir/threads/libcrypto.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ssh.dir/threads/libcrypto.c.i"
-	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mo/share/netconf2/lib_src/libssh/src/threads/libcrypto.c > CMakeFiles/ssh.dir/threads/libcrypto.c.i
+	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mo/share/netconf2/lib_src/libssh/src/threads/libcrypto.c > CMakeFiles/ssh.dir/threads/libcrypto.c.i
 
 output/src/CMakeFiles/ssh.dir/threads/libcrypto.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ssh.dir/threads/libcrypto.c.s"
-	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mo/share/netconf2/lib_src/libssh/src/threads/libcrypto.c -o CMakeFiles/ssh.dir/threads/libcrypto.c.s
+	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mo/share/netconf2/lib_src/libssh/src/threads/libcrypto.c -o CMakeFiles/ssh.dir/threads/libcrypto.c.s
 
 output/src/CMakeFiles/ssh.dir/pki_crypto.c.o: output/src/CMakeFiles/ssh.dir/flags.make
 output/src/CMakeFiles/ssh.dir/pki_crypto.c.o: /home/mo/share/netconf2/lib_src/libssh/src/pki_crypto.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mo/share/netconf2/lib/libssh/debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object output/src/CMakeFiles/ssh.dir/pki_crypto.c.o"
-	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh.dir/pki_crypto.c.o   -c /home/mo/share/netconf2/lib_src/libssh/src/pki_crypto.c
+	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh.dir/pki_crypto.c.o   -c /home/mo/share/netconf2/lib_src/libssh/src/pki_crypto.c
 
 output/src/CMakeFiles/ssh.dir/pki_crypto.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ssh.dir/pki_crypto.c.i"
-	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mo/share/netconf2/lib_src/libssh/src/pki_crypto.c > CMakeFiles/ssh.dir/pki_crypto.c.i
+	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mo/share/netconf2/lib_src/libssh/src/pki_crypto.c > CMakeFiles/ssh.dir/pki_crypto.c.i
 
 output/src/CMakeFiles/ssh.dir/pki_crypto.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ssh.dir/pki_crypto.c.s"
-	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mo/share/netconf2/lib_src/libssh/src/pki_crypto.c -o CMakeFiles/ssh.dir/pki_crypto.c.s
+	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mo/share/netconf2/lib_src/libssh/src/pki_crypto.c -o CMakeFiles/ssh.dir/pki_crypto.c.s
 
 output/src/CMakeFiles/ssh.dir/ecdh_crypto.c.o: output/src/CMakeFiles/ssh.dir/flags.make
 output/src/CMakeFiles/ssh.dir/ecdh_crypto.c.o: /home/mo/share/netconf2/lib_src/libssh/src/ecdh_crypto.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mo/share/netconf2/lib/libssh/debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object output/src/CMakeFiles/ssh.dir/ecdh_crypto.c.o"
-	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh.dir/ecdh_crypto.c.o   -c /home/mo/share/netconf2/lib_src/libssh/src/ecdh_crypto.c
+	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh.dir/ecdh_crypto.c.o   -c /home/mo/share/netconf2/lib_src/libssh/src/ecdh_crypto.c
 
 output/src/CMakeFiles/ssh.dir/ecdh_crypto.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ssh.dir/ecdh_crypto.c.i"
-	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mo/share/netconf2/lib_src/libssh/src/ecdh_crypto.c > CMakeFiles/ssh.dir/ecdh_crypto.c.i
+	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mo/share/netconf2/lib_src/libssh/src/ecdh_crypto.c > CMakeFiles/ssh.dir/ecdh_crypto.c.i
 
 output/src/CMakeFiles/ssh.dir/ecdh_crypto.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ssh.dir/ecdh_crypto.c.s"
-	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mo/share/netconf2/lib_src/libssh/src/ecdh_crypto.c -o CMakeFiles/ssh.dir/ecdh_crypto.c.s
+	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mo/share/netconf2/lib_src/libssh/src/ecdh_crypto.c -o CMakeFiles/ssh.dir/ecdh_crypto.c.s
 
 output/src/CMakeFiles/ssh.dir/libcrypto.c.o: output/src/CMakeFiles/ssh.dir/flags.make
 output/src/CMakeFiles/ssh.dir/libcrypto.c.o: /home/mo/share/netconf2/lib_src/libssh/src/libcrypto.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mo/share/netconf2/lib/libssh/debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object output/src/CMakeFiles/ssh.dir/libcrypto.c.o"
-	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh.dir/libcrypto.c.o   -c /home/mo/share/netconf2/lib_src/libssh/src/libcrypto.c
+	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh.dir/libcrypto.c.o   -c /home/mo/share/netconf2/lib_src/libssh/src/libcrypto.c
 
 output/src/CMakeFiles/ssh.dir/libcrypto.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ssh.dir/libcrypto.c.i"
-	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mo/share/netconf2/lib_src/libssh/src/libcrypto.c > CMakeFiles/ssh.dir/libcrypto.c.i
+	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mo/share/netconf2/lib_src/libssh/src/libcrypto.c > CMakeFiles/ssh.dir/libcrypto.c.i
 
 output/src/CMakeFiles/ssh.dir/libcrypto.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ssh.dir/libcrypto.c.s"
-	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mo/share/netconf2/lib_src/libssh/src/libcrypto.c -o CMakeFiles/ssh.dir/libcrypto.c.s
+	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mo/share/netconf2/lib_src/libssh/src/libcrypto.c -o CMakeFiles/ssh.dir/libcrypto.c.s
 
 output/src/CMakeFiles/ssh.dir/dh_crypto.c.o: output/src/CMakeFiles/ssh.dir/flags.make
 output/src/CMakeFiles/ssh.dir/dh_crypto.c.o: /home/mo/share/netconf2/lib_src/libssh/src/dh_crypto.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mo/share/netconf2/lib/libssh/debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object output/src/CMakeFiles/ssh.dir/dh_crypto.c.o"
-	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh.dir/dh_crypto.c.o   -c /home/mo/share/netconf2/lib_src/libssh/src/dh_crypto.c
+	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh.dir/dh_crypto.c.o   -c /home/mo/share/netconf2/lib_src/libssh/src/dh_crypto.c
 
 output/src/CMakeFiles/ssh.dir/dh_crypto.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ssh.dir/dh_crypto.c.i"
-	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mo/share/netconf2/lib_src/libssh/src/dh_crypto.c > CMakeFiles/ssh.dir/dh_crypto.c.i
+	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mo/share/netconf2/lib_src/libssh/src/dh_crypto.c > CMakeFiles/ssh.dir/dh_crypto.c.i
 
 output/src/CMakeFiles/ssh.dir/dh_crypto.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ssh.dir/dh_crypto.c.s"
-	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mo/share/netconf2/lib_src/libssh/src/dh_crypto.c -o CMakeFiles/ssh.dir/dh_crypto.c.s
+	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mo/share/netconf2/lib_src/libssh/src/dh_crypto.c -o CMakeFiles/ssh.dir/dh_crypto.c.s
 
 output/src/CMakeFiles/ssh.dir/pki_ed25519.c.o: output/src/CMakeFiles/ssh.dir/flags.make
 output/src/CMakeFiles/ssh.dir/pki_ed25519.c.o: /home/mo/share/netconf2/lib_src/libssh/src/pki_ed25519.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mo/share/netconf2/lib/libssh/debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object output/src/CMakeFiles/ssh.dir/pki_ed25519.c.o"
-	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh.dir/pki_ed25519.c.o   -c /home/mo/share/netconf2/lib_src/libssh/src/pki_ed25519.c
+	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh.dir/pki_ed25519.c.o   -c /home/mo/share/netconf2/lib_src/libssh/src/pki_ed25519.c
 
 output/src/CMakeFiles/ssh.dir/pki_ed25519.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ssh.dir/pki_ed25519.c.i"
-	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mo/share/netconf2/lib_src/libssh/src/pki_ed25519.c > CMakeFiles/ssh.dir/pki_ed25519.c.i
+	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mo/share/netconf2/lib_src/libssh/src/pki_ed25519.c > CMakeFiles/ssh.dir/pki_ed25519.c.i
 
 output/src/CMakeFiles/ssh.dir/pki_ed25519.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ssh.dir/pki_ed25519.c.s"
-	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mo/share/netconf2/lib_src/libssh/src/pki_ed25519.c -o CMakeFiles/ssh.dir/pki_ed25519.c.s
+	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mo/share/netconf2/lib_src/libssh/src/pki_ed25519.c -o CMakeFiles/ssh.dir/pki_ed25519.c.s
 
 output/src/CMakeFiles/ssh.dir/external/ed25519.c.o: output/src/CMakeFiles/ssh.dir/flags.make
 output/src/CMakeFiles/ssh.dir/external/ed25519.c.o: /home/mo/share/netconf2/lib_src/libssh/src/external/ed25519.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mo/share/netconf2/lib/libssh/debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object output/src/CMakeFiles/ssh.dir/external/ed25519.c.o"
-	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh.dir/external/ed25519.c.o   -c /home/mo/share/netconf2/lib_src/libssh/src/external/ed25519.c
+	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh.dir/external/ed25519.c.o   -c /home/mo/share/netconf2/lib_src/libssh/src/external/ed25519.c
 
 output/src/CMakeFiles/ssh.dir/external/ed25519.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ssh.dir/external/ed25519.c.i"
-	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mo/share/netconf2/lib_src/libssh/src/external/ed25519.c > CMakeFiles/ssh.dir/external/ed25519.c.i
+	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mo/share/netconf2/lib_src/libssh/src/external/ed25519.c > CMakeFiles/ssh.dir/external/ed25519.c.i
 
 output/src/CMakeFiles/ssh.dir/external/ed25519.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ssh.dir/external/ed25519.c.s"
-	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mo/share/netconf2/lib_src/libssh/src/external/ed25519.c -o CMakeFiles/ssh.dir/external/ed25519.c.s
+	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mo/share/netconf2/lib_src/libssh/src/external/ed25519.c -o CMakeFiles/ssh.dir/external/ed25519.c.s
 
 output/src/CMakeFiles/ssh.dir/external/fe25519.c.o: output/src/CMakeFiles/ssh.dir/flags.make
 output/src/CMakeFiles/ssh.dir/external/fe25519.c.o: /home/mo/share/netconf2/lib_src/libssh/src/external/fe25519.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mo/share/netconf2/lib/libssh/debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object output/src/CMakeFiles/ssh.dir/external/fe25519.c.o"
-	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh.dir/external/fe25519.c.o   -c /home/mo/share/netconf2/lib_src/libssh/src/external/fe25519.c
+	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh.dir/external/fe25519.c.o   -c /home/mo/share/netconf2/lib_src/libssh/src/external/fe25519.c
 
 output/src/CMakeFiles/ssh.dir/external/fe25519.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ssh.dir/external/fe25519.c.i"
-	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mo/share/netconf2/lib_src/libssh/src/external/fe25519.c > CMakeFiles/ssh.dir/external/fe25519.c.i
+	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mo/share/netconf2/lib_src/libssh/src/external/fe25519.c > CMakeFiles/ssh.dir/external/fe25519.c.i
 
 output/src/CMakeFiles/ssh.dir/external/fe25519.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ssh.dir/external/fe25519.c.s"
-	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mo/share/netconf2/lib_src/libssh/src/external/fe25519.c -o CMakeFiles/ssh.dir/external/fe25519.c.s
+	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mo/share/netconf2/lib_src/libssh/src/external/fe25519.c -o CMakeFiles/ssh.dir/external/fe25519.c.s
 
 output/src/CMakeFiles/ssh.dir/external/ge25519.c.o: output/src/CMakeFiles/ssh.dir/flags.make
 output/src/CMakeFiles/ssh.dir/external/ge25519.c.o: /home/mo/share/netconf2/lib_src/libssh/src/external/ge25519.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mo/share/netconf2/lib/libssh/debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object output/src/CMakeFiles/ssh.dir/external/ge25519.c.o"
-	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh.dir/external/ge25519.c.o   -c /home/mo/share/netconf2/lib_src/libssh/src/external/ge25519.c
+	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh.dir/external/ge25519.c.o   -c /home/mo/share/netconf2/lib_src/libssh/src/external/ge25519.c
 
 output/src/CMakeFiles/ssh.dir/external/ge25519.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ssh.dir/external/ge25519.c.i"
-	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mo/share/netconf2/lib_src/libssh/src/external/ge25519.c > CMakeFiles/ssh.dir/external/ge25519.c.i
+	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mo/share/netconf2/lib_src/libssh/src/external/ge25519.c > CMakeFiles/ssh.dir/external/ge25519.c.i
 
 output/src/CMakeFiles/ssh.dir/external/ge25519.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ssh.dir/external/ge25519.c.s"
-	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mo/share/netconf2/lib_src/libssh/src/external/ge25519.c -o CMakeFiles/ssh.dir/external/ge25519.c.s
+	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mo/share/netconf2/lib_src/libssh/src/external/ge25519.c -o CMakeFiles/ssh.dir/external/ge25519.c.s
 
 output/src/CMakeFiles/ssh.dir/external/sc25519.c.o: output/src/CMakeFiles/ssh.dir/flags.make
 output/src/CMakeFiles/ssh.dir/external/sc25519.c.o: /home/mo/share/netconf2/lib_src/libssh/src/external/sc25519.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mo/share/netconf2/lib/libssh/debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object output/src/CMakeFiles/ssh.dir/external/sc25519.c.o"
-	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh.dir/external/sc25519.c.o   -c /home/mo/share/netconf2/lib_src/libssh/src/external/sc25519.c
+	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh.dir/external/sc25519.c.o   -c /home/mo/share/netconf2/lib_src/libssh/src/external/sc25519.c
 
 output/src/CMakeFiles/ssh.dir/external/sc25519.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ssh.dir/external/sc25519.c.i"
-	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mo/share/netconf2/lib_src/libssh/src/external/sc25519.c > CMakeFiles/ssh.dir/external/sc25519.c.i
+	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mo/share/netconf2/lib_src/libssh/src/external/sc25519.c > CMakeFiles/ssh.dir/external/sc25519.c.i
 
 output/src/CMakeFiles/ssh.dir/external/sc25519.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ssh.dir/external/sc25519.c.s"
-	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mo/share/netconf2/lib_src/libssh/src/external/sc25519.c -o CMakeFiles/ssh.dir/external/sc25519.c.s
+	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mo/share/netconf2/lib_src/libssh/src/external/sc25519.c -o CMakeFiles/ssh.dir/external/sc25519.c.s
 
 output/src/CMakeFiles/ssh.dir/external/chacha.c.o: output/src/CMakeFiles/ssh.dir/flags.make
 output/src/CMakeFiles/ssh.dir/external/chacha.c.o: /home/mo/share/netconf2/lib_src/libssh/src/external/chacha.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mo/share/netconf2/lib/libssh/debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object output/src/CMakeFiles/ssh.dir/external/chacha.c.o"
-	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh.dir/external/chacha.c.o   -c /home/mo/share/netconf2/lib_src/libssh/src/external/chacha.c
+	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh.dir/external/chacha.c.o   -c /home/mo/share/netconf2/lib_src/libssh/src/external/chacha.c
 
 output/src/CMakeFiles/ssh.dir/external/chacha.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ssh.dir/external/chacha.c.i"
-	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mo/share/netconf2/lib_src/libssh/src/external/chacha.c > CMakeFiles/ssh.dir/external/chacha.c.i
+	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mo/share/netconf2/lib_src/libssh/src/external/chacha.c > CMakeFiles/ssh.dir/external/chacha.c.i
 
 output/src/CMakeFiles/ssh.dir/external/chacha.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ssh.dir/external/chacha.c.s"
-	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mo/share/netconf2/lib_src/libssh/src/external/chacha.c -o CMakeFiles/ssh.dir/external/chacha.c.s
+	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mo/share/netconf2/lib_src/libssh/src/external/chacha.c -o CMakeFiles/ssh.dir/external/chacha.c.s
 
 output/src/CMakeFiles/ssh.dir/external/poly1305.c.o: output/src/CMakeFiles/ssh.dir/flags.make
 output/src/CMakeFiles/ssh.dir/external/poly1305.c.o: /home/mo/share/netconf2/lib_src/libssh/src/external/poly1305.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mo/share/netconf2/lib/libssh/debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object output/src/CMakeFiles/ssh.dir/external/poly1305.c.o"
-	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh.dir/external/poly1305.c.o   -c /home/mo/share/netconf2/lib_src/libssh/src/external/poly1305.c
+	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh.dir/external/poly1305.c.o   -c /home/mo/share/netconf2/lib_src/libssh/src/external/poly1305.c
 
 output/src/CMakeFiles/ssh.dir/external/poly1305.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ssh.dir/external/poly1305.c.i"
-	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mo/share/netconf2/lib_src/libssh/src/external/poly1305.c > CMakeFiles/ssh.dir/external/poly1305.c.i
+	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mo/share/netconf2/lib_src/libssh/src/external/poly1305.c > CMakeFiles/ssh.dir/external/poly1305.c.i
 
 output/src/CMakeFiles/ssh.dir/external/poly1305.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ssh.dir/external/poly1305.c.s"
-	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mo/share/netconf2/lib_src/libssh/src/external/poly1305.c -o CMakeFiles/ssh.dir/external/poly1305.c.s
+	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mo/share/netconf2/lib_src/libssh/src/external/poly1305.c -o CMakeFiles/ssh.dir/external/poly1305.c.s
 
 output/src/CMakeFiles/ssh.dir/chachapoly.c.o: output/src/CMakeFiles/ssh.dir/flags.make
 output/src/CMakeFiles/ssh.dir/chachapoly.c.o: /home/mo/share/netconf2/lib_src/libssh/src/chachapoly.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mo/share/netconf2/lib/libssh/debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object output/src/CMakeFiles/ssh.dir/chachapoly.c.o"
-	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh.dir/chachapoly.c.o   -c /home/mo/share/netconf2/lib_src/libssh/src/chachapoly.c
+	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh.dir/chachapoly.c.o   -c /home/mo/share/netconf2/lib_src/libssh/src/chachapoly.c
 
 output/src/CMakeFiles/ssh.dir/chachapoly.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ssh.dir/chachapoly.c.i"
-	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mo/share/netconf2/lib_src/libssh/src/chachapoly.c > CMakeFiles/ssh.dir/chachapoly.c.i
+	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mo/share/netconf2/lib_src/libssh/src/chachapoly.c > CMakeFiles/ssh.dir/chachapoly.c.i
 
 output/src/CMakeFiles/ssh.dir/chachapoly.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ssh.dir/chachapoly.c.s"
-	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mo/share/netconf2/lib_src/libssh/src/chachapoly.c -o CMakeFiles/ssh.dir/chachapoly.c.s
+	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mo/share/netconf2/lib_src/libssh/src/chachapoly.c -o CMakeFiles/ssh.dir/chachapoly.c.s
 
 output/src/CMakeFiles/ssh.dir/sftp.c.o: output/src/CMakeFiles/ssh.dir/flags.make
 output/src/CMakeFiles/ssh.dir/sftp.c.o: /home/mo/share/netconf2/lib_src/libssh/src/sftp.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mo/share/netconf2/lib/libssh/debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object output/src/CMakeFiles/ssh.dir/sftp.c.o"
-	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh.dir/sftp.c.o   -c /home/mo/share/netconf2/lib_src/libssh/src/sftp.c
+	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh.dir/sftp.c.o   -c /home/mo/share/netconf2/lib_src/libssh/src/sftp.c
 
 output/src/CMakeFiles/ssh.dir/sftp.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ssh.dir/sftp.c.i"
-	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mo/share/netconf2/lib_src/libssh/src/sftp.c > CMakeFiles/ssh.dir/sftp.c.i
+	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mo/share/netconf2/lib_src/libssh/src/sftp.c > CMakeFiles/ssh.dir/sftp.c.i
 
 output/src/CMakeFiles/ssh.dir/sftp.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ssh.dir/sftp.c.s"
-	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mo/share/netconf2/lib_src/libssh/src/sftp.c -o CMakeFiles/ssh.dir/sftp.c.s
+	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mo/share/netconf2/lib_src/libssh/src/sftp.c -o CMakeFiles/ssh.dir/sftp.c.s
 
 output/src/CMakeFiles/ssh.dir/sftpserver.c.o: output/src/CMakeFiles/ssh.dir/flags.make
 output/src/CMakeFiles/ssh.dir/sftpserver.c.o: /home/mo/share/netconf2/lib_src/libssh/src/sftpserver.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mo/share/netconf2/lib/libssh/debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object output/src/CMakeFiles/ssh.dir/sftpserver.c.o"
-	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh.dir/sftpserver.c.o   -c /home/mo/share/netconf2/lib_src/libssh/src/sftpserver.c
+	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh.dir/sftpserver.c.o   -c /home/mo/share/netconf2/lib_src/libssh/src/sftpserver.c
 
 output/src/CMakeFiles/ssh.dir/sftpserver.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ssh.dir/sftpserver.c.i"
-	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mo/share/netconf2/lib_src/libssh/src/sftpserver.c > CMakeFiles/ssh.dir/sftpserver.c.i
+	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mo/share/netconf2/lib_src/libssh/src/sftpserver.c > CMakeFiles/ssh.dir/sftpserver.c.i
 
 output/src/CMakeFiles/ssh.dir/sftpserver.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ssh.dir/sftpserver.c.s"
-	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mo/share/netconf2/lib_src/libssh/src/sftpserver.c -o CMakeFiles/ssh.dir/sftpserver.c.s
+	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mo/share/netconf2/lib_src/libssh/src/sftpserver.c -o CMakeFiles/ssh.dir/sftpserver.c.s
 
 output/src/CMakeFiles/ssh.dir/server.c.o: output/src/CMakeFiles/ssh.dir/flags.make
 output/src/CMakeFiles/ssh.dir/server.c.o: /home/mo/share/netconf2/lib_src/libssh/src/server.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mo/share/netconf2/lib/libssh/debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object output/src/CMakeFiles/ssh.dir/server.c.o"
-	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh.dir/server.c.o   -c /home/mo/share/netconf2/lib_src/libssh/src/server.c
+	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh.dir/server.c.o   -c /home/mo/share/netconf2/lib_src/libssh/src/server.c
 
 output/src/CMakeFiles/ssh.dir/server.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ssh.dir/server.c.i"
-	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mo/share/netconf2/lib_src/libssh/src/server.c > CMakeFiles/ssh.dir/server.c.i
+	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mo/share/netconf2/lib_src/libssh/src/server.c > CMakeFiles/ssh.dir/server.c.i
 
 output/src/CMakeFiles/ssh.dir/server.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ssh.dir/server.c.s"
-	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mo/share/netconf2/lib_src/libssh/src/server.c -o CMakeFiles/ssh.dir/server.c.s
+	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mo/share/netconf2/lib_src/libssh/src/server.c -o CMakeFiles/ssh.dir/server.c.s
 
 output/src/CMakeFiles/ssh.dir/bind.c.o: output/src/CMakeFiles/ssh.dir/flags.make
 output/src/CMakeFiles/ssh.dir/bind.c.o: /home/mo/share/netconf2/lib_src/libssh/src/bind.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mo/share/netconf2/lib/libssh/debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object output/src/CMakeFiles/ssh.dir/bind.c.o"
-	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh.dir/bind.c.o   -c /home/mo/share/netconf2/lib_src/libssh/src/bind.c
+	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh.dir/bind.c.o   -c /home/mo/share/netconf2/lib_src/libssh/src/bind.c
 
 output/src/CMakeFiles/ssh.dir/bind.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ssh.dir/bind.c.i"
-	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mo/share/netconf2/lib_src/libssh/src/bind.c > CMakeFiles/ssh.dir/bind.c.i
+	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mo/share/netconf2/lib_src/libssh/src/bind.c > CMakeFiles/ssh.dir/bind.c.i
 
 output/src/CMakeFiles/ssh.dir/bind.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ssh.dir/bind.c.s"
-	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mo/share/netconf2/lib_src/libssh/src/bind.c -o CMakeFiles/ssh.dir/bind.c.s
+	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mo/share/netconf2/lib_src/libssh/src/bind.c -o CMakeFiles/ssh.dir/bind.c.s
 
 output/src/CMakeFiles/ssh.dir/bind_config.c.o: output/src/CMakeFiles/ssh.dir/flags.make
 output/src/CMakeFiles/ssh.dir/bind_config.c.o: /home/mo/share/netconf2/lib_src/libssh/src/bind_config.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mo/share/netconf2/lib/libssh/debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object output/src/CMakeFiles/ssh.dir/bind_config.c.o"
-	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh.dir/bind_config.c.o   -c /home/mo/share/netconf2/lib_src/libssh/src/bind_config.c
+	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh.dir/bind_config.c.o   -c /home/mo/share/netconf2/lib_src/libssh/src/bind_config.c
 
 output/src/CMakeFiles/ssh.dir/bind_config.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ssh.dir/bind_config.c.i"
-	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mo/share/netconf2/lib_src/libssh/src/bind_config.c > CMakeFiles/ssh.dir/bind_config.c.i
+	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mo/share/netconf2/lib_src/libssh/src/bind_config.c > CMakeFiles/ssh.dir/bind_config.c.i
 
 output/src/CMakeFiles/ssh.dir/bind_config.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ssh.dir/bind_config.c.s"
-	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mo/share/netconf2/lib_src/libssh/src/bind_config.c -o CMakeFiles/ssh.dir/bind_config.c.s
+	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mo/share/netconf2/lib_src/libssh/src/bind_config.c -o CMakeFiles/ssh.dir/bind_config.c.s
 
 output/src/CMakeFiles/ssh.dir/dh-gex.c.o: output/src/CMakeFiles/ssh.dir/flags.make
 output/src/CMakeFiles/ssh.dir/dh-gex.c.o: /home/mo/share/netconf2/lib_src/libssh/src/dh-gex.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mo/share/netconf2/lib/libssh/debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object output/src/CMakeFiles/ssh.dir/dh-gex.c.o"
-	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh.dir/dh-gex.c.o   -c /home/mo/share/netconf2/lib_src/libssh/src/dh-gex.c
+	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh.dir/dh-gex.c.o   -c /home/mo/share/netconf2/lib_src/libssh/src/dh-gex.c
 
 output/src/CMakeFiles/ssh.dir/dh-gex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ssh.dir/dh-gex.c.i"
-	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mo/share/netconf2/lib_src/libssh/src/dh-gex.c > CMakeFiles/ssh.dir/dh-gex.c.i
+	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mo/share/netconf2/lib_src/libssh/src/dh-gex.c > CMakeFiles/ssh.dir/dh-gex.c.i
 
 output/src/CMakeFiles/ssh.dir/dh-gex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ssh.dir/dh-gex.c.s"
-	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mo/share/netconf2/lib_src/libssh/src/dh-gex.c -o CMakeFiles/ssh.dir/dh-gex.c.s
+	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mo/share/netconf2/lib_src/libssh/src/dh-gex.c -o CMakeFiles/ssh.dir/dh-gex.c.s
 
 output/src/CMakeFiles/ssh.dir/gzip.c.o: output/src/CMakeFiles/ssh.dir/flags.make
 output/src/CMakeFiles/ssh.dir/gzip.c.o: /home/mo/share/netconf2/lib_src/libssh/src/gzip.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mo/share/netconf2/lib/libssh/debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object output/src/CMakeFiles/ssh.dir/gzip.c.o"
-	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh.dir/gzip.c.o   -c /home/mo/share/netconf2/lib_src/libssh/src/gzip.c
+	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh.dir/gzip.c.o   -c /home/mo/share/netconf2/lib_src/libssh/src/gzip.c
 
 output/src/CMakeFiles/ssh.dir/gzip.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ssh.dir/gzip.c.i"
-	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mo/share/netconf2/lib_src/libssh/src/gzip.c > CMakeFiles/ssh.dir/gzip.c.i
+	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mo/share/netconf2/lib_src/libssh/src/gzip.c > CMakeFiles/ssh.dir/gzip.c.i
 
 output/src/CMakeFiles/ssh.dir/gzip.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ssh.dir/gzip.c.s"
-	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mo/share/netconf2/lib_src/libssh/src/gzip.c -o CMakeFiles/ssh.dir/gzip.c.s
+	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mo/share/netconf2/lib_src/libssh/src/gzip.c -o CMakeFiles/ssh.dir/gzip.c.s
 
 output/src/CMakeFiles/ssh.dir/external/curve25519_ref.c.o: output/src/CMakeFiles/ssh.dir/flags.make
 output/src/CMakeFiles/ssh.dir/external/curve25519_ref.c.o: /home/mo/share/netconf2/lib_src/libssh/src/external/curve25519_ref.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mo/share/netconf2/lib/libssh/debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object output/src/CMakeFiles/ssh.dir/external/curve25519_ref.c.o"
-	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh.dir/external/curve25519_ref.c.o   -c /home/mo/share/netconf2/lib_src/libssh/src/external/curve25519_ref.c
+	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh.dir/external/curve25519_ref.c.o   -c /home/mo/share/netconf2/lib_src/libssh/src/external/curve25519_ref.c
 
 output/src/CMakeFiles/ssh.dir/external/curve25519_ref.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ssh.dir/external/curve25519_ref.c.i"
-	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mo/share/netconf2/lib_src/libssh/src/external/curve25519_ref.c > CMakeFiles/ssh.dir/external/curve25519_ref.c.i
+	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mo/share/netconf2/lib_src/libssh/src/external/curve25519_ref.c > CMakeFiles/ssh.dir/external/curve25519_ref.c.i
 
 output/src/CMakeFiles/ssh.dir/external/curve25519_ref.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ssh.dir/external/curve25519_ref.c.s"
-	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mo/share/netconf2/lib_src/libssh/src/external/curve25519_ref.c -o CMakeFiles/ssh.dir/external/curve25519_ref.c.s
+	cd /home/mo/share/netconf2/lib/libssh/debug/output/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mo/share/netconf2/lib_src/libssh/src/external/curve25519_ref.c -o CMakeFiles/ssh.dir/external/curve25519_ref.c.s
 
 # Object files for target ssh
 ssh_OBJECTS = \

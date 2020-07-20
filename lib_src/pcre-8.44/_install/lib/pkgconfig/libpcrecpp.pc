@@ -1,6 +1,6 @@
 # Package Information for pkg-config
 
-prefix=/home/mo/share/pcre-8.44/_install
+prefix=/home/mo/share/netconf2/lib_src/pcre-8.44/_install
 exec_prefix=${prefix}
 libdir=${exec_prefix}/lib
 includedir=${prefix}/include

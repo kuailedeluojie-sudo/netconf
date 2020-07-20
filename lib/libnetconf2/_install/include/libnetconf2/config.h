@@ -31,7 +31,7 @@
 /*
  * Support for atomic variables
  */
-/* #undef HAVE_STDATOMIC */
+#define HAVE_STDATOMIC
 #ifdef HAVE_STDATOMIC
 # include <stdatomic.h>
 
@@ -55,12 +55,12 @@
 /*
  * Support for shadow file manipulation
  */
-/* #undef HAVE_SHADOW */
+#define HAVE_SHADOW
 
 /*
  * Support for crypt.h
  */
-/* #undef HAVE_CRYPT */
+#define HAVE_CRYPT
 
 /*
  * Location of installed basic YANG modules on the system

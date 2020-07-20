@@ -74,7 +74,7 @@ set(CPACK_SOURCE_TOPLEVEL_TAG "Linux-Source")
 set(CPACK_STRIP_FILES "")
 set(CPACK_SYSTEM_NAME "Linux")
 set(CPACK_TOPLEVEL_TAG "Linux-Source")
-set(CPACK_WIX_SIZEOF_VOID_P "4")
+set(CPACK_WIX_SIZEOF_VOID_P "8")
 
 if(NOT CPACK_PROPERTIES_FILE)
   set(CPACK_PROPERTIES_FILE "/home/mo/share/netconf2/lib/libssh/debug/CPackProperties.cmake")

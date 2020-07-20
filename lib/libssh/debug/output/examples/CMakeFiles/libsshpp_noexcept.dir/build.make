@@ -80,15 +80,15 @@ include output/examples/CMakeFiles/libsshpp_noexcept.dir/flags.make
 output/examples/CMakeFiles/libsshpp_noexcept.dir/libsshpp_noexcept.cpp.o: output/examples/CMakeFiles/libsshpp_noexcept.dir/flags.make
 output/examples/CMakeFiles/libsshpp_noexcept.dir/libsshpp_noexcept.cpp.o: /home/mo/share/netconf2/lib_src/libssh/examples/libsshpp_noexcept.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mo/share/netconf2/lib/libssh/debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object output/examples/CMakeFiles/libsshpp_noexcept.dir/libsshpp_noexcept.cpp.o"
-	cd /home/mo/share/netconf2/lib/libssh/debug/output/examples && /home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/libsshpp_noexcept.dir/libsshpp_noexcept.cpp.o -c /home/mo/share/netconf2/lib_src/libssh/examples/libsshpp_noexcept.cpp
+	cd /home/mo/share/netconf2/lib/libssh/debug/output/examples && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/libsshpp_noexcept.dir/libsshpp_noexcept.cpp.o -c /home/mo/share/netconf2/lib_src/libssh/examples/libsshpp_noexcept.cpp
 
 output/examples/CMakeFiles/libsshpp_noexcept.dir/libsshpp_noexcept.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/libsshpp_noexcept.dir/libsshpp_noexcept.cpp.i"
-	cd /home/mo/share/netconf2/lib/libssh/debug/output/examples && /home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mo/share/netconf2/lib_src/libssh/examples/libsshpp_noexcept.cpp > CMakeFiles/libsshpp_noexcept.dir/libsshpp_noexcept.cpp.i
+	cd /home/mo/share/netconf2/lib/libssh/debug/output/examples && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mo/share/netconf2/lib_src/libssh/examples/libsshpp_noexcept.cpp > CMakeFiles/libsshpp_noexcept.dir/libsshpp_noexcept.cpp.i
 
 output/examples/CMakeFiles/libsshpp_noexcept.dir/libsshpp_noexcept.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/libsshpp_noexcept.dir/libsshpp_noexcept.cpp.s"
-	cd /home/mo/share/netconf2/lib/libssh/debug/output/examples && /home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mo/share/netconf2/lib_src/libssh/examples/libsshpp_noexcept.cpp -o CMakeFiles/libsshpp_noexcept.dir/libsshpp_noexcept.cpp.s
+	cd /home/mo/share/netconf2/lib/libssh/debug/output/examples && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mo/share/netconf2/lib_src/libssh/examples/libsshpp_noexcept.cpp -o CMakeFiles/libsshpp_noexcept.dir/libsshpp_noexcept.cpp.s
 
 # Object files for target libsshpp_noexcept
 libsshpp_noexcept_OBJECTS = \

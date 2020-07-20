@@ -1,6 +1,6 @@
 #!/bin/sh
 
-prefix=/home/mo/share/pcre-8.44/_install
+prefix=/home/mo/share/netconf2/lib_src/pcre-8.44/_install
 exec_prefix=${prefix}
 exec_prefix_set=no
 

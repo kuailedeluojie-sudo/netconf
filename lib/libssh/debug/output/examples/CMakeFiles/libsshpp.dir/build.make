@@ -80,15 +80,15 @@ include output/examples/CMakeFiles/libsshpp.dir/flags.make
 output/examples/CMakeFiles/libsshpp.dir/libsshpp.cpp.o: output/examples/CMakeFiles/libsshpp.dir/flags.make
 output/examples/CMakeFiles/libsshpp.dir/libsshpp.cpp.o: /home/mo/share/netconf2/lib_src/libssh/examples/libsshpp.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mo/share/netconf2/lib/libssh/debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object output/examples/CMakeFiles/libsshpp.dir/libsshpp.cpp.o"
-	cd /home/mo/share/netconf2/lib/libssh/debug/output/examples && /home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/libsshpp.dir/libsshpp.cpp.o -c /home/mo/share/netconf2/lib_src/libssh/examples/libsshpp.cpp
+	cd /home/mo/share/netconf2/lib/libssh/debug/output/examples && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/libsshpp.dir/libsshpp.cpp.o -c /home/mo/share/netconf2/lib_src/libssh/examples/libsshpp.cpp
 
 output/examples/CMakeFiles/libsshpp.dir/libsshpp.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/libsshpp.dir/libsshpp.cpp.i"
-	cd /home/mo/share/netconf2/lib/libssh/debug/output/examples && /home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mo/share/netconf2/lib_src/libssh/examples/libsshpp.cpp > CMakeFiles/libsshpp.dir/libsshpp.cpp.i
+	cd /home/mo/share/netconf2/lib/libssh/debug/output/examples && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mo/share/netconf2/lib_src/libssh/examples/libsshpp.cpp > CMakeFiles/libsshpp.dir/libsshpp.cpp.i
 
 output/examples/CMakeFiles/libsshpp.dir/libsshpp.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/libsshpp.dir/libsshpp.cpp.s"
-	cd /home/mo/share/netconf2/lib/libssh/debug/output/examples && /home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mo/share/netconf2/lib_src/libssh/examples/libsshpp.cpp -o CMakeFiles/libsshpp.dir/libsshpp.cpp.s
+	cd /home/mo/share/netconf2/lib/libssh/debug/output/examples && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mo/share/netconf2/lib_src/libssh/examples/libsshpp.cpp -o CMakeFiles/libsshpp.dir/libsshpp.cpp.s
 
 # Object files for target libsshpp
 libsshpp_OBJECTS = \

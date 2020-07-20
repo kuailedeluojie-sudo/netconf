@@ -68,7 +68,7 @@ set(CPACK_SOURCE_OUTPUT_CONFIG_FILE "/home/mo/share/netconf2/lib/libssh/debug/CP
 set(CPACK_SOURCE_PACKAGE_FILE_NAME "libssh-0.8.90")
 set(CPACK_SYSTEM_NAME "Linux")
 set(CPACK_TOPLEVEL_TAG "Linux")
-set(CPACK_WIX_SIZEOF_VOID_P "4")
+set(CPACK_WIX_SIZEOF_VOID_P "8")
 
 if(NOT CPACK_PROPERTIES_FILE)
   set(CPACK_PROPERTIES_FILE "/home/mo/share/netconf2/lib/libssh/debug/CPackProperties.cmake")

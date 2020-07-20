@@ -26,7 +26,7 @@
 #define HAVE_GLOB_H 1
 
 /* Define to 1 if you have the <valgrind/valgrind.h> header file. */
-/* #undef HAVE_VALGRIND_VALGRIND_H */
+#define HAVE_VALGRIND_VALGRIND_H 1
 
 /* Define to 1 if you have the <pty.h> header file. */
 #define HAVE_PTY_H 1
@@ -208,7 +208,7 @@
 #define HAVE_GLOB 1
 
 /* Define to 1 if you have the `explicit_bzero' function. */
-/* #undef HAVE_EXPLICIT_BZERO */
+#define HAVE_EXPLICIT_BZERO 1
 
 /* Define to 1 if you have the `memset_s' function. */
 /* #undef HAVE_MEMSET_S */
@@ -241,7 +241,7 @@
 #define HAVE_GCC_THREAD_LOCAL_STORAGE 1
 /* #undef HAVE_MSC_THREAD_LOCAL_STORAGE */
 
-/* #undef HAVE_FALLTHROUGH_ATTRIBUTE */
+#define HAVE_FALLTHROUGH_ATTRIBUTE 1
 #define HAVE_UNUSED_ATTRIBUTE 1
 
 #define HAVE_CONSTRUCTOR_ATTRIBUTE 1

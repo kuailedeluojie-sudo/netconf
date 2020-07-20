@@ -80,15 +80,15 @@ include output/examples/CMakeFiles/ssh_server_fork.dir/flags.make
 output/examples/CMakeFiles/ssh_server_fork.dir/ssh_server_fork.c.o: output/examples/CMakeFiles/ssh_server_fork.dir/flags.make
 output/examples/CMakeFiles/ssh_server_fork.dir/ssh_server_fork.c.o: /home/mo/share/netconf2/lib_src/libssh/examples/ssh_server_fork.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mo/share/netconf2/lib/libssh/debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object output/examples/CMakeFiles/ssh_server_fork.dir/ssh_server_fork.c.o"
-	cd /home/mo/share/netconf2/lib/libssh/debug/output/examples && /home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh_server_fork.dir/ssh_server_fork.c.o   -c /home/mo/share/netconf2/lib_src/libssh/examples/ssh_server_fork.c
+	cd /home/mo/share/netconf2/lib/libssh/debug/output/examples && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ssh_server_fork.dir/ssh_server_fork.c.o   -c /home/mo/share/netconf2/lib_src/libssh/examples/ssh_server_fork.c
 
 output/examples/CMakeFiles/ssh_server_fork.dir/ssh_server_fork.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ssh_server_fork.dir/ssh_server_fork.c.i"
-	cd /home/mo/share/netconf2/lib/libssh/debug/output/examples && /home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mo/share/netconf2/lib_src/libssh/examples/ssh_server_fork.c > CMakeFiles/ssh_server_fork.dir/ssh_server_fork.c.i
+	cd /home/mo/share/netconf2/lib/libssh/debug/output/examples && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mo/share/netconf2/lib_src/libssh/examples/ssh_server_fork.c > CMakeFiles/ssh_server_fork.dir/ssh_server_fork.c.i
 
 output/examples/CMakeFiles/ssh_server_fork.dir/ssh_server_fork.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ssh_server_fork.dir/ssh_server_fork.c.s"
-	cd /home/mo/share/netconf2/lib/libssh/debug/output/examples && /home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mo/share/netconf2/lib_src/libssh/examples/ssh_server_fork.c -o CMakeFiles/ssh_server_fork.dir/ssh_server_fork.c.s
+	cd /home/mo/share/netconf2/lib/libssh/debug/output/examples && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mo/share/netconf2/lib_src/libssh/examples/ssh_server_fork.c -o CMakeFiles/ssh_server_fork.dir/ssh_server_fork.c.s
 
 # Object files for target ssh_server_fork
 ssh_server_fork_OBJECTS = \

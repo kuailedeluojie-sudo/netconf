@@ -80,15 +80,15 @@ include output/examples/CMakeFiles/samplesshd-kbdint.dir/flags.make
 output/examples/CMakeFiles/samplesshd-kbdint.dir/samplesshd-kbdint.c.o: output/examples/CMakeFiles/samplesshd-kbdint.dir/flags.make
 output/examples/CMakeFiles/samplesshd-kbdint.dir/samplesshd-kbdint.c.o: /home/mo/share/netconf2/lib_src/libssh/examples/samplesshd-kbdint.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mo/share/netconf2/lib/libssh/debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object output/examples/CMakeFiles/samplesshd-kbdint.dir/samplesshd-kbdint.c.o"
-	cd /home/mo/share/netconf2/lib/libssh/debug/output/examples && /home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/samplesshd-kbdint.dir/samplesshd-kbdint.c.o   -c /home/mo/share/netconf2/lib_src/libssh/examples/samplesshd-kbdint.c
+	cd /home/mo/share/netconf2/lib/libssh/debug/output/examples && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/samplesshd-kbdint.dir/samplesshd-kbdint.c.o   -c /home/mo/share/netconf2/lib_src/libssh/examples/samplesshd-kbdint.c
 
 output/examples/CMakeFiles/samplesshd-kbdint.dir/samplesshd-kbdint.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/samplesshd-kbdint.dir/samplesshd-kbdint.c.i"
-	cd /home/mo/share/netconf2/lib/libssh/debug/output/examples && /home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mo/share/netconf2/lib_src/libssh/examples/samplesshd-kbdint.c > CMakeFiles/samplesshd-kbdint.dir/samplesshd-kbdint.c.i
+	cd /home/mo/share/netconf2/lib/libssh/debug/output/examples && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mo/share/netconf2/lib_src/libssh/examples/samplesshd-kbdint.c > CMakeFiles/samplesshd-kbdint.dir/samplesshd-kbdint.c.i
 
 output/examples/CMakeFiles/samplesshd-kbdint.dir/samplesshd-kbdint.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/samplesshd-kbdint.dir/samplesshd-kbdint.c.s"
-	cd /home/mo/share/netconf2/lib/libssh/debug/output/examples && /home/mo/share/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mo/share/netconf2/lib_src/libssh/examples/samplesshd-kbdint.c -o CMakeFiles/samplesshd-kbdint.dir/samplesshd-kbdint.c.s
+	cd /home/mo/share/netconf2/lib/libssh/debug/output/examples && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mo/share/netconf2/lib_src/libssh/examples/samplesshd-kbdint.c -o CMakeFiles/samplesshd-kbdint.dir/samplesshd-kbdint.c.s
 
 # Object files for target samplesshd-kbdint
 samplesshd__kbdint_OBJECTS = \
